@@ -725,14 +725,14 @@
       "10772-21",
       "Hydrogen peroxide",
       "Hydra",
-      "Rotavirus; Rhinovirus",
+      "SARS-CoV-2",
       5,
       "Church & Dwight Company Inc",
       "Ready-to-use",
       "Hard Nonporous (HN)",
       "Healthcare; Institutional; Residential",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "May, 14 2020 00:00:00",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "March, 09 2021 00:00:00",
       null
     ],
     [
@@ -3301,6 +3301,21 @@
       null
     ],
     [
+      1721,
+      "5813-24",
+      "Sodium hypochlorite",
+      "Tilex",
+      "SARS-CoV-2",
+      1,
+      "The Clorox Company",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      null,
+      "Tested against SARS-CoV-2 (COVID-19)",
+      "March, 09 2021 00:00:00",
+      null
+    ],
+    [
       1468,
       "5813-40",
       "Quaternary ammonium",
@@ -4055,14 +4070,14 @@
       "67619-13",
       "Sodium hypochlorite",
       "CPPC Storm",
-      "Human coronavirus",
+      "SARS-CoV-2",
       1,
       "Clorox Professional Products Company",
       "Ready-to-use",
       "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
       "Healthcare; Institutional; Residential",
-      "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
-      "March, 13 2020 00:00:00",
+      "Tested against SARS-CoV-2 (COVID-19)",
+      "March, 09 2021 00:00:00",
       null
     ],
     [
@@ -7663,6 +7678,21 @@
       "Healthcare; Institutional",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "March, 03 2020 00:00:00",
+      null
+    ],
+    [
+      1720,
+      "9480-13",
+      "Quaternary ammonium",
+      "Backspin No-Rinse FCSS",
+      "SARS-CoV-2",
+      1,
+      "Professional Disposables International Inc",
+      "Wipe",
+      "Hard Nonporous (HN); Food Contact No Rinse (FCNR)",
+      "Healthcare; Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19)",
+      "March, 09 2021 00:00:00",
       null
     ],
     [
