@@ -3886,6 +3886,36 @@
       null
     ],
     [
+      1743,
+      "66243-1",
+      "Quaternary ammonium",
+      "Odo-Ban Ready-To-Use",
+      "Human coronavirus",
+      1,
+      "Clean Control Group",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional; Residential",
+      "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+      "March, 16 2021 00:00:00",
+      null
+    ],
+    [
+      1742,
+      "66243-2",
+      "Quaternary ammonium",
+      "Odo-Ban",
+      "Human coronavirus",
+      1,
+      "Clean Control Group",
+      "Dilutable",
+      "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
+      "Healthcare; Institutional; Residential",
+      "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+      "March, 16 2021 00:00:00",
+      null
+    ],
+    [
       1165,
       "66251-2",
       "Citric acid; Thymol",
@@ -4393,6 +4423,21 @@
       "Healthcare; Institutional; Residential",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "November, 10 2020 00:00:00",
+      null
+    ],
+    [
+      1740,
+      "67619-44",
+      "Citric acid",
+      "Crush",
+      "Rotavirus",
+      2,
+      "Clorox Professional Products Company",
+      "Ready-to-use",
+      "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
+      "Healthcare; Institutional; Residential",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "March, 16 2021 00:00:00",
       null
     ],
     [
@@ -5311,6 +5356,21 @@
       null
     ],
     [
+      1744,
+      "70271-37",
+      "Quaternary ammonium; Ethanol (Ethyl alcohol)",
+      "Disinfectant Spray G",
+      "SARS-CoV-2",
+      10,
+      "KIK International LLC",
+      "Ready-to-use",
+      "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
+      "Healthcare; Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "March, 16 2021 00:00:00",
+      null
+    ],
+    [
       1251,
       "70299-19",
       "Hydrogen peroxide; Peroxyacetic acid (Peracetic acid)",
@@ -5713,6 +5773,21 @@
       "Healthcare; Institutional",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "April, 23 2020 00:00:00",
+      null
+    ],
+    [
+      1741,
+      "70627-82",
+      "Hydrogen peroxide",
+      "Oxivir Three 64",
+      "Poliovirus Type 1",
+      3,
+      "Diversey Inc",
+      "Dilutable",
+      "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
+      "Healthcare; Institutional; Residential",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "March, 16 2021 00:00:00",
       null
     ],
     [
@@ -6380,14 +6455,14 @@
       "82972-1",
       "Chlorine dioxide; Quaternary ammonium",
       "Vital Oxide",
-      "Adenovirus; Canine parvovirus",
-      10,
+      "SARS-CoV-2",
+      5,
       "Vital Solutions LLC",
       "Ready-to-use",
       "Hard Nonporous (HN)",
       "Healthcare; Institutional; Residential",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "March, 26 2020 00:00:00",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "March, 16 2021 00:00:00",
       null
     ],
     [
@@ -6515,14 +6590,14 @@
       "84150-3",
       "Ethanol (Ethyl alcohol)",
       "Salsa",
-      "Hepatitis A virus",
-      1,
+      "SARS-CoV-2",
+      0.5,
       "GOJO Industries Inc",
       "Ready-to-use",
       "Hard Nonporous (HN); Food Contact No Rinse (FCNR)",
       "Healthcare; Institutional; Residential",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "February, 11 2021 00:00:00",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "March, 16 2021 00:00:00",
       null
     ],
     [
