@@ -43,14 +43,14 @@ $ open /Applications/DB\ Browser\ for\ SQLite.app listN.db
 #### Publish to Vercel
 - https://github.com/simonw/datasette-publish-vercel/blob/master/README.md
 
-datasette install datasette-publish-vercel
+$ `datasette install datasette-publish-vercel`
 
 Run `vercel login` to login to Vercel, then you can do this:
 
+```
 datasette publish vercel listN1.db \
 	--project listN \
 	--title "Disinfectants Used for Addressing COVID" \
 	--source "List N Tool: COVID-19 Disinfectants; Maryland Pesticide Network" \
 	--source_url "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm" 
-
-
+```
