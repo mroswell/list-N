@@ -45,7 +45,7 @@ $ open /Applications/DB\ Browser\ for\ SQLite.app listN.db
 
 datasette install datasette-publish-vercel
 
-Run vercel login to login to Vercel, then you can do this:
+Run `vercel login` to login to Vercel, then you can do this:
 
 datasette publish vercel listN1.db \
 	--project listN \
