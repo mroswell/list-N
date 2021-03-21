@@ -6,6 +6,7 @@ Datasette Session Notes - https://docs.google.com/document/d/1f61st8AXtpXvjeHB3U
 Margie's original notes - https://docs.google.com/document/d/1RHv_Twe7gzUMcfAeHZ-RlVQU-ZwshpEalZ4NmF9-ISk/edit
 Simon's original notes - https://docs.google.com/document/d/1Ck4Gopt8ssumGUjH1TeqASvHpFAPBJpTpDE_bvf4bCI/edit
 
+
 ```
 sqlite> .schema listN
 CREATE TABLE [listN] (
@@ -39,3 +40,6 @@ $ datasette listN.db
 ```
 $ open /Applications/DB\ Browser\ for\ SQLite.app listN.db
 ```
+#### Publish to Vercel
+- https://github.com/simonw/datasette-publish-vercel/blob/master/README.md
+
