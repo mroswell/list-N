@@ -7,6 +7,26 @@ Margie's original notes - https://docs.google.com/document/d/1RHv_Twe7gzUMcfAeHZ
 Simon's original notes - https://docs.google.com/document/d/1Ck4Gopt8ssumGUjH1TeqASvHpFAPBJpTpDE_bvf4bCI/edit
 
 ```
+sqlite> .schema listN
+CREATE TABLE [listN] (
+   [EMER_PATH] TEXT,
+   [REGI_NUM] TEXT,
+   [INST_VIRUS] TEXT,
+   [COMPANY] TEXT,
+   [USE_SITE] TEXT,
+   [CONT_TIME] FLOAT,
+   [ACTI_ING] TEXT,
+   [USE_SURF] TEXT,
+   [COMPANY_URL] TEXT,
+   [DATE_ON_LIST_N] TEXT,
+   [FORM_TYPE] TEXT,
+   [ID] INTEGER PRIMARY KEY,
+   [PROD_NAME] TEXT
+);
+```
+
+
+```
 $ brew install datasette sqlite-utils
 
 $ cd Projects/Advocacy/list-N/datasette-app/
