@@ -34,3 +34,8 @@ $ curl 'https://cfpub.epa.gov/giwiz/disinfectants/includes/queries.cfc?method=ge
 
 $ datasette listN.db
 ```
+
+
+```
+$ open /Applications/DB\ Browser\ for\ SQLite.app listN.db
+```
