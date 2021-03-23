@@ -72,3 +72,4 @@ Key documentation
 - http://datasette.readthedocs.io/en/latest/sql_queries.html
 - http://datasette.readthedocs.io/en/latest/facets.html
 - http://datasette.readthedocs.io/en/latest/full_text_search.html
+- https://docs.datasette.io/en/latest/pages.html
