@@ -25,6 +25,27 @@ CREATE TABLE [listN] (
    [PROD_NAME] TEXT
 );
 ```
+Now:
+```
+CREATE TABLE [listN] (
+   [Why on List N] TEXT,
+   [Registration number] TEXT,
+   [Company URL] TEXT,
+   [Formulation type] TEXT,
+   [Contact time] FLOAT,
+   [Active ingredients] TEXT,
+   [Use site] TEXT,
+   "Company" TEXT,
+   [Follow directions for this virus] TEXT,
+   [Date on List N] TEXT,
+   [Product name] TEXT,
+   [ID] INTEGER PRIMARY KEY,
+   [Active ingredient] TEXT,
+   [Surface type] TEXT
+);
+
+
+```
 
 
 ```
