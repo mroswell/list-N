@@ -62,3 +62,4 @@ datasette publish vercel listN1.db --project listN --title "Disinfectants Used f
 ```
 
 http://127.0.0.1:8001/-/patterns
+https://docs.datasette.io/en/latest/json_api.html#special-table-arguments
