@@ -68,3 +68,4 @@ Special URLs
 Key documentation 
 - https://docs.datasette.io/en/latest/json_api.html#special-table-arguments
 - https://docs.datasette.io/en/latest/custom_templates.html
+- https://docs.datasette.io/en/latest/performance.html
