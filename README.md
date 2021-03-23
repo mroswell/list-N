@@ -65,4 +65,6 @@ Special URLs
 - http://127.0.0.1:8001/-/versions
 - http://127.0.0.1:8001/-/plugins
 
-https://docs.datasette.io/en/latest/json_api.html#special-table-arguments
+Key documentation 
+- https://docs.datasette.io/en/latest/json_api.html#special-table-arguments
+- https://docs.datasette.io/en/latest/custom_templates.html
