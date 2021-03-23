@@ -60,3 +60,5 @@ datasette publish vercel listN1.db \
 ```
 datasette publish vercel listN1.db --project listN --title "Disinfectants Used for Addressing COVID" --source "List N Tool: COVID-19 Disinfectants; Maryland Pesticide Network" --source_url "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm" 
 ```
+
+http://127.0.0.1:8001/-/patterns
