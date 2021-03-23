@@ -69,3 +69,6 @@ Key documentation
 - https://docs.datasette.io/en/latest/json_api.html#special-table-arguments
 - https://docs.datasette.io/en/latest/custom_templates.html
 - https://docs.datasette.io/en/latest/performance.html
+- http://datasette.readthedocs.io/en/latest/sql_queries.html
+- http://datasette.readthedocs.io/en/latest/facets.html
+- http://datasette.readthedocs.io/en/latest/full_text_search.html
