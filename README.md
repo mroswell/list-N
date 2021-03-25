@@ -1,5 +1,4 @@
-# list-N
-EPA List of COVID-19 Disinfectants 
+## EPA List of COVID-19 Disinfectants (List N)
 
 Datasette Session Notes - https://docs.google.com/document/d/1f61st8AXtpXvjeHB3UlmUhSCG1Ddiwih9nr-nO8LTEY/edit
 
