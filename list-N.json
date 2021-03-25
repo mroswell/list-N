@@ -1445,14 +1445,14 @@
       "1839-214",
       "Quaternary ammonium",
       "SC-NDC-256",
-      "Human coronavirus",
+      "Rotavirus",
       5,
       "Stepan Company",
       "Dilutable",
       "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
       "Healthcare; Institutional; Residential",
-      "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
-      "March, 13 2020 00:00:00",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "March, 23 2021 00:00:00",
       null
     ],
     [
@@ -2750,14 +2750,14 @@
       "498-179",
       "Quaternary ammonium; Ethanol (Ethyl alcohol)",
       "Champion Sprayon Spray Disinfectant Formula 3",
-      "Rhinovirus",
+      "SARS-CoV-2",
       10,
       "Chase Products Co",
       "Ready-to-use",
       "Hard Nonporous (HN)",
       "Healthcare; Institutional; Residential",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "April, 02 2020 00:00:00",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "March, 23 2021 00:00:00",
       null
     ],
     [
@@ -3778,6 +3778,21 @@
       "Institutional",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "April, 23 2020 00:00:00",
+      null
+    ],
+    [
+      1762,
+      "65402-6",
+      "Peroxyacetic acid (Peracetic acid); Hydrogen peroxide",
+      "VigorOx Citrus XA",
+      "Avian reovirus",
+      5,
+      "PeroxyChem LLC",
+      "Dilutable",
+      "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
+      "Healthcare; Institutional",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "March, 23 2021 00:00:00",
       null
     ],
     [
@@ -7831,6 +7846,21 @@
       null
     ],
     [
+      1761,
+      "9480-6",
+      "Quaternary ammonium",
+      "Sani-Cloth Plus Germicidal Disposable Cloth",
+      "SARS-CoV-2",
+      3,
+      "Professional Disposables International Inc",
+      "Wipe",
+      "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
+      "Healthcare; Institutional",
+      "Tested against SARS-CoV-2 (COVID-19)",
+      "March, 23 2021 00:00:00",
+      null
+    ],
+    [
       1363,
       "9480-8",
       "Sodium hypochlorite",
@@ -7948,6 +7978,21 @@
       "Healthcare; Institutional; Residential",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "October, 01 2020 00:00:00",
+      null
+    ],
+    [
+      1760,
+      "96041-3",
+      "Quaternary ammonium; Isopropanol (Isopropyl alcohol)",
+      "Sani-Spray",
+      "Rotavirus",
+      2,
+      "Industrial Product Formulators of America Inc",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional; Residential",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "March, 23 2021 00:00:00",
       null
     ],
     [

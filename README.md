@@ -1,5 +1,4 @@
-# list-N
-EPA List of COVID-19 Disinfectants 
+## EPA List of COVID-19 Disinfectants (List N)
 
 Datasette Session Notes - https://docs.google.com/document/d/1f61st8AXtpXvjeHB3UlmUhSCG1Ddiwih9nr-nO8LTEY/edit
 
@@ -24,6 +23,27 @@ CREATE TABLE [listN] (
    [ID] INTEGER PRIMARY KEY,
    [PROD_NAME] TEXT
 );
+```
+Now:
+```
+CREATE TABLE [listN] (
+   [Why on List N] TEXT,
+   [Registration number] TEXT,
+   [Company URL] TEXT,
+   [Formulation type] TEXT,
+   [Contact time] FLOAT,
+   [Active ingredients] TEXT,
+   [Use site] TEXT,
+   "Company" TEXT,
+   [Follow directions for this virus] TEXT,
+   [Date on List N] TEXT,
+   [Product name] TEXT,
+   [ID] INTEGER PRIMARY KEY,
+   [Active ingredient] TEXT,
+   [Surface type] TEXT
+);
+
+
 ```
 
 
