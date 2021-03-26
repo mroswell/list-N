@@ -1,9 +1,23 @@
 ## EPA List of COVID-19 Disinfectants (List N)
 
+
+```
+$ brew install datasette sqlite-utils
+$ cd Projects/Advocacy/list-N/datasette-app/
+$ sqlite-utils insert list-N.db listN list-N.csv --csv
+    or
+$ curl 'https://cfpub.epa.gov/giwiz/disinfectants/includes/queries.cfc?method=getDisData&Keyword=&RegNum=&ActiveIng=All&ContactTime=&UseSite=&SurfType=' | python transform.py | jq . | sqlite-utils insert listN.db listN - --pk ID
+$ sqlite-utils enable-fts listN.db listN 'Active ingredients' 'Product name' Company 'Formulation type' 'Surface type' 'Use site' 'Why on List N' 'Follow directions for this virus'
+
+$ datasette listN.db
+```
+
+
 Datasette Session Notes - https://docs.google.com/document/d/1f61st8AXtpXvjeHB3UlmUhSCG1Ddiwih9nr-nO8LTEY/edit
 
 Margie's original notes - https://docs.google.com/document/d/1RHv_Twe7gzUMcfAeHZ-RlVQU-ZwshpEalZ4NmF9-ISk/edit
 Simon's original notes - https://docs.google.com/document/d/1Ck4Gopt8ssumGUjH1TeqASvHpFAPBJpTpDE_bvf4bCI/edit
+
 
 
 ```
@@ -47,15 +61,7 @@ CREATE TABLE [listN] (
 ```
 
 
-```
-$ brew install datasette sqlite-utils
-$ cd Projects/Advocacy/list-N/datasette-app/
-$ sqlite-utils insert list-N.db listN list-N.csv --csv
-    or
-$ curl 'https://cfpub.epa.gov/giwiz/disinfectants/includes/queries.cfc?method=getDisData&Keyword=&RegNum=&ActiveIng=All&ContactTime=&UseSite=&SurfType=' | python transform.py | jq . | sqlite-utils insert listN.db listN - --pk ID
 
-$ datasette listN.db
-```
 
 
 ```
