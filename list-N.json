@@ -744,7 +744,7 @@
       15,
       "Church & Dwight Company Inc",
       "Dilutable",
-      "Hard Nonporous (HN); Food Contact Post; Porous (P) (laundry)",
+      "Hard Nonporous (HN); Porous (P) (laundry)",
       "Healthcare; Institutional; Residential",
       "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "January, 28 2021 00:00:00",
@@ -1233,7 +1233,7 @@
     [
       1071,
       "1677-262",
-      "Dodecylbenzenesulfonic Acid",
+      "Dodecylbenzenesulfonic acid",
       "Disinfectant 1 Spray",
       "Norovirus; Canine parvovirus",
       1,
@@ -1248,7 +1248,7 @@
     [
       1072,
       "1677-263",
-      "Dodecylbenzenesulfonic Acid",
+      "Dodecylbenzenesulfonic acid",
       "Disinfectant 1 Wipe",
       "Norovirus; Canine parvovirus",
       1,
@@ -3310,7 +3310,7 @@
       "The Clorox Company",
       "Ready-to-use",
       "Hard Nonporous (HN)",
-      null,
+      "Institutional; Residential",
       "Tested against SARS-CoV-2 (COVID-19)",
       "March, 09 2021 00:00:00",
       null
@@ -4133,7 +4133,7 @@
       "SARS-CoV-2",
       10,
       "Clorox Professional Products Company",
-      "vikin",
+      "Ready-to-use",
       "Hard Nonporous (HN)",
       "Institutional; Residential",
       "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
@@ -8155,7 +8155,7 @@
       "Bio-Cide International Inc",
       "Dilutable",
       "Hard Nonporous (HN)",
-      "Hard Nonporous (HN)",
+      "Healthcare; Institutional",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "September, 24 2020 00:00:00",
       null
