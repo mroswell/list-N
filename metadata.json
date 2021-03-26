@@ -7,7 +7,7 @@
     "source_url": "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm",
 
     "databases": {
-        "listN1": {
+        "listN": {
             "tables": {
                 "listN": {
                     "title": "Disinfectants Used for Addressing COVID",
