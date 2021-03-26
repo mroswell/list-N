@@ -3,7 +3,7 @@
 
 ```
 $ brew install datasette sqlite-utils
-$ cd Projects/Advocacy/list-N/datasette-app/
+$ cd Projects/Advocacy/list-N/list-N
 $ sqlite-utils insert list-N.db listN list-N.csv --csv
     or
 $ curl 'https://cfpub.epa.gov/giwiz/disinfectants/includes/queries.cfc?method=getDisData&Keyword=&RegNum=&ActiveIng=All&ContactTime=&UseSite=&SurfType=' | python transform.py | jq . | sqlite-utils insert listN.db listN - --pk ID
