@@ -7,9 +7,9 @@ $ cd Projects/Advocacy/list-N/datasette-app/
 $ sqlite-utils insert list-N.db listN list-N.csv --csv
     or
 $ curl 'https://cfpub.epa.gov/giwiz/disinfectants/includes/queries.cfc?method=getDisData&Keyword=&RegNum=&ActiveIng=All&ContactTime=&UseSite=&SurfType=' | python transform.py | jq . | sqlite-utils insert listN.db listN - --pk ID
-$ sqlite-utils enable-fts listN.db listN 'Active ingredients' 'Product name' Company 'Formulation type' 'Surface type' 'Use site' 'Why on List N' 'Follow directions for this virus'
+$ sqlite-utils enable-fts listN.db listN 'Active_ingredients' 'Product_name' Company 'Formulation_type' 'Surface_type' 'Use_site' 'Why_on_List N' 'Follow_directions_for_this_virus' 'Registration_number'
 
-$ datasette listN.db
+$ datasette listN.db -m metadata.json setting default_page_size 210 -o 
 ```
 
 
