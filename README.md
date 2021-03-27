@@ -9,7 +9,7 @@ $ sqlite-utils insert list-N.db listN list-N.csv --csv
 $ curl 'https://cfpub.epa.gov/giwiz/disinfectants/includes/queries.cfc?method=getDisData&Keyword=&RegNum=&ActiveIng=All&ContactTime=&UseSite=&SurfType=' | python transform.py | jq . | sqlite-utils insert listN.db listN - --pk ID
 $ sqlite-utils enable-fts listN.db listN 'Active_ingredients' 'Product_name' Company 'Formulation_type' 'Surface_type' 'Use_site' 'Why_on_List N' 'Follow_directions_for_this_virus' 'Registration_number'
 
-$ datasette listN.db -m metadata.json setting default_page_size 210 -o 
+$ datasette listN.db -m metadata.json --setting default_page_size 210 -o 
 $ datasette publish listN.db vercel --project "list-n" --title "Disinfectants Used for Addressing COVID" --source "List N Tool COVID-19 Disinfectants" --source_url "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm --install=datasette-vega
 
 ```
