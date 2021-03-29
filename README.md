@@ -20,6 +20,8 @@ $ datasette publish vercel listN.db \
 --source "List N Tool COVID-19 Disinfectants" \
 --source_url "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm" \
 --install datasette-vega
+
+$ sqlite-utils tables listN.db --counts --columns
 ```
 
 
