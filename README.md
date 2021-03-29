@@ -22,6 +22,7 @@ $ datasette publish vercel listN.db \
 --install datasette-vega
 
 $ sqlite-utils tables listN.db --counts --columns
+$ sqlite-utils analyze-tables listN.db listN
 ```
 
 
