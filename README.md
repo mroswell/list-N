@@ -20,7 +20,10 @@ $ sqlite-utils enable-fts listN.db listN 'Surface_type' 'Active_ingredient' 'Saf
 ```
 ### Publish locally
 ```
-$ datasette listN.db -m metadata.json --static static:static/ --setting default_page_size 210 --setting default_facet_size 35 -o 
+$ datasette listN.db -m metadata.json \
+--setting default_page_size 210 \
+--setting default_facet_size 35 -o \
+--static static:static/ 
 ```
 ### Publish to Vercel
 
