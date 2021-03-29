@@ -12,7 +12,7 @@ $ # sqlite-utils enable-fts listN.db listN 'Active_ingredients' 'Product_name' C
 
 $ sqlite-utils enable-fts listN.db listN 'Surface_type' 'Active_ingredient' 'Safer_or_Toxic' 'Date_on_List_N'  'Company' 'Contact_time' 'Use_site' 'Product_name'  'Active_ingredients' 'Formulation_type' 'Follow_directions_for_this_virus' 'Why_on_List_N' 'Registration_number'
 
-$ datasette listN.db -m metadata.json --setting default_page_size 210 -o 
+$ datasette listN.db -m metadata.json --setting default_page_size 210 --setting default_facet_size 35 -o 
 $ datasette publish  vercel listN.db --project "list-n" --title "Disinfectants Used for Addressing COVID" --source "List N Tool COVID-19 Disinfectants" --source_url "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm" --install=datasette-vega
 $ datasette publish vercel listN.db \
 --project "list-n" \
