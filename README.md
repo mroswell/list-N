@@ -1,27 +1,47 @@
 ## EPA List of COVID-19 Disinfectants (List N)
 
-
+### Installation
 ```
 $ brew install datasette sqlite-utils
-$ pip3 install datasette-publish-vercel
+$ pip3 install datasette-publish-vercel 
+  or 
+$ `datasette install datasette-publish-vercel`
+```
+### Import data
+```
 $ cd Projects/Advocacy/list-N/list-N
 $ sqlite-utils insert list-N.db listN list-N.csv --csv
     or
 $ curl 'https://cfpub.epa.gov/giwiz/disinfectants/includes/queries.cfc?method=getDisData&Keyword=&RegNum=&ActiveIng=All&ContactTime=&UseSite=&SurfType=' | python transform.py | jq . | sqlite-utils insert listN.db listN - --pk ID
-
+```
+### Enable Full-Text Search
+```
 $ sqlite-utils enable-fts listN.db listN 'Surface_type' 'Active_ingredient' 'Safer_or_Toxic' 'Date_on_List_N'  'Company' 'Contact_time' 'Use_site' 'Product_name'  'Active_ingredients' 'Formulation_type' 'Follow_directions_for_this_virus' 'Why_on_List_N' 'Registration_number'
-
+```
+### Publish locally
+```
 $ datasette listN.db -m metadata.json --setting default_page_size 210 --setting default_facet_size 35 -o 
+```
+### Publish to Vercel
 
+- https://github.com/simonw/datasette-publish-vercel/blob/master/README.md
+
+Visit: https://vercel.com/download to get CLI tool.
+
+Run: `vercel login` to login to Vercel, then you can do this:
+```
 $ datasette publish vercel listN.db \
 --project "list-n" \
 --title "Disinfectants Used for Addressing COVID" \
 --source "List N Tool COVID-19 Disinfectants" \
 --source_url "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm" \
 --install datasette-vega
-
+```
+### Utilities and Miscellaneous
+```
 $ sqlite-utils tables listN.db --counts --columns
 $ sqlite-utils analyze-tables listN.db listN
+$ open /Applications/DB\ Browser\ for\ SQLite.app listN.db
 ```
 
 
@@ -69,36 +89,10 @@ CREATE TABLE [listN] (
    [Registration_number] TEXT
 );
 
-
 ```
 
 
-
-
-
-```
-$ open /Applications/DB\ Browser\ for\ SQLite.app listN.db
-```
-#### Publish to Vercel
-- https://github.com/simonw/datasette-publish-vercel/blob/master/README.md
-
-$ `datasette install datasette-publish-vercel`
-
-Visit: https://vercel.com/download to get CLI tool.
-
-Run: `vercel login` to login to Vercel, then you can do this:
-
-```
-datasette publish vercel listN.db \
-	--project listN \
-	--title "Disinfectants Used for Addressing COVID" \
-	--source "List N Tool: COVID-19 Disinfectants; Maryland Pesticide Network" \
-	--source_url "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm" 
-```
-```
-datasette publish vercel listN.db --project listN --title "Disinfectants Used for Addressing COVID" --source "List N Tool: COVID-19 Disinfectants; Maryland Pesticide Network" --source_url "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm" 
-```
-Special URLs
+### Special URLs
 - http://127.0.0.1:8001/-/actor
 - http://127.0.0.1:8001/-/config
 - http://127.0.0.1:8001/-/databases
@@ -109,7 +103,7 @@ Special URLs
 - http://127.0.0.1:8001/-/threads
 - http://127.0.0.1:8001/-/versions
 
-Key documentation 
+### Key documentation 
 - https://docs.datasette.io/en/latest/json_api.html#special-table-arguments
 - https://docs.datasette.io/en/latest/custom_templates.html
 - https://docs.datasette.io/en/latest/performance.html
