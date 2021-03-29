@@ -3,6 +3,7 @@
 
 ```
 $ brew install datasette sqlite-utils
+$ pip3 install datasette-publish-vercel
 $ cd Projects/Advocacy/list-N/list-N
 $ sqlite-utils insert list-N.db listN list-N.csv --csv
     or
@@ -16,7 +17,7 @@ $ datasette publish vercel listN.db \
 --title "Disinfectants Used for Addressing COVID" \
 --source "List N Tool COVID-19 Disinfectants" \
 --source_url "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm" \
---install=datasette-vega
+--install datasette-vega
 ```
 
 
