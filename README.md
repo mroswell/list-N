@@ -20,7 +20,7 @@ $ sqlite-utils enable-fts listN.db listN 'Surface_type' 'Active_ingredient' 'Saf
 ```
 ### Publish locally
 ```
-$ datasette listN.db -m metadata.json --setting default_page_size 210 --setting default_facet_size 35 -o 
+$ datasette listN.db -m metadata.json --static static:static/ --setting default_page_size 210 --setting default_facet_size 35 -o 
 ```
 ### Publish to Vercel
 
@@ -35,7 +35,8 @@ $ datasette publish vercel listN.db \
 --title "Disinfectants Used for Addressing COVID" \
 --source "List N Tool COVID-19 Disinfectants" \
 --source_url "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm" \
---install datasette-vega
+--install datasette-vega \ 
+--static static:static/
 ```
 ### Utilities and Miscellaneous
 ```
