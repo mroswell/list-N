@@ -49,20 +49,20 @@ CREATE TABLE [listN] (
 Now:
 ```
 CREATE TABLE [listN] (
-   [Why on List N] TEXT,
-   [Registration number] TEXT,
-   [Company URL] TEXT,
-   [Formulation type] TEXT,
-   [Contact time] FLOAT,
-   [Active ingredients] TEXT,
-   [Use site] TEXT,
-   "Company" TEXT,
-   [Follow directions for this virus] TEXT,
-   [Date on List N] TEXT,
-   [Product name] TEXT,
+   [Surface_type] TEXT,
+   [Active_ingredient] TEXT,
+   [Safer_or_Toxic] TEXT,
+   [Date_on_List_N] TEXT,
+   [Company] TEXT,
+   [Contact_time] FLOAT,
+   [Use_site] TEXT,
+   [Product_name] TEXT,
+   [Active_ingredients] TEXT,
+   [Formulation_type] TEXT,
+   [Follow_directions_for_this_virus] TEXT,
+   [Why_on_List_N] TEXT,
    [ID] INTEGER PRIMARY KEY,
-   [Active ingredient] TEXT,
-   [Surface type] TEXT
+   [Registration_number] TEXT
 );
 
 
