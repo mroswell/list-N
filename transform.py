@@ -13,38 +13,37 @@ def transform(d):
     # columns = d["COLUMNS"]
     columns = [
     "ID",
-    "Registration number",
-    "Active ingredients",
-    "Product name",
-    "Follow directions for this virus",
-    "Contact time",
+    "Registration_number",
+    "Active_ingredients",
+    "Product_name",
+    "Follow_directions_for_this_virus",
+    "Contact_time",
     "Company", 
-    "Formulation type", 
-    "Surface type",
-    "Use site",
-    "Why on List N",
-    "Date on List N",
-    "Company URL"
+    "Formulation_type", 
+    "Surface_type",
+    "Use_site",
+    "Why_on_List_N",
+    "Date_on_List_N",
+    "Company_URL"
   ]
 
     data = d["DATA"]
     for row in data:
         d = dict(zip(columns, row))
         for s_ingredient in safer_ingredients:
-            if s_ingredient in d["Active ingredients"]:
-                 d["Safer or Toxic"] = 'Safer'
+            if s_ingredient in d["Active_ingredients"]:
+                 d["Safer_or_Toxic"] = 'Safer'
                  break
         for t_ingredient in toxic_ingredients:
-            if t_ingredient in d["Active ingredients"]:
-                d["Safer or Toxic"] = 'Toxic' 
+            if t_ingredient in d["Active_ingredients"]:
+                d["Safer_or_Toxic"] = 'Toxic' 
                 break
-        d["Active ingredient"] = d["Active ingredients"].split("; ")   # Active Ingredient
-        d["Formulation type"] = d["Formulation type"].split("; ") # Formulation Type
-        d["Surface type"] = d["Surface type"].split("; ")   # Surface Type
-        if d["Use site"] is not None:
-            d["Use site"] = d["Use site"].split("; ")   # Use Site
-        d["ID"] = d["ID"]
-        del d["Company URL"]
+        d["Active_ingredient"] = d["Active_ingredients"].split("; ")   # Active Ingredient
+        d["Formulation_type"] = d["Formulation_type"].split("; ") # Formulation Type
+        d["Surface_type"] = d["Surface_type"].split("; ")   # Surface Type
+        if d["Use_site"] is not None:
+            d["Use_site"] = d["Use_site"].split("; ")   # Use Site
+        del d["Company_URL"]
 
         yield d
 
