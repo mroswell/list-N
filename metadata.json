@@ -5,7 +5,7 @@
     "license_url": "https://opendatacommons.org/licenses/odbl/",
     "source": "List N Tool: COVID-19 Disinfectants",
     "source_url": "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm",
-
+    "extra_css_urls": ["/static/styles.css"],
     "databases": {
         "listN": {
             "tables": {
