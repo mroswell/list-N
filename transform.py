@@ -8,6 +8,20 @@ toxic_ingredients = ['Ammonium bicarbonate', 'Ammonium carbonate', 'Chlorine dio
 
 safer_ingredients = ['1,2-Hexanediol', 'Citric acid', 'Dodecylbenzenesulfonic acid', 'Ethanol (Ethyl alcohol)', 'Hydrogen peroxide', 'Isopropanol (Isopropyl alcohol)', 'L-Lactic acid', 'Sodium carbonate', 'Sodium carbonate peroxyhydrate', 'Tetraacetyl ethylenediamine', 'Thymol']
 
+date_list = []
+
+month_dict = {"January"   : "Jan",
+              "February"  : "Feb",
+              "March"     : "Mar",
+              "April"     : "Apr",
+              "May"       : "May",
+              "June"      : "Jun",
+              "July"      : "Jul",
+              "August"    : "Aug",
+              "September" : "Sep",
+              "October"   : "Oct",
+              "November"  : "Nov",
+              "December"  : "Dec" }
 
 def transform(d):
     # columns = d["COLUMNS"]
@@ -43,6 +57,9 @@ def transform(d):
         d["Surface_type"] = d["Surface_type"].split("; ")   # Surface Type
         if d["Use_site"] is not None:
             d["Use_site"] = d["Use_site"].split("; ")   # Use Site
+        date_list = d["Date_on_List_N"].split()
+        d["Date_on_List_N"]='{mon} {day}, {year}'.format(mon=month_dict[date_list[0].split(",")[0]],day=date_list[1].lstrip('0'),year=date_list[2])
+      
         del d["Company_URL"]
 
         yield d
