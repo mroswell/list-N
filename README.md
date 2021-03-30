@@ -16,7 +16,7 @@ $ curl 'https://cfpub.epa.gov/giwiz/disinfectants/includes/queries.cfc?method=ge
 ```
 ### Enable Full-Text Search
 ```
-$ sqlite-utils enable-fts listN.db listN 'Surface_type' 'Active_ingredient' 'Safer_or_Toxic' 'Date_on_List_N'  'Company' 'Contact_time' 'Use_site' 'Product_name'  'Active_ingredients' 'Formulation_type' 'Follow_directions_for_this_virus' 'Why_on_List_N' 'Registration_number'
+$ sqlite-utils enable-fts listN.db listN 'Surface_type' 'Active_ingredient' 'Safer_or_Toxic' 'Date_on_List_N'  'Company' 'Contact_time' 'Use_site' 'Product_name'  'Active_ingredients' 'Formulation_type' 'Follow_directions_for_this_virus' 'Why_on_List_N' 'EPA_reg_num' --create-triggers
 ```
 ### Publish locally
 ```
@@ -90,7 +90,7 @@ CREATE TABLE [listN] (
    [Follow_directions_for_this_virus] TEXT,
    [Why_on_List_N] TEXT,
    [ID] INTEGER PRIMARY KEY,
-   [Registration_number] TEXT
+   [EPA_reg_num] TEXT
 );
 
 ```

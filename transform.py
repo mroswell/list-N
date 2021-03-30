@@ -27,7 +27,7 @@ def transform(d):
     # columns = d["COLUMNS"]
     columns = [
     "ID",
-    "Registration_number",
+    "EPA_reg_num",
     "Active_ingredients",
     "Product_name",
     "Follow_directions_for_this_virus",
