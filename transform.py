@@ -10,18 +10,18 @@ safer_ingredients = ['1,2-Hexanediol', 'Citric acid', 'Dodecylbenzenesulfonic ac
 
 date_list = []
 
-month_dict = {"January"   : "Jan",
-              "February"  : "Feb",
-              "March"     : "Mar",
-              "April"     : "Apr",
-              "May"       : "May",
-              "June"      : "Jun",
-              "July"      : "Jul",
-              "August"    : "Aug",
-              "September" : "Sep",
-              "October"   : "Oct",
-              "November"  : "Nov",
-              "December"  : "Dec" }
+month_dict = {"January"   : "01",
+              "February"  : "02",
+              "March"     : "03",
+              "April"     : "04",
+              "May"       : "05",
+              "June"      : "06",
+              "July"      : "07",
+              "August"    : "08",
+              "September" : "09",
+              "October"   : "10",
+              "November"  : "11",
+              "December"  : "12" }
 
 def transform(d):
     # columns = d["COLUMNS"]
@@ -58,7 +58,7 @@ def transform(d):
         if d["Use_site"] is not None:
             d["Use_site"] = d["Use_site"].split("; ")   # Use Site
         date_list = d["Date_on_List_N"].split()
-        d["Date_on_List_N"]='{mon} {day}, {year}'.format(mon=month_dict[date_list[0].split(",")[0]],day=date_list[1].lstrip('0'),year=date_list[2])
+        d["Date_on_List_N"]='{year}-{mon}-{day}'.format(mon=month_dict[date_list[0].split(",")[0]],day=date_list[1],year=date_list[2])
       
         del d["Company_URL"]
 
