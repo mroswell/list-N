@@ -40,6 +40,8 @@ $ datasette publish vercel listN.db \
 --source_url "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm" \
 --install datasette-vega \ 
 --static static:static/
+
+$ datasette publish vercel listN.db --project "list-n" --title "Disinfectants Used for Addressing COVID" --source "List N Tool COVID-19 Disinfectants" --source_url "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm" --install datasette-vega --static static:static/
 ```
 ### Utilities and Miscellaneous
 ```
