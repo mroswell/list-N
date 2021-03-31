@@ -2396,7 +2396,7 @@
       "Wipe",
       "Hard Nonporous (HN)",
       "Healthcare; Institutional; Residential",
-      "Kills a harder-to-kill pathogen than SARSTested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "February, 11 2021 00:00:00",
       null
     ],
@@ -2696,7 +2696,7 @@
       "Ready-to-use",
       "Hard Nonporous (HN)",
       "Residential",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "December, 10 2020 00:00:00",
       null
     ],
