@@ -23,7 +23,11 @@ sqlite-utils enable-fts disinfectants.db listN 'Surface_type' 'Active_ingredient
 datasette disinfectants.db -m metadata.json \
 --setting default_page_size 210 \
 --setting default_facet_size 35 -o \
---static static:static/ 
+--static static:static/ \
+--template-dir templates/
+```
+``` copyable
+datasette disinfectants.db -m metadata.json --setting default_page_size 210 --setting default_facet_size 35 --static static:static/  --template-dir templates/ -p 8001 -o
 ```
 ### Publish to Vercel
 
