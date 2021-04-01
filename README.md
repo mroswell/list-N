@@ -51,6 +51,7 @@ datasette publish vercel disinfectants.db --project "list-n" --title "Disinfecta
 ```
 sqlite-utils tables disinfectants.db --counts --columns
 sqlite-utils analyze-tables disinfectants.db listN
+sqlite-utils disable-fts disinfectants.db listN
 open /Applications/DB\ Browser\ for\ SQLite.app disinfectants.db
 ```
 
