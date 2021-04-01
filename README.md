@@ -2,25 +2,25 @@
 
 ### Installation
 ```
-$ brew install datasette sqlite-utils
-$ pip3 install datasette-publish-vercel 
+brew install datasette sqlite-utils
+pip3 install datasette-publish-vercel 
   or 
-$ `datasette install datasette-publish-vercel`
+datasette install datasette-publish-vercel
 ```
 ### Import data
 ```
-$ cd Projects/Advocacy/list-N/list-N
-$ sqlite-utils insert list-N.db listN list-N.csv --csv
+cd Projects/Advocacy/list-N/list-N
+sqlite-utils insert list-N.db listN list-N.csv --csv
     or
-$ curl 'https://cfpub.epa.gov/giwiz/disinfectants/includes/queries.cfc?method=getDisData&Keyword=&RegNum=&ActiveIng=All&ContactTime=&UseSite=&SurfType=' | python transform.py | jq . | sqlite-utils insert disinfectants.db listN - --pk ID
+curl 'https://cfpub.epa.gov/giwiz/disinfectants/includes/queries.cfc?method=getDisData&Keyword=&RegNum=&ActiveIng=All&ContactTime=&UseSite=&SurfType=' | python transform.py | jq . | sqlite-utils insert disinfectants.db listN - --pk ID
 ```
 ### Enable Full-Text Search
 ```
-$ sqlite-utils enable-fts disinfectants.db listN 'Surface_type' 'Active_ingredient' 'Safer_or_Toxic' 'Date_on_List_N'  'Company' 'Contact_time' 'Use_site' 'Product_name'  'Active_ingredients' 'Formulation_type' 'Follow_directions_for_this_virus' 'Why_on_List_N' 'EPA_reg_num' --create-triggers
+sqlite-utils enable-fts disinfectants.db listN 'Surface_type' 'Active_ingredient' 'Safer_or_Toxic' 'Date_on_List_N'  'Company' 'Contact_time' 'Use_site' 'Product_name'  'Active_ingredients' 'Formulation_type' 'Follow_directions_for_this_virus' 'Why_on_List_N' 'EPA_reg_num' --create-triggers --tokenize=porter
 ```
 ### Publish locally
 ```
-$ datasette disinfectants.db -m metadata.json \
+datasette disinfectants.db -m metadata.json \
 --setting default_page_size 210 \
 --setting default_facet_size 35 -o \
 --static static:static/ 
@@ -33,7 +33,7 @@ Visit: https://vercel.com/download to get CLI tool.
 
 Run: `vercel login` to login to Vercel, then you can do this:
 ```
-$ datasette publish vercel disinfectants.db \
+datasette publish vercel disinfectants.db \
 --project "list-n" \
 --title "Disinfectants Used for Addressing COVID" \
 --source "List N Tool COVID-19 Disinfectants" \
@@ -41,13 +41,13 @@ $ datasette publish vercel disinfectants.db \
 --install datasette-vega \ 
 --static static:static/
 
-$ datasette publish vercel disinfectants.db --project "list-n" --title "Disinfectants Used for Addressing COVID" --source "List N Tool COVID-19 Disinfectants" --source_url "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm" --install datasette-vega --static static:static/
+datasette publish vercel disinfectants.db --project "list-n" --title "Disinfectants Used for Addressing COVID" --source "List N Tool COVID-19 Disinfectants" --source_url "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm" --install datasette-vega --static static:static/
 ```
 ### Utilities and Miscellaneous
 ```
-$ sqlite-utils tables disinfectants.db --counts --columns
-$ sqlite-utils analyze-tables disinfectants.db listN
-$ open /Applications/DB\ Browser\ for\ SQLite.app disinfectants.db
+sqlite-utils tables disinfectants.db --counts --columns
+sqlite-utils analyze-tables disinfectants.db listN
+open /Applications/DB\ Browser\ for\ SQLite.app disinfectants.db
 ```
 
 
