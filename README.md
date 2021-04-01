@@ -20,7 +20,7 @@ $ sqlite-utils enable-fts disinfectants.db listN 'Surface_type' 'Active_ingredie
 ```
 ### Publish locally
 ```
-$ datasette listN.db -m metadata.json \
+$ datasette disinfectants.db -m metadata.json \
 --setting default_page_size 210 \
 --setting default_facet_size 35 -o \
 --static static:static/ 
@@ -33,7 +33,7 @@ Visit: https://vercel.com/download to get CLI tool.
 
 Run: `vercel login` to login to Vercel, then you can do this:
 ```
-$ datasette publish vercel listN.db \
+$ datasette publish vercel disinfectants.db \
 --project "list-n" \
 --title "Disinfectants Used for Addressing COVID" \
 --source "List N Tool COVID-19 Disinfectants" \
