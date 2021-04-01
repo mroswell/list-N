@@ -20,7 +20,7 @@ sqlite-utils enable-fts disinfectants.db listN 'Surface_type' 'Active_ingredient
 ```
 ### Update column order
 ```
-sqlite-utils transform listN.db listN \
+sqlite-utils transform disinfectants.db listN \
 --column-order EPA_reg_num \
 --column-order Safer_or_Toxic \
 --column-order Active_ingredient \
