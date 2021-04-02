@@ -1,0 +1,18 @@
+# - name: Copy file
+#  uses: canastro/copy-action@0.0.2
+
+
+- name: copy file
+  on: [push]
+  jobs:
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: copy file
+      uses: canastro/copy-file-action@master
+      with:
+        source: "list-n.json"
+        target: "list-n-datasette.json"
