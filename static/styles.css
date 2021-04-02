@@ -1,4 +1,6 @@
-body,tbody tr td {font-size=0.9rem }
+body,tbody tr td {
+font-size:0.9rem
+}
 
 
 
@@ -7,6 +9,18 @@ header, footer,form input[type=submit] {
   font-
 }
 body {
-  background-color:  #ffffff; /* fbfffb *#f3faf3;  /* #eeffee; #fbfbfa;*/
+  background-color:  #fcfffe; /*#fafffd; /* fbfffb *#f3faf3;  /* #eeffee; #fbfbfa;*/
 }
 
+#facet-Active_ingredient {
+  width:308px;
+}
+
+.facet-info ul {
+    padding-left: 1em;
+    }
+
+.facet-info ul li {
+  list-style-position: outside;
+  margin-left: 1em;
+  }
