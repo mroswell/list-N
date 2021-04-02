@@ -1,6 +1,3 @@
-# - name: Copy file
-#  uses: canastro/copy-action@0.0.2
-
 name: copy files
 on: [push]
 jobs:
@@ -11,7 +8,8 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: copy file
-      uses: canastro/copy-file-action@master
+#      uses: canastro/copy-file-action@master
+      uses: canastro/copy-action@0.0.2
       with:
         source: "list-N.json"
         target: "list-N-datasette.json"
