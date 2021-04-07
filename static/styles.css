@@ -9,7 +9,7 @@ header, footer,form input[type=submit] {
   font-
 }
 body {
-  background-color:  #fcfffe; /*#fafffd; /* fbfffb *#f3faf3;  /* #eeffee; #fbfbfa;*/
+  background-color: #fdfefd; /*#fcfffe; /*#fafffd; /* fbfffb *#f3faf3;  /* #eeffee; #fbfbfa;*/
 }
 
 #facet-Active_ingredient {
@@ -24,3 +24,12 @@ body {
   list-style-position: outside;
   margin-left: 1em;
   }
+
+/* helpful resource: https://www.canva.com/colors/color-wheel/ */
+td[data-safety="Toxic"] {
+    background-color: #EFDEE4; /* #F8F0F0; /*red;*/
+}
+td[data-safety="Safer"] {
+    background-color: #DEEFE8; /*#D9EDE5; /*#f0f8f0; /*green;*/
+}
+
