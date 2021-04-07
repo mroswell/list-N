@@ -39,13 +39,14 @@ sqlite-utils transform disinfectants.db listN \
 ### Publish locally
 ```
 datasette disinfectants.db -m metadata.json \
---setting default_page_size 210 \
+--setting default_page_size 3000 \
+--setting max_returned_rows 3000 \
 --setting default_facet_size 35 -o \
 --static static:static/ \
 --template-dir templates/
 ```
 ``` copyable
-datasette disinfectants.db -m metadata.json --setting default_page_size 210 --setting default_facet_size 35 --static static:static/  --template-dir templates/ -p 8001 -o
+datasette disinfectants.db -m metadata.json --setting default_page_size 2000 max_--setting default_facet_size 35 --static static:static/  --template-dir templates/ -p 8001 -o
 ```
 ### Publish to Vercel
 
@@ -61,6 +62,9 @@ datasette publish vercel disinfectants.db \
 --source "List N Tool COVID-19 Disinfectants" \
 --source_url "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm" \
 --install datasette-vega \ 
+--setting default_page_size 3000 \
+--setting max_returned_rows 3000 \
+--setting default_facet_size 35 -o \
 --static static:static/ \
 --template-dir templates/
 --metadata metadata.json
@@ -121,7 +125,6 @@ CREATE TABLE [listN] (
 );
 
 ```
-
 
 ### Special URLs
 - http://127.0.0.1:8001/-/actor
