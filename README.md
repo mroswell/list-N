@@ -2,28 +2,50 @@
 
 ### Installation
 ```
-$ brew install datasette sqlite-utils
-$ pip3 install datasette-publish-vercel 
+brew install datasette sqlite-utils
+pip3 install datasette-publish-vercel 
   or 
-$ `datasette install datasette-publish-vercel`
+datasette install datasette-publish-vercel
 ```
 ### Import data
 ```
-$ cd Projects/Advocacy/list-N/list-N
-$ sqlite-utils insert list-N.db listN list-N.csv --csv
+cd Projects/Advocacy/list-N/list-N
+sqlite-utils insert list-N.db listN list-N.csv --csv
     or
-$ curl 'https://cfpub.epa.gov/giwiz/disinfectants/includes/queries.cfc?method=getDisData&Keyword=&RegNum=&ActiveIng=All&ContactTime=&UseSite=&SurfType=' | python transform.py | jq . | sqlite-utils insert listN.db listN - --pk ID
+curl 'https://cfpub.epa.gov/giwiz/disinfectants/includes/queries.cfc?method=getDisData&Keyword=&RegNum=&ActiveIng=All&ContactTime=&UseSite=&SurfType=' | python transform.py | jq . | sqlite-utils insert disinfectants.db listN - --pk ID
 ```
 ### Enable Full-Text Search
 ```
-$ sqlite-utils enable-fts listN.db listN 'Surface_type' 'Active_ingredient' 'Safer_or_Toxic' 'Date_on_List_N'  'Company' 'Contact_time' 'Use_site' 'Product_name'  'Active_ingredients' 'Formulation_type' 'Follow_directions_for_this_virus' 'Why_on_List_N' 'EPA_reg_num' --create-triggers
+sqlite-utils enable-fts disinfectants.db listN 'Surface_type' 'Active_ingredient' 'Safer_or_Toxic' 'Date_on_List_N'  'Company' 'Contact_time' 'Use_site' 'Product_name' 'Formulation_type' 'Follow_directions_for_this_virus' 'Why_on_List_N' 'EPA_reg_num' --create-triggers --tokenize=porter
+```
+### Update column order
+```
+sqlite-utils transform disinfectants.db listN \
+--column-order EPA_reg_num \
+--column-order Safer_or_Toxic \
+--column-order Active_ingredient \
+--column-order Product_name \
+--column-order Company \
+--column-order Use_site \
+--column-order Surface_type \
+--column-order Contact_time \
+--column-order Formulation_type \
+--column-order Follow_directions_for_this_virus \
+--column-order Date_on_List_N \
+--column-order Why_on_List_N \
+--column-order ID
+
 ```
 ### Publish locally
 ```
-$ datasette listN.db -m metadata.json \
+datasette disinfectants.db -m metadata.json \
 --setting default_page_size 210 \
 --setting default_facet_size 35 -o \
---static static:static/ 
+--static static:static/ \
+--template-dir templates/
+```
+``` copyable
+datasette disinfectants.db -m metadata.json --setting default_page_size 210 --setting default_facet_size 35 --static static:static/  --template-dir templates/ -p 8001 -o
 ```
 ### Publish to Vercel
 
@@ -33,19 +55,24 @@ Visit: https://vercel.com/download to get CLI tool.
 
 Run: `vercel login` to login to Vercel, then you can do this:
 ```
-$ datasette publish vercel listN.db \
+datasette publish vercel disinfectants.db \
 --project "list-n" \
 --title "Disinfectants Used for Addressing COVID" \
 --source "List N Tool COVID-19 Disinfectants" \
 --source_url "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm" \
 --install datasette-vega \ 
---static static:static/
+--static static:static/ \
+--template-dir templates/
+--metadata metadata.json
+
+datasette publish vercel disinfectants.db --project "list-n" --title "Disinfectants Used for Addressing COVID" --source "List N Tool COVID-19 Disinfectants" --source_url "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm" --install datasette-vega --static static:static/ --metadata metadata.json
 ```
 ### Utilities and Miscellaneous
 ```
-$ sqlite-utils tables listN.db --counts --columns
-$ sqlite-utils analyze-tables listN.db listN
-$ open /Applications/DB\ Browser\ for\ SQLite.app listN.db
+sqlite-utils tables disinfectants.db --counts --columns
+sqlite-utils analyze-tables disinfectants.db listN
+sqlite-utils disable-fts disinfectants.db listN
+open /Applications/DB\ Browser\ for\ SQLite.app disinfectants.db
 ```
 
 
@@ -85,7 +112,7 @@ CREATE TABLE [listN] (
    [Contact_time] FLOAT,
    [Use_site] TEXT,
    [Product_name] TEXT,
-   [Active_ingredients] TEXT,
+   [Active_ingredient] TEXT,
    [Formulation_type] TEXT,
    [Follow_directions_for_this_virus] TEXT,
    [Why_on_List_N] TEXT,
