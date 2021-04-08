@@ -46,7 +46,7 @@ datasette disinfectants.db -m metadata.json \
 --template-dir templates/
 ```
 ``` copyable
-datasette disinfectants.db -m metadata.json --setting default_page_size 2000 max_--setting default_facet_size 35 --static static:static/  --template-dir templates/ -p 8001 -o
+datasette disinfectants.db -m metadata.json --setting default_page_size 2000 --setting max_returned_rows 3000 --setting default_facet_size 35 --static static:static/  --template-dir templates/ -p 8001 -o
 ```
 ### Publish to Vercel
 
