@@ -5,15 +5,16 @@
     "license_url": "https://opendatacommons.org/licenses/odbl/",
     "source": "List N Tool: COVID-19 Disinfectants",
     "source_url": "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm",
-    "extra_css_urls": ["/static/styles.css"],
+    "extra_css_urls": ["/static/css/styles.css"],
+    "extra_js_urls": ["/static/js/tables.css"],
     "databases": {
         "listN": {
             "tables": {
                 "listN": {
                     "title": "Disinfectants Used for Addressing COVID",
-                    "description": "The EPA publishes 'List N' disinfectents. Unfortunately some can have significant health impacts.",
+                    "description": "The EPA publishes 'List N' disinfectants. Unfortunately some can have significant health impacts.",
                     "source": "List N Tool: COVID-19 Disinfectants",
-                    "source_url": "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm",
+                    "source_url": "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm"
                 }
             }
         }
