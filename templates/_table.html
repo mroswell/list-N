@@ -27,7 +27,9 @@
                 {% for cell in row %}
                     {% if cell.column == "Safer_or_Toxic" %}
                         <td data-safety="{{ cell.value }}" class="col-{{ cell.column|to_css_class }} type-{{ cell.value_type }}">{{ cell.value }}</td>
-                    {% else %}
+                {% elif cell.column == "Contact_time" %}
+                    <td data-time="{{ cell.value }}" class="col-{{ cell.column|to_css_class }} type-{{ cell.value_type }}">{% if cell.value != "&nbsp;" %}{{ cell.value ~ " minutes"}}{% endif %}</td>
+                {% else %}
                         <td class="col-{{ cell.column|to_css_class }} type-{{ cell.value_type }}">{{ cell.value | replace('", "','; ') | replace('[\"','') | replace('\"]','')}}</td>
                     {% endif %}
                 {% endfor %}
