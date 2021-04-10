@@ -18,14 +18,14 @@
 
 {% block nav %}
     <p class="crumbs">
-        <a href="{{ urls.instance() }}">home</a> /
+        <a href="{{ urls.instance() }}">Home</a> /
         <a href="{{ urls.database(database) }}">{{ database }}</a>
     </p>
     {{ super() }}
 {% endblock %}
 
 {% block content %}
-<div class="page-header" style="border-color: #{{ database_color(database) }}">
+<div class="page-header" style="border-color: #3e8469;">
     <h1>{{ metadata.title or table }}{% if is_view %} (view){% endif %}{% if private %} 🔒{% endif %}</h1>
     {% set links = table_actions() %}{% if links %}
     <details class="actions-menu-links">
@@ -126,18 +126,25 @@
     </ul>
 </div>
 {% endif %}
-
+{% if False %}
 {% if query.sql and allow_execute_sql %}
     <p><a class="not-underlined" title="{{ query.sql }}" href="{{ urls.database(database) }}?{{ {'sql': query.sql}|urlencode|safe }}{% if query.params %}&amp;{{ query.params|urlencode|safe }}{% endif %}">&#x270e; <span class="underlined">View and edit SQL</span></a></p>
+{% endif %}
 {% endif %}
 
 <p class="export-links">This data as {% for name, url in renderers.items() %}<a href="{{ url }}">{{ name }}</a>{{ ", " if not loop.last }}{% endfor %}{% if display_rows %}, <a href="{{ url_csv }}">CSV</a> (<a href="#export">advanced</a>){% endif %}</p>
 
 {% if suggested_facets %}
     <p class="suggested-facets">
-        Suggested facets: {% for facet in suggested_facets %}<a href="{{ facet.toggle_url }}#facet-{{ facet.name|to_css_class }}">{{ facet.name }}</a>{% if facet.type %} ({{ facet.type }}){% endif %}{% if not loop.last %}, {% endif %}{% endfor %}
+        Suggested facets: {% for facet in suggested_facets %}
+        {% if ( (facet.type or facet.name in ['Safer_or_Toxic','Contact_time','Why_on_List_N']) )%}<a href="{{ facet.toggle_url }}">{{ facet.name }}</a>{% if not loop.last %}, {% endif %}
+        {% endif %}
+        {% endfor %}
     </p>
 {% endif %}
+
+
+
 
 {% if facets_timed_out %}
     <p class="facets-timed-out">These facets timed out: {{ ", ".join(facets_timed_out) }}</p>
@@ -208,5 +215,10 @@
 {% if view_definition %}
     <pre class="wrapped-sql">{{ view_definition }}</pre>
 {% endif %}
+
+
+
+
+
 
 {% endblock %}
