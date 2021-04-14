@@ -37,6 +37,9 @@ sqlite-utils transform disinfectants.db listN \
 
 ```
 ### Publish locally
+``` 
+datasette disinfectants.db -m metadata.json --setting default_page_size 2000 --setting max_returned_rows 3000 --setting default_facet_size 35 --static static:static/  --template-dir templates/ -p 8001 -o
+```
 ```
 datasette disinfectants.db -m metadata.json \
 --setting default_page_size 3000 \
@@ -45,9 +48,7 @@ datasette disinfectants.db -m metadata.json \
 --static static:static/ \
 --template-dir templates/
 ```
-``` copyable
-datasette disinfectants.db -m metadata.json --setting default_page_size 2000 --setting max_returned_rows 3000 --setting default_facet_size 35 --static static:static/  --template-dir templates/ -p 8001 -o
-```
+
 ### Publish to Vercel
 
 - https://github.com/simonw/datasette-publish-vercel/blob/master/README.md
@@ -55,6 +56,10 @@ datasette disinfectants.db -m metadata.json --setting default_page_size 2000 --s
 Visit: https://vercel.com/download to get CLI tool.
 
 Run: `vercel login` to login to Vercel, then you can do this:
+
+```
+datasette publish vercel disinfectants.db --project "list-n" --title "Disinfectants Used for Addressing COVID" --source "List N Tool COVID-19 Disinfectants" --source_url "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm" --install datasette-vega --static static:static/ --metadata metadata.json --setting default_page_size 3000 --setting max_returned_rows 3000 --setting default_facet_size 35 --template-dir templates
+```
 ```
 datasette publish vercel disinfectants.db \
 --project "list-n" \
@@ -69,9 +74,7 @@ datasette publish vercel disinfectants.db \
 --template-dir templates/
 --metadata metadata.json
 ```
-datasette publish vercel disinfectants.db --project "list-n" --title "Disinfectants Used for Addressing COVID" --source "List N Tool COVID-19 Disinfectants" --source_url "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm" --install datasette-vega --static static:static/ --metadata metadata.json --setting default_page_size 3000 --setting max_returned_rows 3000 --setting default_facet_size 35 --template-dir templates
 
-```
 ### Utilities and Miscellaneous
 
 sqlite-utils tables disinfectants.db --counts --columns
