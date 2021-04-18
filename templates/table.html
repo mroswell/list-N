@@ -136,10 +136,10 @@
 
 {% if suggested_facets %}
     <p class="suggested-facets">
-        Suggested facets: {% for facet in suggested_facets %}
-        {% if ( (facet.type or facet.name in ['Safer_or_Toxic','Contact_time','Why_on_List_N']) )%}<a href="{{ facet.toggle_url }}">{{ facet.name }}</a>{% if not loop.last %}, {% endif %}
-        {% endif %}
-        {% endfor %}
+	Suggested facets: {% for facet in suggested_facets|sort_facets(request.query_string) %}
+	{% if ( (facet.type or facet.name in ['Safer_or_Toxic','Contact_time','Why_on_List_N']) )%}<a href="{{ facet.toggle_url }}">{{ facet.name }}</a>{% if not loop.last %}, {% endif %}
+	{% endif %}
+	{% endfor %}
     </p>
 {% endif %}
 
