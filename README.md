@@ -38,7 +38,7 @@ sqlite-utils transform disinfectants.db listN \
 ```
 ### Publish locally
 ``` 
-datasette disinfectants.db -m metadata.json --setting default_page_size 2000 --setting max_returned_rows 3000 --setting default_facet_size 35 --static static:static/  --template-dir templates/ -p 8001 -o
+datasette disinfectants.db -m metadata.json --setting default_page_size 2000 --setting max_returned_rows 3000 --setting default_facet_size 35 --static static:static/  --template-dir templates/ --plugins-dir plugins -p 8001 -o
 ```
 ```
 datasette disinfectants.db -m metadata.json \
@@ -46,7 +46,8 @@ datasette disinfectants.db -m metadata.json \
 --setting max_returned_rows 3000 \
 --setting default_facet_size 35 -o \
 --static static:static/ \
---template-dir templates/
+--template-dir templates/ \
+--plugins-dir plugins
 ```
 
 ### Publish to Vercel
