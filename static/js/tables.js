@@ -20,3 +20,38 @@ on("click", ".view-cols.js-click button", e => {
     .querySelector("table")
     .classList.toggle("hide-columns");
 });
+function setSessionCookie(name, value, minutes) {
+    document.cookie = name + "=" + value + ";path=/;SameSite=Lax;";
+}
+
+function deleteSessionCookie(name) {
+    setSessionCookie(name, "");
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Set `latest_selected_facet` cookie on Suggested facets click
+    let suggestedFacets = document.querySelectorAll("a[class^='suggested-facet-']");
+
+    Array.from(suggestedFacets).forEach(function (node) {
+	node.addEventListener("click", function (event) {
+	    event.preventDefault();
+	    let _node = event.target;
+	    let nodeClass = _node.className;
+	    let facetName = nodeClass.replace("suggested-facet-", "");
+	    setSessionCookie("latest_selected_facet", facetName);
+	    window.location.href = _node.href;
+	});
+    });
+
+    // Delete `latest_selected_facet` cookie on other link clicks
+    let crossLinks = document.querySelectorAll("a:not([class^='suggested-facet-'])");
+
+    Array.from(crossLinks).forEach(function (node) {
+	node.addEventListener("click", function (event) {
+	    event.preventDefault();
+	    let _node = event.target;
+	    deleteSessionCookie("latest_selected_facet");
+	    window.location.href = _node.href;
+	});
+    });
+});
