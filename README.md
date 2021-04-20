@@ -59,7 +59,7 @@ Visit: https://vercel.com/download to get CLI tool.
 Run: `vercel login` to login to Vercel, then you can do this:
 
 ```
-datasette publish vercel disinfectants.db --project "list-n" --title "Disinfectants Used for Addressing COVID" --source "List N Tool COVID-19 Disinfectants" --source_url "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm" --install datasette-vega --static static:static/ --metadata metadata.json --setting default_page_size 3000 --setting max_returned_rows 3000 --setting default_facet_size 35 --template-dir templates
+datasette publish vercel disinfectants.db --project "list-n" --title "Disinfectants Used for Addressing COVID" --source "List N Tool COVID-19 Disinfectants" --source_url "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm" --install datasette-vega --static static:static/ --metadata metadata.json --setting default_page_size 3000 --setting max_returned_rows 3000 --setting default_facet_size 35 --template-dir templates --plugins-dir plugins
 ```
 ```
 datasette publish vercel disinfectants.db \
@@ -73,11 +73,12 @@ datasette publish vercel disinfectants.db \
 --setting default_facet_size 35 \
 --static static:static/ \
 --template-dir templates/
---metadata metadata.json
+--plugins-dir plugins/
+--metadata metadata.json \
 ```
 
 ### Utilities and Miscellaneous
-
+```
 sqlite-utils tables disinfectants.db --counts --columns
 sqlite-utils analyze-tables disinfectants.db listN
 sqlite-utils disable-fts disinfectants.db listN
