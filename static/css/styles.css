@@ -73,13 +73,13 @@ color: #111A35;}
 
 @keyframes highlight-fade {
     0% {
-	Background: #cccc00;
+	Background: #cde7dd;
     }
     100% {
 	Background: none;
     }
 }
 
-.fade-bg {
-    animation: highlight-fade 3s;
+.fade-bg > p {
+    animation: highlight-fade 1s;
 }
