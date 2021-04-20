@@ -3,6 +3,9 @@ from typing import Dict, List, Any
 from datasette import hookimpl
 
 
+LATEST_SELECTED_FACET_COOKIE_NAME = "latest_selected_facet"
+
+
 FACET_SORTING_ORDER_MAP = {
     "Safer_or_Toxic": 1,
     "Active_ingredient": 2,
@@ -22,27 +25,15 @@ def _get_facet_sort_order(facet_data: Dict[str, str]) -> int:
     return FACET_SORTING_ORDER_MAP.get(facet_name, len(FACET_SORTING_ORDER_MAP) + 1)
 
 
-def _get_actual_facet_name(facet_query: str) -> str:
+def _get_latest_selected_facet(cookies: Dict[str, str]) -> str:
 
-    for facet_name in FACET_SORTING_ORDER_MAP.keys():
-        if facet_query.startswith(facet_name):
-            return facet_name
+    latest_selected_facet = cookies.get(LATEST_SELECTED_FACET_COOKIE_NAME, "")
 
-    return ""
-
-
-def _get_latest_selected_facet(query_string: str) -> str:
-
-    pre, _, query = query_string.rpartition("&")
-
-    if query:
-        *_, facet_query = query.partition("=")
-        return _get_actual_facet_name(facet_query)
-
-    if "&" not in pre:
-        return ""
-
-    return _get_latest_selected_facet(pre)
+    return (
+        latest_selected_facet
+        if latest_selected_facet in FACET_SORTING_ORDER_MAP.keys()
+        else ""
+    )
 
 
 def _add_highlight_css_class_to_selected_facet(
@@ -66,10 +57,10 @@ def _add_highlight_css_class_to_selected_facet(
 
 
 def get_sorted_selected_facets(
-    selected_facets: List[Dict[str, Any]], query_string: str
+    selected_facets: List[Dict[str, Any]], cookies: Dict[str, str]
 ) -> List[Dict[str, Any]]:
 
-    latest_selected_facet = _get_latest_selected_facet(query_string)
+    latest_selected_facet = _get_latest_selected_facet(cookies)
 
     out_selected_facets = _add_highlight_css_class_to_selected_facet(
         selected_facets, latest_selected_facet

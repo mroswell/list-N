@@ -6,7 +6,7 @@
     "source": "List N Tool: COVID-19 Disinfectants",
     "source_url": "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm",
     "extra_css_urls": ["/static/css/styles.css"],
-    "extra_js_urls": ["/static/js/tables.css"],
+    "extra_js_urls": ["/static/js/tables.js"],
     "databases": {
         "listN": {
             "tables": {
