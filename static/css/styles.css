@@ -70,3 +70,16 @@ td[data-time="30.0"]::after {content: "30 minutes";}
 td.col-Contact_time.type-float {
 color: #111A35;}
 
+
+@keyframes highlight-fade {
+    0% {
+	Background: #cccc00;
+    }
+    100% {
+	Background: none;
+    }
+}
+
+.fade-bg {
+    animation: highlight-fade 3s;
+}
