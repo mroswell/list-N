@@ -3700,8 +3700,8 @@
       "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Ironman Wipe",
-    "Follow_directions_for_this_virus": "Rotavirus",
-    "Contact_time": 2,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 0.1,
     "Company": "Microban Products Company",
     "Formulation_type": [
       "Wipe"
@@ -3715,8 +3715,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-08-13",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-04-20",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -3727,8 +3727,8 @@
       "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Firebird F130",
-    "Follow_directions_for_this_virus": "Poliovirus; Norovirus",
-    "Contact_time": 5,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 0.1,
     "Company": "Microban Products Company",
     "Formulation_type": [
       "Ready-to-use"
@@ -3741,8 +3741,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-03-03",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-04-20",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -4779,7 +4779,7 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Control III Laboratory Germicide",
-    "Follow_directions_for_this_virus": "Adenovirus Type 5",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 10,
     "Company": "Maril Products Inc",
     "Formulation_type": [
@@ -4791,8 +4791,8 @@
     "Use_site": [
       "Healthcare"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-06-17",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-04-20",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -12005,8 +12005,8 @@
       "Quaternary ammonium"
     ],
     "Product_name": "D7 Part 1",
-    "Follow_directions_for_this_virus": "Norovirus",
-    "Contact_time": 10,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 1,
     "Company": "Decon7 Systems LLC",
     "Formulation_type": [
       "Dilutable"
@@ -12020,8 +12020,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-03-26",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-04-20",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -12031,8 +12031,8 @@
       "Hydrogen peroxide"
     ],
     "Product_name": "D7 Part 2",
-    "Follow_directions_for_this_virus": "Norovirus",
-    "Contact_time": 10,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 1,
     "Company": "Decon7 Systems LLC",
     "Formulation_type": [
       "Dilutable"
@@ -12045,8 +12045,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-04-16",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-04-20",
     "Safer_or_Toxic": "Safer"
   },
   {
@@ -12996,7 +12996,7 @@
       "Ammonium bicarbonate"
     ],
     "Product_name": "Hitman Wipe",
-    "Follow_directions_for_this_virus": "Human coronavirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 6,
     "Company": "Kimberly-Clark Global Sales LLC",
     "Formulation_type": [
@@ -13009,8 +13009,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2020-03-13",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2021-04-20",
     "Safer_or_Toxic": "Toxic"
   },
   {
