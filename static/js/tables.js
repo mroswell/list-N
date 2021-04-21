@@ -51,7 +51,39 @@ document.addEventListener("DOMContentLoaded", function () {
 	    event.preventDefault();
 	    let _node = event.target;
 	    deleteSessionCookie("latest_selected_facet");
-	    window.location.href = _node.href;
+
+	    let nodeHref = _node.href;
+
+	    // If the selected facet is closed, remove all the references
+	    // of the facet elements from query string
+	    if (_node.className === "cross") {
+		let hostPath = nodeHref.replace(/\?.*$/g, "");
+		let queryString = nodeHref.replace(/^[^\?]+\?/, "");
+
+		let removedFacet = _node.previousElementSibling.innerText.split(
+		    /\s+/,
+		    1,
+		)[0];
+		let removedFacetRegex = new RegExp(removedFacet);
+
+		let queryStringParts = queryString.split("&");
+		let outQueryStringParts = [];
+
+		for (part of queryStringParts) {
+		    if (!removedFacetRegex.test(part)) {
+			outQueryStringParts.push(part);
+		    }
+		}
+
+		if (outQueryStringParts.length === 0) {
+		    nodeHref = hostPath;
+		} else {
+		    let outQueryString = outQueryStringParts.join("&");
+		    nodeHref = hostPath + "?" + outQueryString;
+		}
+	    }
+
+	    window.location.href = nodeHref;
 	});
     });
 });
