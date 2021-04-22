@@ -13,11 +13,14 @@ jobs:
     - name: Check out this repo
       uses: actions/checkout@v2
 
-    - name: Fetch latest data
+    - name: Install dependencies
       run: |-
         apt-get update && apt-get -y install jq python3-pip
         python3 -m pip install -U pip
         python3 -m pip install -r requirements.txt
+
+    - name: Fetch latest data
+      run: |-
         epa_json_data=$(curl 'https://cfpub.epa.gov/giwiz/disinfectants/includes/queries.cfc?method=getDisData&Keyword=&RegNum=&ActiveIng=All&ContactTime=&UseSite=&SurfType=' 2>/dev/null)
         echo "${epa_json_data}" | jq --monochrome-output . >list-N.json
         echo "${epa_json_data}" | python3 transform.py | jq --monochrome-output . >list-N.transformed.json
@@ -31,9 +34,14 @@ jobs:
         git commit -m "Latest data: ${timestamp}" || exit 0
         git push
 
-    - name: Create database and set column order
+    - name: Rotate existing databases
       run: |-
-        rm -f disinfectants.db && sqlite-utils insert disinfectants.db listN - --pk ID <list-N.transformed.json
+        if [ -e disinfectants-prev.db ]; then mv -f disinfectants-prev.db disinfectants-prev-prev.db; fi
+        if [ -e disinfectants.db ]; then mv -f disinfectants.db disinfectants-prev.db; fi
+
+    - name: Create new database and set column order
+      run: |-
+        sqlite-utils insert disinfectants.db listN - --pk ID <list-N.transformed.json
         sqlite-utils transform disinfectants.db listN \
         --column-order EPA_reg_num \
         --column-order Safer_or_Toxic \
