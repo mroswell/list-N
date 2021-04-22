@@ -1,4 +1,4 @@
-name: Scrape latest List N
+name: Scrape latest List N, create DB, and publish to Vercel
 
 on:
   push:
@@ -12,12 +12,19 @@ jobs:
     steps:
     - name: Check out this repo
       uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: |-
+        apt-get update && apt-get -y install jq python3-pip
+        python3 -m pip install -U pip
+        python3 -m pip install -r requirements.txt
+
     - name: Fetch latest data
       run: |-
-        apt-get update && apt-get -y install jq
         epa_json_data=$(curl 'https://cfpub.epa.gov/giwiz/disinfectants/includes/queries.cfc?method=getDisData&Keyword=&RegNum=&ActiveIng=All&ContactTime=&UseSite=&SurfType=' 2>/dev/null)
         echo "${epa_json_data}" | jq --monochrome-output . >list-N.json
         echo "${epa_json_data}" | python3 transform.py | jq --monochrome-output . >list-N.transformed.json
+
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
@@ -26,3 +33,45 @@ jobs:
         timestamp=$(date -u)
         git commit -m "Latest data: ${timestamp}" || exit 0
         git push
+
+    - name: Rotate existing databases
+      run: |-
+        if [ -e disinfectants-prev.db ]; then mv -f disinfectants-prev.db disinfectants-prev-prev.db; fi
+        if [ -e disinfectants.db ]; then mv -f disinfectants.db disinfectants-prev.db; fi
+
+    - name: Create new database and set column order
+      run: |-
+        sqlite-utils insert disinfectants.db listN - --pk ID <list-N.transformed.json
+        sqlite-utils transform disinfectants.db listN \
+        --column-order EPA_reg_num \
+        --column-order Safer_or_Toxic \
+        --column-order Active_ingredient \
+        --column-order Product_name \
+        --column-order Company \
+        --column-order Use_site \
+        --column-order Surface_type \
+        --column-order Contact_time \
+        --column-order Formulation_type \
+        --column-order Follow_directions_for_this_virus \
+        --column-order Date_on_List_N \
+        --column-order Why_on_List_N \
+        --column-order ID
+
+    - name: Publish to Vercel
+      env:
+        VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      run: |-
+        datasette publish vercel disinfectants.db \
+        --project "list-n" \
+        --title "Disinfectants Used for Addressing COVID" \
+        --source "List N Tool COVID-19 Disinfectants" \
+        --source_url "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm" \
+        --install datasette-vega \
+        --setting default_page_size 3000 \
+        --setting max_returned_rows 3000 \
+        --setting default_facet_size 35 \
+        --static static:static/ \
+        --template-dir templates/ \
+        --plugins-dir plugins/ \
+        --metadata metadata.json \
+        --token "$VERCEL_TOKEN"
