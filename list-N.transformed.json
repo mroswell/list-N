@@ -7958,7 +7958,7 @@
     ],
     "Product_name": "Lonzagard RCS-256",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 3,
+    "Contact_time": 1,
     "Company": "Lonza LLC",
     "Formulation_type": [
       "Dilutable"
@@ -7972,7 +7972,7 @@
       "Residential"
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-07-29",
+    "Date_on_List_N": "2021-04-27",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -7983,7 +7983,7 @@
     ],
     "Product_name": "Lonzagard RCS-128",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 3,
+    "Contact_time": 1,
     "Company": "Lonza LLC",
     "Formulation_type": [
       "Dilutable"
@@ -7997,7 +7997,7 @@
       "Residential"
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-07-29",
+    "Date_on_List_N": "2021-04-27",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -8008,7 +8008,7 @@
     ],
     "Product_name": "Lonzagard RCS-128 PLUS",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 3,
+    "Contact_time": 1,
     "Company": "Lonza LLC",
     "Formulation_type": [
       "Dilutable"
@@ -8022,7 +8022,7 @@
       "Residential"
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-07-29",
+    "Date_on_List_N": "2021-04-27",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -8033,7 +8033,7 @@
     ],
     "Product_name": "Lonzagard RCS-256 Plus",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 3,
+    "Contact_time": 1,
     "Company": "Lonza LLC",
     "Formulation_type": [
       "Dilutable"
@@ -8047,7 +8047,7 @@
       "Residential"
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-07-29",
+    "Date_on_List_N": "2021-04-27",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -8210,8 +8210,8 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Nugen MB5N-256",
-    "Follow_directions_for_this_virus": "Norovirus",
-    "Contact_time": 5,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 1,
     "Company": "Lonza LLC",
     "Formulation_type": [
       "Dilutable"
@@ -8224,8 +8224,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-03-03",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-04-27",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -8235,8 +8235,8 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Nugen MB5N-128",
-    "Follow_directions_for_this_virus": "Norovirus",
-    "Contact_time": 5,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 1,
     "Company": "Lonza LLC",
     "Formulation_type": [
       "Dilutable"
@@ -8249,8 +8249,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-03-03",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-04-27",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -8260,8 +8260,8 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Nugen MB5N-64",
-    "Follow_directions_for_this_virus": "Norovirus",
-    "Contact_time": 5,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 1,
     "Company": "Lonza LLC",
     "Formulation_type": [
       "Dilutable"
@@ -8274,8 +8274,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-03-13",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-04-27",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -10281,6 +10281,31 @@
     "Safer_or_Toxic": "Toxic"
   },
   {
+    "ID": 1840,
+    "EPA_reg_num": "75174-10",
+    "Active_ingredient": [
+      "Quaternary ammonium"
+    ],
+    "Product_name": "SiS 200D RTU",
+    "Follow_directions_for_this_virus": "Human coronavirus",
+    "Contact_time": 10,
+    "Company": "SiShield Technologies Inc",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2021-04-27",
+    "Safer_or_Toxic": "Toxic"
+  },
+  {
     "ID": 1284,
     "EPA_reg_num": "75277-2",
     "Active_ingredient": [
@@ -11014,7 +11039,7 @@
     ],
     "Product_name": "PURELL Professional Surface Disinfectant Wipes",
     "Follow_directions_for_this_virus": "Norovirus",
-    "Contact_time": 5,
+    "Contact_time": 0.5,
     "Company": "GOJO Industries Inc",
     "Formulation_type": [
       "Wipe"
@@ -11028,8 +11053,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-03-03",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-04-27",
     "Safer_or_Toxic": "Safer"
   },
   {
@@ -13147,7 +13172,7 @@
       "Hydrogen peroxide"
     ],
     "Product_name": "Sani-HyPerCide Germicidal Disposable Wipe",
-    "Follow_directions_for_this_virus": "Adenovirus; Rotavirus; Rhinovirus; Feline calicivirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 1,
     "Company": "Professional Disposables International Inc",
     "Formulation_type": [
@@ -13160,8 +13185,8 @@
     "Use_site": [
       "Healthcare"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-07-23",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-04-27",
     "Safer_or_Toxic": "Safer"
   },
   {
