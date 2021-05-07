@@ -668,7 +668,7 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Maquat 10",
-    "Follow_directions_for_this_virus": "Human coronavirus",
+    "Follow_directions_for_this_virus": "Avian reovirus; Porcine rotavirus",
     "Contact_time": 10,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
@@ -682,8 +682,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2020-03-13",
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-05-06",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -847,7 +847,7 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Maquat 20-M",
-    "Follow_directions_for_this_virus": "Human coronavirus",
+    "Follow_directions_for_this_virus": "Avian reovirus; Porcine rotavirus",
     "Contact_time": 10,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
@@ -862,8 +862,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2020-03-13",
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-05-06",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -1547,8 +1547,8 @@
       "Hydrogen peroxide"
     ],
     "Product_name": "AdvaCare 120 Sanitizer/Sour",
-    "Follow_directions_for_this_virus": "Clostridioides difficile",
-    "Contact_time": 6,
+    "Follow_directions_for_this_virus": "Norovirus; Feline calicivirus",
+    "Contact_time": 5,
     "Company": "Ecolab Inc",
     "Formulation_type": [
       "Dilutable"
@@ -1561,7 +1561,7 @@
       "Institutional"
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-05-28",
+    "Date_on_List_N": "2021-05-06",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -2451,8 +2451,8 @@
       "Quaternary ammonium"
     ],
     "Product_name": "SC-NDC-64",
-    "Follow_directions_for_this_virus": "Human coronavirus",
-    "Contact_time": 5,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 2,
     "Company": "Stepan Company",
     "Formulation_type": [
       "Dilutable"
@@ -2466,8 +2466,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2020-04-30",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2021-05-06",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -3716,7 +3716,7 @@
       "Residential"
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2021-04-20",
+    "Date_on_List_N": "2021-04-13",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -4581,7 +4581,7 @@
       "Phenolic"
     ],
     "Product_name": "Spraypak Spray Disinfectant Formula 2",
-    "Follow_directions_for_this_virus": "Human coronavirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 10,
     "Company": "Chase Products Co",
     "Formulation_type": [
@@ -4594,8 +4594,8 @@
       "Healthcare",
       "Institutional"
     ],
-    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2020-11-05",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2021-05-06",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -6631,7 +6631,7 @@
     "Safer_or_Toxic": "Toxic"
   },
   {
-    "ID": 1820,
+    "ID": 1540,
     "EPA_reg_num": "67071-123",
     "Active_ingredient": [
       "Quaternary ammonium"
@@ -7425,8 +7425,8 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Libertad",
-    "Follow_directions_for_this_virus": "Rotavirus",
-    "Contact_time": 2,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 0.5,
     "Company": "Clorox Professional Products Company",
     "Formulation_type": [
       "Wipe"
@@ -7440,8 +7440,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-11-10",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-05-06",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -9567,7 +9567,7 @@
       "Hydrogen peroxide"
     ],
     "Product_name": "Oxivir™ 1",
-    "Follow_directions_for_this_virus": "Canine parvovirus; Enterovirus D68",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 1,
     "Company": "Diversey Inc",
     "Formulation_type": [
@@ -9581,7 +9581,7 @@
       "Institutional"
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-03-03",
+    "Date_on_List_N": "2021-05-06",
     "Safer_or_Toxic": "Safer"
   },
   {
@@ -10281,7 +10281,7 @@
     "Safer_or_Toxic": "Toxic"
   },
   {
-    "ID": 1840,
+    "ID": 1541,
     "EPA_reg_num": "75174-10",
     "Active_ingredient": [
       "Quaternary ammonium"
@@ -11038,7 +11038,7 @@
       "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "PURELL Professional Surface Disinfectant Wipes",
-    "Follow_directions_for_this_virus": "Norovirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 0.5,
     "Company": "GOJO Industries Inc",
     "Formulation_type": [
@@ -12703,7 +12703,7 @@
     "Safer_or_Toxic": "Toxic"
   },
   {
-    "ID": 1800,
+    "ID": 1542,
     "EPA_reg_num": "92378-3",
     "Active_ingredient": [
       "Quaternary ammonium"
