@@ -5341,6 +5341,21 @@
       null
     ],
     [
+      1601,
+      "70271-32",
+      "Citric acid",
+      "Comet Heavy Duty Cleaner with Disinfectant",
+      "SARS-CoV-2",
+      10,
+      "KIK International Inc",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Residential",
+      "Tested against SARS-CoV-2 (COVID-19)",
+      null,
+      null
+    ],
+    [
       1680,
       "70271-33",
       "Sodium hypochlorite",
@@ -6493,6 +6508,21 @@
       "Healthcare; Institutional; Residential",
       "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "July, 06 2020 00:00:00",
+      null
+    ],
+    [
+      1666,
+      "81820-2",
+      "Quaternary ammonium",
+      "Kleengrow",
+      "Human coronavirus",
+      10,
+      "P49 Holdings Inc",
+      "Dilutable",
+      "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
+      "Healthcare; Institutional; Residential",
+      "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+      "May, 04 2021 00:00:00",
       null
     ],
     [
