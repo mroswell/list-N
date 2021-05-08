@@ -56,8 +56,9 @@ def transform(d):
         d["Surface_type"] = d["Surface_type"].split("; ")
         if d["Use_site"] is not None:
             d["Use_site"] = d["Use_site"].split("; ")
-        date_list = d["Date_on_List_N"].split()
-        d["Date_on_List_N"]='{year}-{mon}-{day}'.format(mon=month_dict[date_list[0].split(",")[0]],day=date_list[1],year=date_list[2])
+        if d["Date_on_List_N"] is not None:
+            date_list = d["Date_on_List_N"].split()
+            d["Date_on_List_N"]='{year}-{mon}-{day}'.format(mon=month_dict[date_list[0].split(",")[0]],day=date_list[1],year=date_list[2])
       
         del d["Company_URL"]
 
