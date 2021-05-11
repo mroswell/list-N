@@ -2477,8 +2477,8 @@
       "Quaternary ammonium"
     ],
     "Product_name": "SC-RTU Disinfectant Cleaner",
-    "Follow_directions_for_this_virus": "Poliovirus",
-    "Contact_time": 5,
+    "Follow_directions_for_this_virus": "Human rotavirus",
+    "Contact_time": 1,
     "Company": "Stepan Company",
     "Formulation_type": [
       "Ready-to-use"
@@ -2493,7 +2493,7 @@
       "Residential"
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-03-03",
+    "Date_on_List_N": "2021-05-11",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -8951,7 +8951,7 @@
       "Residential"
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": null,
+    "Date_on_List_N": "2021-05-04",
     "Safer_or_Toxic": "Safer"
   },
   {
@@ -13085,6 +13085,32 @@
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
     "Date_on_List_N": "2021-04-20",
+    "Safer_or_Toxic": "Toxic"
+  },
+  {
+    "ID": 2000,
+    "EPA_reg_num": "94262-1",
+    "Active_ingredient": [
+      "Hypochlorous acid"
+    ],
+    "Product_name": "HOCl 180",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 2,
+    "Company": "4D Tech Solutions Inc",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)",
+      "Food Contact No Rinse (FCNR)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-05-11",
     "Safer_or_Toxic": "Toxic"
   },
   {

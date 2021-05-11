@@ -1490,14 +1490,14 @@
       "1839-220",
       "Quaternary ammonium",
       "SC-RTU Disinfectant Cleaner",
-      "Poliovirus",
-      5,
+      "Human rotavirus",
+      1,
       "Stepan Company",
       "Ready-to-use",
       "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
       "Healthcare; Institutional; Residential",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "March, 03 2020 00:00:00",
+      "May, 11 2021 00:00:00",
       null
     ],
     [
@@ -5352,7 +5352,7 @@
       "Hard Nonporous (HN)",
       "Residential",
       "Tested against SARS-CoV-2 (COVID-19)",
-      null,
+      "May, 04 2021 00:00:00",
       null
     ],
     [
@@ -7813,6 +7813,21 @@
       "Institutional; Residential",
       "Tested against SARS-CoV-2 (COVID-19)",
       "April, 20 2021 00:00:00",
+      null
+    ],
+    [
+      2000,
+      "94262-1",
+      "Hypochlorous acid",
+      "HOCl 180",
+      "SARS-CoV-2",
+      2,
+      "4D Tech Solutions Inc",
+      "Ready-to-use",
+      "Hard Nonporous (HN); Food Contact No Rinse (FCNR)",
+      "Healthcare; Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "May, 11 2021 00:00:00",
       null
     ],
     [
