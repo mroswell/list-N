@@ -25,15 +25,6 @@ jobs:
         echo "${epa_json_data}" | jq --monochrome-output . >list-N.json
         echo "${epa_json_data}" | python3 transform.py | jq --monochrome-output . >list-N.transformed.json
 
-    - name: Commit and push if it changed
-      run: |-
-        git config user.name "Automated"
-        git config user.email "actions@users.noreply.github.com"
-        git add -A
-        timestamp=$(date -u)
-        git commit -m "Latest data: ${timestamp}" || exit 0
-        git push
-
     - name: Rotate existing databases
       run: |-
         if [ -e disinfectants-prev.db ]; then mv -f disinfectants-prev.db disinfectants-prev-prev.db; fi
@@ -56,6 +47,15 @@ jobs:
         --column-order Date_on_List_N \
         --column-order Why_on_List_N \
         --column-order ID
+
+    - name: Commit and push if it changed
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Latest data: ${timestamp}" || exit 0
+        git push
 
     - name: Publish to Vercel
       env:
