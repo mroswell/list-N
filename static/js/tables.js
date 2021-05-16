@@ -58,18 +58,21 @@ document.addEventListener("DOMContentLoaded", function () {
 	    // of the facet elements from query string
 	    if (_node.className === "cross") {
 		let hostPath = nodeHref.replace(/\?.*$/g, "");
-		let queryString = nodeHref.replace(/^[^\?]+\?/, "");
+		let queryString = nodeHref.includes("?")
+		    ? nodeHref.replace(/^[^\?]+\?/, "")
+		    : "";
 
-		let removedFacet = _node.previousElementSibling.innerText.split(
-		    /\s+/,
-		    1,
-		)[0];
+		let innerText = _node.previousElementSibling
+		    ? _node.previousElementSibling.innerText
+		    : _node.previousSibling.nodeValue;
+
+		let removedFacet = innerText.split(/\s+/, 1)[0];
 		let removedFacetRegex = new RegExp(removedFacet);
 
 		let queryStringParts = queryString.split("&");
 		let outQueryStringParts = [];
 
-		for (part of queryStringParts) {
+		for (let part of queryStringParts) {
 		    if (!removedFacetRegex.test(part)) {
 			outQueryStringParts.push(part);
 		    }
@@ -79,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		    nodeHref = hostPath;
 		} else {
 		    let outQueryString = outQueryStringParts.join("&");
-		    nodeHref = hostPath + "?" + outQueryString;
+		    nodeHref = hostPath + (outQueryString ? "?" + outQueryString : "");
 		}
 	    }
 
