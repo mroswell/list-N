@@ -101,7 +101,10 @@ def _get_cleaned_suggested_facets(
                     name=safer_or_toxic, toggle_url=safer_or_toxic_toggle_url
                 )
 
-    if safer_or_toxic not in cleaned_suggested_facets:
+    if (
+        safer_or_toxic not in cleaned_suggested_facets
+        and f"_facet={safer_or_toxic}" not in query_string
+    ):
         first_element = next(iter(cleaned_suggested_facets.values()), None)
         if first_element:
 
