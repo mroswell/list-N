@@ -101,6 +101,23 @@ def _get_cleaned_suggested_facets(
                     name=safer_or_toxic, toggle_url=safer_or_toxic_toggle_url
                 )
 
+    if safer_or_toxic not in cleaned_suggested_facets:
+        first_element = next(iter(cleaned_suggested_facets.values()), None)
+        if first_element:
+
+            _toggle_url = first_element.get("toggle_url")
+            if _toggle_url:
+                _toggle_url = re.sub(r"&[^&]*$", "", _toggle_url)
+                safer_or_toxic_toggle_url = f"{_toggle_url}&_facet={safer_or_toxic}".replace(
+                    "?&", "?"
+                ).replace(
+                    "&&", "&"
+                )
+
+                cleaned_suggested_facets[safer_or_toxic] = dict(
+                    name=safer_or_toxic, toggle_url=safer_or_toxic_toggle_url
+                )
+
     return cleaned_suggested_facets.values()
 
 
