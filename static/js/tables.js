@@ -67,7 +67,9 @@ document.addEventListener("DOMContentLoaded", function () {
 		    : _node.previousSibling.nodeValue;
 
 		let removedFacet = innerText.split(/\s+/, 1)[0];
-		let removedFacetRegex = new RegExp(removedFacet);
+		let removedFacetRegex = new RegExp(
+		    "^" + removedFacet + "|=" + removedFacet + "$",
+		);
 
 		let queryStringParts = queryString.split("&");
 		let outQueryStringParts = [];
