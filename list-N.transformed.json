@@ -2296,8 +2296,8 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Stepan Disinfectant Wipe",
-    "Follow_directions_for_this_virus": "Human coronavirus",
-    "Contact_time": 10,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 0.5,
     "Company": "Stepan Company",
     "Formulation_type": [
       "Wipe"
@@ -2310,8 +2310,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2020-03-13",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-05-18",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -2477,8 +2477,8 @@
       "Quaternary ammonium"
     ],
     "Product_name": "SC-RTU Disinfectant Cleaner",
-    "Follow_directions_for_this_virus": "Human rotavirus",
-    "Contact_time": 1,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 0.5,
     "Company": "Stepan Company",
     "Formulation_type": [
       "Ready-to-use"
@@ -2492,8 +2492,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2021-05-11",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-05-18",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -3274,7 +3274,7 @@
       "Sodium hypochlorite"
     ],
     "Product_name": "Micro-kill Bleach Germicidal Bleach Wipes",
-    "Follow_directions_for_this_virus": "Norovirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 0.5,
     "Company": "Medline Industries Inc",
     "Formulation_type": [
@@ -3288,8 +3288,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-03-13",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-05-18",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -9958,8 +9958,8 @@
       "Citric acid"
     ],
     "Product_name": "Axen® 30",
-    "Follow_directions_for_this_virus": "Adenovirus",
-    "Contact_time": 3,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 0.5,
     "Company": "ETI H2O Inc",
     "Formulation_type": [
       "Ready-to-use"
@@ -9972,8 +9972,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-05-07",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-05-18",
     "Safer_or_Toxic": "Toxic"
   },
   {
