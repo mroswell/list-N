@@ -3,12 +3,24 @@ tbody tr td {
     font-size: 0.9rem
 }
 
-header,
 footer,
 form input[type=submit] {
     background-color: #3e8469;
     /* #4c7869; /* #268f68; */
-    font-
+}
+
+header {
+    background-color: #fff;
+    color: grey;
+}
+
+header a:link,
+header a:visited,
+header a:hover,
+header a:focus,
+header a:active,
+header button.button-as-link {
+    color: grey;
 }
 
 body {
