@@ -1,24 +1,6 @@
 {% extends "base.html" %} {% block title %}{{ database }}: {{ table }}: {% if filtered_table_rows_count or filtered_table_rows_count == 0 %}{{ "{:,}".format(filtered_table_rows_count) }} row{% if filtered_table_rows_count == 1 %}{% else %}s{% endif %}{%
 endif %} {% if human_description_en %}where {{ human_description_en }}{% endif %}{% endblock %} {% block extra_head %} {{ super() }}
 <script src="{{ urls.static('table.js') }}" defer></script>
-<style>
-    @media only screen and (max-width: 576px) {
-        {
-            % for column in display_columns -%
-        }
-        .rows-and-columns td:nth-of-type( {
-            {
-                loop.index
-            }
-        }
-        ):before {
-            content: "{{ column.name|escape_css_string }}";
-        }
-        {
-            % endfor %
-        }
-    }
-</style>
 {% endblock %} {% block body_class %}table db-{{ database|to_css_class }} table-{{ table|to_css_class }}{% endblock %} {% block nav %}
 <p class="crumbs">
     <a href="{{ urls.instance() }}">Home</a> /
