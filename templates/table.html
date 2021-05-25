@@ -34,7 +34,7 @@ endif %} {% if human_description_en %}where {{ human_description_en }}{% endif %
 </h3>
 {% endif %}
 
-<form class="filters" action="{{ urls.table(database, table) }}" method="get">
+<!--form class="filters" action="{{ urls.table(database, table) }}" method="get">
     {% if supports_search %}
     <div class="search-row"><label for="_search">Search:</label><input id="_search" type="search" name="_search" value="{{ search }}"></div>
     {% endif %} {% for column, lookup, value in filters.selections() %}
@@ -89,7 +89,7 @@ endif %} {% if human_description_en %}where {{ human_description_en }}{% endif %
         <input type="hidden" name="{{ key }}" value="{{ value }}"> {% endfor %}
         <input type="submit" value="Apply">
     </div>
-</form>
+</form-->
 
 {% if extra_wheres_for_ui %}
 <div class="extra-wheres">
