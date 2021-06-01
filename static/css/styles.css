@@ -45,12 +45,12 @@ tbody tr td {
   /* helpful resource: https://www.canva.com/colors/color-wheel/ */
   
   td[data-safety="Toxic"] {
-      background-color: #EFDEE4;
+      background-color: #f3d3d5;
       /* #F8F0F0; /*red;*/
   }
   
   td[data-safety="Safer"] {
-      background-color: #DEEFE8;
+      background-color: #b2d8b0;
       /*#D9EDE5; /*#f0f8f0; /*green;*/
   }
   
