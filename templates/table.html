@@ -8,7 +8,7 @@ endif %} {% if human_description_en %}where {{ human_description_en }}{% endif %
 </p>
 {{ super() }} {% endblock %} {% block content %}
 <div class="page-header" style="border-color: #3e8469;">
-    <h1>{{ metadata.title or table }}{% if is_view %} (view){% endif %}{% if private %} 🔒{% endif %}</h1>
+    <!--h1>{{ metadata.title or table }}{% if is_view %} (view){% endif %}{% if private %} 🔒{% endif %}</h1-->
     {% set links = table_actions() %}{% if links %}
     <details class="actions-menu-links">
         <summary><svg aria-labelledby="actions-menu-links-title" role="img" style="color: #666" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
