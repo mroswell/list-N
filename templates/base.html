@@ -750,6 +750,14 @@
             --tw-bg-opacity: 1;
             background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
         }
+        
+        .shadow-header {
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+        }
+        
+        .shadow-footer {
+            box-shadow: rgba(0, 0, 0, 0.1) 1px 0px 0px 3px, rgba(0, 0, 0, 0.06) 1px 0px px 2px;
+        }
     </style>
 
     <script>
@@ -798,7 +806,7 @@
 
 <body class="antialiased bg-body text-body font-body">
 
-    <section class="relative overflow-hidden">
+    <section class="relative overflow-hidden shadow-header">
         <nav class="relative px-6 py-6 flex justify-between items-center">
             <a class="text-3xl font-bold leading-none" href="#"> <img src="https://saferortox1stg.wpengine.com/wp-content/uploads/2021/05/logo-safer-or-toxic.jpg" class="custom-logo" alt="Logo: Safer or Toxic?" alt="Maryland Pesticide Network" width="NaN"></a>
             <div class="lg:hidden">
@@ -875,7 +883,7 @@
         {% block content %} {% endblock %}
 
     </div>
-    <section>
+    <section class="shadow-footer">
         <div class="py-20 bg-white radius-for-skewed">
             <div class="container mx-auto px-4">
                 <div class="flex flex-wrap">
