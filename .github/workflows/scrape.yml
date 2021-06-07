@@ -19,43 +19,44 @@ jobs:
         python3 -m pip install --user -U pip
         python3 -m pip install --user -r requirements.txt
 
-    - name: Fetch latest data
-      run: |-
-        epa_json_data=$(curl "https://cfpub.epa.gov/wizards/disinfectants/includes/queries.cfc?method=getDisData&Keyword=&RegNum=&ActiveIng=All&ContactTime=&UseSite=&SurfType=" 2>/dev/null)
-        echo "${epa_json_data}" | jq --monochrome-output . >list-N.json
-        echo "${epa_json_data}" | python3 transform.py | jq --monochrome-output . >list-N.transformed.json
+# https://cfpub.epa.gov/wizards/disinfectants has been down for days.
+#    - name: Fetch latest data
+#      run: |-
+#        epa_json_data=$(curl "https://cfpub.epa.gov/wizards/disinfectants/includes/queries.cfc?method=getDisData&Keyword=&RegNum=&ActiveIng=All&ContactTime=&UseSite=&SurfType=" 2>/dev/null)
+#        echo "${epa_json_data}" | jq --monochrome-output . >list-N.json
+#        echo "${epa_json_data}" | python3 transform.py | jq --monochrome-output . >list-N.transformed.json
 
-    - name: Rotate existing databases
-      run: |-
-        if [ -e disinfectants-prev.db ]; then mv -f disinfectants-prev.db disinfectants-prev-prev.db; fi
-        if [ -e disinfectants.db ]; then mv -f disinfectants.db disinfectants-prev.db; fi
+#    - name: Rotate existing databases
+#      run: |-
+#        if [ -e disinfectants-prev.db ]; then mv -f disinfectants-prev.db disinfectants-prev-prev.db; fi
+#        if [ -e disinfectants.db ]; then mv -f disinfectants.db disinfectants-prev.db; fi
 
-    - name: Create new database and set column order
-      run: |-
-        sqlite-utils insert disinfectants.db listN - --pk ID <list-N.transformed.json
-        sqlite-utils transform disinfectants.db listN \
-        --column-order EPA_reg_num \
-        --column-order Safer_or_Toxic \
-        --column-order Active_ingredient \
-        --column-order Product_name \
-        --column-order Company \
-        --column-order Use_site \
-        --column-order Surface_type \
-        --column-order Contact_time \
-        --column-order Formulation_type \
-        --column-order Follow_directions_for_this_virus \
-        --column-order Date_on_List_N \
-        --column-order Why_on_List_N \
-        --column-order ID
+#    - name: Create new database and set column order
+#      run: |-
+#        sqlite-utils insert disinfectants.db listN - --pk ID <list-N.transformed.json
+#        sqlite-utils transform disinfectants.db listN \
+#        --column-order EPA_reg_num \
+#        --column-order Safer_or_Toxic \
+#        --column-order Active_ingredient \
+#        --column-order Product_name \
+#        --column-order Company \
+#        --column-order Use_site \
+#        --column-order Surface_type \
+#        --column-order Contact_time \
+#        --column-order Formulation_type \
+#        --column-order Follow_directions_for_this_virus \
+#        --column-order Date_on_List_N \
+#        --column-order Why_on_List_N \
+#        --column-order ID
 
-    - name: Commit and push if it changed
-      run: |-
-        git config user.name "Automated"
-        git config user.email "actions@users.noreply.github.com"
-        git add -A
-        timestamp=$(date -u)
-        git commit -m "Latest data: ${timestamp}" || exit 0
-        git push
+#    - name: Commit and push if it changed
+#      run: |-
+#        git config user.name "Automated"
+#        git config user.email "actions@users.noreply.github.com"
+#        git add -A
+#        timestamp=$(date -u)
+#       git commit -m "Latest data: ${timestamp}" || exit 0
+#        git push
 
     - name: Publish to Vercel
       env:
