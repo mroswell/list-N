@@ -2191,6 +2191,21 @@
       null
     ],
     [
+      2040,
+      "4091-26",
+      "Quaternary ammonium",
+      "Emu",
+      "SARS-CoV-2",
+      1,
+      "W.M. Barr & Company Inc",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "June, 08 2021 00:00:00",
+      null
+    ],
+    [
       1177,
       "42048-4",
       "L-Lactic acid",
@@ -6950,14 +6965,14 @@
       "87508-3",
       "Sodium chlorite",
       "Performacide",
-      "Poliovirus",
-      10,
+      "SARS-CoV-2",
+      0.5,
       "Odorstart LLC",
       "Dilutable",
       "Hard Nonporous (HN)",
       "Healthcare; Institutional",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "April, 30 2020 00:00:00",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "June, 08 2021 00:00:00",
       null
     ],
     [
@@ -7723,6 +7738,21 @@
       "Institutional; Residential",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "October, 01 2020 00:00:00",
+      null
+    ],
+    [
+      2041,
+      "93113-2",
+      "Chlorine dioxide",
+      "DoxyKlor DK5G",
+      "Adenovirus",
+      10,
+      "PI Industries Inc",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "June, 08 2021 00:00:00",
       null
     ],
     [

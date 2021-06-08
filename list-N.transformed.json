@@ -3670,6 +3670,31 @@
     "Safer_or_Toxic": "Toxic"
   },
   {
+    "ID": 2040,
+    "EPA_reg_num": "4091-26",
+    "Active_ingredient": [
+      "Quaternary ammonium"
+    ],
+    "Product_name": "Emu",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 1,
+    "Company": "W.M. Barr & Company Inc",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-06-08",
+    "Safer_or_Toxic": "Toxic"
+  },
+  {
     "ID": 1177,
     "EPA_reg_num": "42048-4",
     "Active_ingredient": [
@@ -11619,8 +11644,8 @@
       "Sodium chlorite"
     ],
     "Product_name": "Performacide",
-    "Follow_directions_for_this_virus": "Poliovirus",
-    "Contact_time": 10,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 0.5,
     "Company": "Odorstart LLC",
     "Formulation_type": [
       "Dilutable"
@@ -11632,8 +11657,8 @@
       "Healthcare",
       "Institutional"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-04-30",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-06-08",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -12926,6 +12951,30 @@
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-10-01",
+    "Safer_or_Toxic": "Toxic"
+  },
+  {
+    "ID": 2041,
+    "EPA_reg_num": "93113-2",
+    "Active_ingredient": [
+      "Chlorine dioxide"
+    ],
+    "Product_name": "DoxyKlor DK5G",
+    "Follow_directions_for_this_virus": "Adenovirus",
+    "Contact_time": 10,
+    "Company": "PI Industries Inc",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-06-08",
     "Safer_or_Toxic": "Toxic"
   },
   {
