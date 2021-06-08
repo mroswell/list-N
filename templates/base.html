@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="{{ urls.static('app.css') }}?{{ app_css_hash }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> {% for url in extra_css_urls %}
     <link rel="stylesheet" href="{{ url.url }}" {% if url.sri %} integrity="{{ url.sri }}" crossorigin="anonymous" {% endif %}> {% endfor %} {% for url in extra_js_urls %}
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cb3420c359.js" crossorigin="anonymous"></script>
     <script {% if url.module %}type="module" {% endif %}src="{{ url.url }}" {% if url.sri %} integrity="{{ url.sri }}" crossorigin="anonymous" {% endif %}></script>
     {% endfor %} {% block extra_head %}{% endblock %}
 
@@ -915,38 +915,38 @@
                         <div class="w-full md:w-1/3 lg:w-auto mb-16 md:mb-0">
                             <h3 class="mb-6 text-2xl font-bold">Our Community</h3>
                             <ul>
-                                <li class=""><a class="text-gray-800 hover:text-gray-600" href="http://mdpestnet.org/">Maryland Pesticide Education Network (MPEN)</a></li>
-                                <li class=""><a class="text-gray-800 hover:text-gray-600" href="http://smartonpesticides.org/">Smart on Pesticides Coalition</a></li>
-                                <li class=""><a class="text-gray-800 hover:text-gray-600" href="http://goorganicnow.org/">Go Organic Campaign</a></li>
-                                <li class=""><a class="text-gray-800 hover:text-gray-600" href="https://mdpestnet.org/safer-disinfectants-for-home-business/">MPEN Safer Disinfectants Toolkit</a></li>
-                                <li class=""><a class="text-gray-800 hover:text-gray-600" href="https://mdpestnet.org/projects/the-integrated-pest-management-in-health-care-facilities-project/">MPEN IPM in Health Care Facilities Project</a></li>
-                                <li class=""><a class="text-gray-800 hover:text-gray-600" href="https://www.facebook.com/MarylandPesticideNetwork">MPEN on Facebook</a></li>
-                                <li class=""><a class="text-gray-800 hover:text-gray-600" href="https://twitter.com/MdPesticideNet">MPEN on Twitter</a></li>
-                                <li class=""><a class="text-gray-800 hover:text-gray-600" href="https://twitter.com/PesticidesSmart">Smart on Pesticides on Twitter</a></li>
-                                <li class=""><a class="text-gray-800 hover:text-gray-600" href="https://twitter.com/PesticidesSmart">Go Organic Now on Twitter</a></li>
+                                <li><i class="text-green-600 fas fa-home"></i><a class="text-gray-800 hover:text-gray-600" href="http://mdpestnet.org/">Maryland Pesticide Education Network (MPEN)</a></li>
+                                <li><i class="text-green-600 fas fa-home"></i><a class="text-gray-800 hover:text-gray-600" href="http://smartonpesticides.org/">Smart on Pesticides Coalition</a></li>
+                                <li><i class="text-green-600 fas fa-home"></i><a class="text-gray-800 hover:text-gray-600" href="http://goorganicnow.org/">Go Organic Campaign</a></li>
+                                <li><i class="text-green-600 fas fa-tools"></i><a class="text-gray-800 hover:text-gray-600" href="https://mdpestnet.org/safer-disinfectants-for-home-business/">MPEN Safer Disinfectants Toolkit</a></li>
+                                <li><i class="text-green-600 fas fa-hospital"></i><a class="text-gray-800 hover:text-gray-600" href="https://mdpestnet.org/projects/the-integrated-pest-management-in-health-care-facilities-project/">MPEN IPM in Health Care Facilities Project</a></li>
+                                <li><i class="text-green-600 fab fa-facebook"></i><a class="text-gray-800 hover:text-gray-600" href="https://www.facebook.com/MarylandPesticideNetwork">MPEN on Facebook</a></li>
+                                <li><i class="text-green-600 fab fa-twitter"></i><a class="text-gray-800 hover:text-gray-600" href="https://twitter.com/MdPesticideNet">MPEN on Twitter</a></li>
+                                <li><i class="text-green-600 fab fa-twitter"></i><a class="text-gray-800 hover:text-gray-600" href="https://twitter.com/PesticidesSmart">Smart on Pesticides on Twitter</a></li>
+                                <li><i class="text-green-600 fab fa-twitter"></i><a class="text-gray-800 hover:text-gray-600" href="https://twitter.com/PesticidesSmart">Go Organic Now on Twitter</a></li>
                             </ul>
                         </div>
                         <div class="w-full md:w-1/3 lg:w-auto mb-16 md:mb-0">
                             <h3 class="mb-6 text-2xl font-bold">External Links</h3>
                             <ul>
-                                <li class=""><a class="text-gray-800 hover:text-gray-600" href="https://cfpub.epa.gov/wizards/disinfectants/">List N Tool – COVID Disinfectants</a></li>
-                                <li class=""><a class="text-gray-800 hover:text-gray-600" href="https://www.youtube.com/watch?v=mrp7xscZ4LA">Video: List N How-To</a></li>
-                                <li class=""><a class="text-gray-800 hover:text-gray-600" href="https://www.epa.gov/coronavirus/about-list-n-disinfectants-coronavirus-covid-19-0">About List N</a></li>
-                                <li class=""><a class="text-gray-800 hover:text-gray-600" href="https://www.epa.gov/sites/production/files/2020-12/documents/list_n_how-to_infographic_final_0.pdf">Infographic</a></li>
-                                <li class=""><a class="text-gray-800 hover:text-gray-600" href="https://www.epa.gov/coronavirus/frequent-questions-about-disinfectants-and-coronavirus-covid-19">EPA FAQs</a></li>
-                                <li><a class="text-gray-800 hover:text-gray-600" href="https://www.epa.gov/newsreleases/epa-releases-list-disinfectants-use-against-covid-19">EPA Press Release</a></li>
+                                <li><i class=" text-green-600  fas fa-link"></i><a class="text-gray-800 hover:text-gray-600" href="https://cfpub.epa.gov/wizards/disinfectants/">List N Tool – COVID Disinfectants</a></li>
+                                <li><i class=" text-green-600  fas fa-link"></i><a class="text-gray-800 hover:text-gray-600" href="https://www.youtube.com/watch?v=mrp7xscZ4LA">Video: List N How-To</a></li>
+                                <li><i class=" text-green-600  fas fa-link"></i><a class="text-gray-800 hover:text-gray-600" href="https://www.epa.gov/coronavirus/about-list-n-disinfectants-coronavirus-covid-19-0">About List N</a></li>
+                                <li><i class=" text-green-600  fas fa-link"></i><a class="text-gray-800 hover:text-gray-600" href="https://www.epa.gov/sites/production/files/2020-12/documents/list_n_how-to_infographic_final_0.pdf">Infographic</a></li>
+                                <li><i class=" text-green-600 fas fa-link"></i><a class="text-gray-800 hover:text-gray-600" href="https://www.epa.gov/coronavirus/frequent-questions-about-disinfectants-and-coronavirus-covid-19">EPA FAQs</a></li>
+                                <li><i class=" text-green-600  fas fa-link"></i><a class="text-gray-800 hover:text-gray-600" href="https://www.epa.gov/newsreleases/epa-releases-list-disinfectants-use-against-covid-19">EPA Press Release</a></li>
                             </ul>
                         </div>
                         <div class="w-full md:w-1/3 lg:w-auto">
                             <h3 class="mb-6 text-2xl font-bold">Menu</h3>
                             <ul>
-                                <li class=""><a class="text-gray-800 hover:text-gray-600" href="https://saferortox1stg.wpengine.com/">Home</a></li>
-                                <li class=""><a class="text-gray-800 hover:text-gray-600" href="https://list-n.vercel.app/">The List</a></li>
-                                <li class=""><a class="text-gray-800 hover:text-gray-600" href="https://saferortox1stg.wpengine.com/advanced-info-from-db/">Advanced Info</a></li>
-                                <li class=""><a class="text-gray-800 hover:text-gray-600" href="https://saferortox1stg.wpengine.com/faqs/">FAQs</a></li>
-                                <li class=""><a class="text-gray-800 hover:text-gray-600" href="https://saferortox1stg.wpengine.com/blog/">Blog</a></li>
-                                <li class=""><a class="text-gray-800 hover:text-gray-600" href="https://saferortox1stg.wpengine.com/team/">Team</a></li>
-                                <li class=""><a class="text-gray-800 hover:text-gray-600" href="https://saferortox1stg.wpengine.com/contact-us/">Contact Us</a></li>
+                                <li><i class=" text-green-600 fas fa-caret-right"></i><a class="text-gray-800 hover:text-gray-600" href="https://saferortox1stg.wpengine.com/">Home</a></li>
+                                <li><i class=" text-green-600 fas fa-caret-right"></i><a class="text-gray-800 hover:text-gray-600" href="https://list-n.vercel.app/">The List</a></li>
+                                <li><i class=" text-green-600 fas fa-caret-right"></i><a class="text-gray-800 hover:text-gray-600" href="https://saferortox1stg.wpengine.com/advanced-info-from-db/">Advanced Info</a></li>
+                                <li><i class=" text-green-600 fas fa-caret-right"></i><a class="text-gray-800 hover:text-gray-600" href="https://saferortox1stg.wpengine.com/faqs/">FAQs</a></li>
+                                <li><i class=" text-green-600 fas fa-caret-right"></i><a class="text-gray-800 hover:text-gray-600" href="https://saferortox1stg.wpengine.com/blog/">Blog</a></li>
+                                <li><i class=" text-green-600 fas fa-caret-right"></i><a class="text-gray-800 hover:text-gray-600" href="https://saferortox1stg.wpengine.com/team/">Team</a></li>
+                                <li><i class=" text-green-600 fas fa-caret-right"></i><a class="text-gray-800 hover:text-gray-600" href="https://saferortox1stg.wpengine.com/contact-us/">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
