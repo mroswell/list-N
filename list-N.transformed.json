@@ -3695,6 +3695,32 @@
     "Safer_or_Toxic": "Toxic"
   },
   {
+    "ID": 2061,
+    "EPA_reg_num": "4091-27",
+    "Active_ingredient": [
+      "Quaternary ammonium",
+      "Citric acid"
+    ],
+    "Product_name": "Crow",
+    "Follow_directions_for_this_virus": "Rhinovirus Type 39",
+    "Contact_time": 5,
+    "Company": "W.M. Barr & Company Inc",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-06-15",
+    "Safer_or_Toxic": "Toxic"
+  },
+  {
     "ID": 1177,
     "EPA_reg_num": "42048-4",
     "Active_ingredient": [
@@ -8863,7 +8889,7 @@
       "Sodium hypochlorite"
     ],
     "Product_name": "Pure Bright Germicidal Ultra Bleach",
-    "Follow_directions_for_this_virus": "Adenovirus; Rotavirus; Canine parvovirus; Feline panleukopenia virus; Hepatitis A virus; Norovirus; Poliovirus; Rhinovirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 5,
     "Company": "KIK International LLC",
     "Formulation_type": [
@@ -8877,8 +8903,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-03-26",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-06-15",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -9835,7 +9861,7 @@
       "Glycolic acid"
     ],
     "Product_name": "Glyclean Hard Surface Cleaner",
-    "Follow_directions_for_this_virus": "Rhinovirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 10,
     "Company": "The Chemours Company FC LLC",
     "Formulation_type": [
@@ -9847,8 +9873,8 @@
     "Use_site": [
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-05-07",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-06-15",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -13963,6 +13989,32 @@
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2021-01-07",
+    "Safer_or_Toxic": "Toxic"
+  },
+  {
+    "ID": 2060,
+    "EPA_reg_num": "98194-1",
+    "Active_ingredient": [
+      "Quaternary ammonium"
+    ],
+    "Product_name": "DisinfeX Disinfecting Wipes",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 4,
+    "Company": "Edward Roberts LLC",
+    "Formulation_type": [
+      "Wipe"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)",
+      "Food Contact Post-Rinse Required (FCR)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2021-06-15",
     "Safer_or_Toxic": "Toxic"
   },
   {

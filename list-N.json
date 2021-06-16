@@ -2206,6 +2206,21 @@
       null
     ],
     [
+      2061,
+      "4091-27",
+      "Quaternary ammonium; Citric acid",
+      "Crow",
+      "Rhinovirus Type 39",
+      5,
+      "W.M. Barr & Company Inc",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional; Residential",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "June, 15 2021 00:00:00",
+      null
+    ],
+    [
       1177,
       "42048-4",
       "L-Lactic acid",
@@ -5300,14 +5315,14 @@
       "70271-13",
       "Sodium hypochlorite",
       "Pure Bright Germicidal Ultra Bleach",
-      "Adenovirus; Rotavirus; Canine parvovirus; Feline panleukopenia virus; Hepatitis A virus; Norovirus; Poliovirus; Rhinovirus",
+      "SARS-CoV-2",
       5,
       "KIK International LLC",
       "Dilutable",
       "Hard Nonporous (HN)",
       "Healthcare; Institutional; Residential",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "March, 26 2020 00:00:00",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "June, 15 2021 00:00:00",
       null
     ],
     [
@@ -5885,14 +5900,14 @@
       "71654-5",
       "Glycolic acid",
       "Glyclean Hard Surface Cleaner",
-      "Rhinovirus",
+      "SARS-CoV-2",
       10,
       "The Chemours Company FC LLC",
       "Ready-to-use",
       "Hard Nonporous (HN)",
       "Residential",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "May, 07 2020 00:00:00",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "June, 15 2021 00:00:00",
       null
     ],
     [
@@ -8338,6 +8353,21 @@
       "Healthcare; Institutional; Residential",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "January, 07 2021 00:00:00",
+      null
+    ],
+    [
+      2060,
+      "98194-1",
+      "Quaternary ammonium",
+      "DisinfeX Disinfecting Wipes",
+      "SARS-CoV-2",
+      4,
+      "Edward Roberts LLC",
+      "Wipe",
+      "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
+      "Healthcare; Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19)",
+      "June, 15 2021 00:00:00",
       null
     ],
     [
