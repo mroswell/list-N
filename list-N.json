@@ -950,14 +950,14 @@
       "1677-202",
       "Quaternary ammonium",
       "66 Heavy Duty Alkaline Bathroom Cleaner and Disinfectant",
-      "Norovirus",
+      "SARS-CoV-2",
       2,
       "Ecolab Inc",
       "Dilutable",
       "Hard Nonporous (HN)",
       "Healthcare; Institutional",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "June, 04 2020 00:00:00",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "June, 22 2021 00:00:00",
       null
     ],
     [
@@ -5270,14 +5270,14 @@
       "70144-2",
       "Quaternary ammonium; Isopropanol (Isopropyl alcohol)",
       "Opti-Cide 3® Wipes",
-      "Rotavirus; Rhinovirus",
-      3,
+      "SARS-CoV-2",
+      2,
       "Micro-Scientific LLC",
       "Wipe",
       "Hard Nonporous (HN)",
       "Healthcare; Institutional",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "April, 09 2020 00:00:00",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "June, 22 2021 00:00:00",
       null
     ],
     [
@@ -6376,6 +6376,21 @@
       null
     ],
     [
+      2081,
+      "777-135",
+      "Citric acid",
+      "Everclean",
+      "SARS-CoV-2",
+      0.5,
+      "Reckitt Benckiser LLC",
+      "Ready-to-use",
+      "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
+      "Healthcare; Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "June, 22 2021 00:00:00",
+      null
+    ],
+    [
       1524,
       "777-136",
       "Ethanol (Ethyl alcohol)",
@@ -6875,14 +6890,14 @@
       "85134-1",
       "Hypochlorous acid",
       "Envirocleanse A",
-      "Norovirus",
+      "SARS-CoV-2",
       10,
       "Envirocleanse LLC",
       "Ready-to-use",
       "Hard Nonporous (HN)",
       "Healthcare; Institutional; Residential",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "March, 19 2020 00:00:00",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "June, 22 2021 00:00:00",
       null
     ],
     [
@@ -7828,6 +7843,21 @@
       "Healthcare; Institutional; Residential",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "April, 30 2020 00:00:00",
+      null
+    ],
+    [
+      2080,
+      "93744-1",
+      "Hydrogen peroxide; Peroxyacetic acid (Peracetic acid)",
+      "Pathco Disinfectant",
+      "Canine parvovirus",
+      5,
+      "Pathcolab LLC",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional; Residential",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "June, 22 2021 00:00:00",
       null
     ],
     [

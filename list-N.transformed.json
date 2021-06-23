@@ -1571,7 +1571,7 @@
       "Quaternary ammonium"
     ],
     "Product_name": "66 Heavy Duty Alkaline Bathroom Cleaner and Disinfectant",
-    "Follow_directions_for_this_virus": "Norovirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 2,
     "Company": "Ecolab Inc",
     "Formulation_type": [
@@ -1584,8 +1584,8 @@
       "Healthcare",
       "Institutional"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-06-04",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-06-22",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -8812,8 +8812,8 @@
       "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "Opti-Cide 3® Wipes",
-    "Follow_directions_for_this_virus": "Rotavirus; Rhinovirus",
-    "Contact_time": 3,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 2,
     "Company": "Micro-Scientific LLC",
     "Formulation_type": [
       "Wipe"
@@ -8825,8 +8825,8 @@
       "Healthcare",
       "Institutional"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-04-09",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-06-22",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -10651,6 +10651,32 @@
     "Safer_or_Toxic": "Toxic"
   },
   {
+    "ID": 2081,
+    "EPA_reg_num": "777-135",
+    "Active_ingredient": [
+      "Citric acid"
+    ],
+    "Product_name": "Everclean",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 0.5,
+    "Company": "Reckitt Benckiser LLC",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)",
+      "Food Contact Post-Rinse Required (FCR)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-06-22",
+    "Safer_or_Toxic": "Safer"
+  },
+  {
     "ID": 1524,
     "EPA_reg_num": "777-136",
     "Active_ingredient": [
@@ -11497,7 +11523,7 @@
       "Hypochlorous acid"
     ],
     "Product_name": "Envirocleanse A",
-    "Follow_directions_for_this_virus": "Norovirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 10,
     "Company": "Envirocleanse LLC",
     "Formulation_type": [
@@ -11511,8 +11537,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-03-19",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-06-22",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -13105,6 +13131,32 @@
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-04-30",
     "Safer_or_Toxic": "Safer"
+  },
+  {
+    "ID": 2080,
+    "EPA_reg_num": "93744-1",
+    "Active_ingredient": [
+      "Hydrogen peroxide",
+      "Peroxyacetic acid (Peracetic acid)"
+    ],
+    "Product_name": "Pathco Disinfectant",
+    "Follow_directions_for_this_virus": "Canine parvovirus",
+    "Contact_time": 5,
+    "Company": "Pathcolab LLC",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-06-22",
+    "Safer_or_Toxic": "Toxic"
   },
   {
     "ID": 1267,
