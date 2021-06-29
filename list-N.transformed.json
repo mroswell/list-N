@@ -2086,6 +2086,31 @@
     "Safer_or_Toxic": "Safer"
   },
   {
+    "ID": 2100,
+    "EPA_reg_num": "178-9",
+    "Active_ingredient": [
+      "Sodium dichloroisocyanurate"
+    ],
+    "Product_name": "Stera-sheen Green Label Sanitizer & Cleaner",
+    "Follow_directions_for_this_virus": "Hepatitis A virus; Norovirus; Feline calicivirus",
+    "Contact_time": 10,
+    "Company": "Purdy Products Company",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)",
+      "Food Contact Post-Rinse Required (FCR)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-06-29",
+    "Safer_or_Toxic": "Toxic"
+  },
+  {
     "ID": 1185,
     "EPA_reg_num": "1839-100",
     "Active_ingredient": [
@@ -9063,7 +9088,7 @@
       "Sodium hypochlorite"
     ],
     "Product_name": "Jade",
-    "Follow_directions_for_this_virus": "Rhinovirus Type 37",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 10,
     "Company": "KIK International LLC",
     "Formulation_type": [
@@ -9077,8 +9102,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2021-01-28",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-06-29",
     "Safer_or_Toxic": "Toxic"
   },
   {

@@ -1261,6 +1261,21 @@
       null
     ],
     [
+      2100,
+      "178-9",
+      "Sodium dichloroisocyanurate",
+      "Stera-sheen Green Label Sanitizer & Cleaner",
+      "Hepatitis A virus; Norovirus; Feline calicivirus",
+      10,
+      "Purdy Products Company",
+      "Dilutable",
+      "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
+      "Healthcare; Institutional",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "June, 29 2021 00:00:00",
+      null
+    ],
+    [
       1185,
       "1839-100",
       "Quaternary ammonium",
@@ -5420,14 +5435,14 @@
       "70271-36",
       "Sodium hypochlorite",
       "Jade",
-      "Rhinovirus Type 37",
+      "SARS-CoV-2",
       10,
       "KIK International LLC",
       "Dilutable",
       "Hard Nonporous (HN)",
       "Healthcare; Institutional; Residential",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "January, 28 2021 00:00:00",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "June, 29 2021 00:00:00",
       null
     ],
     [
