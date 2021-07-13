@@ -1445,8 +1445,8 @@
       "Sodium hypochlorite"
     ],
     "Product_name": "Austin A-1 Ultra Disinfecting Bleach",
-    "Follow_directions_for_this_virus": "Hepatitis A virus",
-    "Contact_time": 10,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 5,
     "Company": "James Austin Company",
     "Formulation_type": [
       "Dilutable"
@@ -1459,8 +1459,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-05-21",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-07-13",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -2083,6 +2083,32 @@
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-08-27",
+    "Safer_or_Toxic": "Safer"
+  },
+  {
+    "ID": 2120,
+    "EPA_reg_num": "1677-273",
+    "Active_ingredient": [
+      "Dodecylbenzenesulfonic acid"
+    ],
+    "Product_name": "Multi-Purpose Plus Disinfectant Cleaner RTU",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 0.5,
+    "Company": "Ecolab Inc",
+    "Formulation_type": [
+      "Ready-to-use",
+      "Electrostatic spray"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)",
+      "Food Contact Post-Rinse Required (FCR)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-07-13",
     "Safer_or_Toxic": "Safer"
   },
   {
@@ -3936,7 +3962,8 @@
     "Contact_time": 1,
     "Company": "Midlab",
     "Formulation_type": [
-      "Dilutable"
+      "Dilutable",
+      "Electrostatic spray"
     ],
     "Surface_type": [
       "Hard Nonporous (HN)",
@@ -3947,7 +3974,7 @@
       "Institutional"
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-09-10",
+    "Date_on_List_N": "2021-07-13",
     "Safer_or_Toxic": "Safer"
   },
   {
@@ -4969,6 +4996,30 @@
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
     "Date_on_List_N": "2020-09-03",
+    "Safer_or_Toxic": "Toxic"
+  },
+  {
+    "ID": 2123,
+    "EPA_reg_num": "5741-20",
+    "Active_ingredient": [
+      "Quaternary ammonium"
+    ],
+    "Product_name": "DMQ",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 10,
+    "Company": "Spartan Chemical Company Inc",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2021-07-13",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -7728,8 +7779,8 @@
       "Quaternary ammonium"
     ],
     "Product_name": "CSP-46",
-    "Follow_directions_for_this_virus": "Feline calicivirus; Norovirus",
-    "Contact_time": 10,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 2,
     "Company": "Lonza LLC",
     "Formulation_type": [
       "Ready-to-use"
@@ -7743,8 +7794,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-05-07",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-07-13",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -9082,6 +9133,32 @@
     "Safer_or_Toxic": "Toxic"
   },
   {
+    "ID": 2124,
+    "EPA_reg_num": "70271-35",
+    "Active_ingredient": [
+      "Quaternary ammonium"
+    ],
+    "Product_name": "KIK Antibacterial Multipurpose Cleaner II DMQ",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 10,
+    "Company": "KIK International LLC",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)",
+      "Food Contact Post-Rinse Required (FCR)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2021-07-13",
+    "Safer_or_Toxic": "Toxic"
+  },
+  {
     "ID": 1663,
     "EPA_reg_num": "70271-36",
     "Active_ingredient": [
@@ -10163,7 +10240,7 @@
       "Hydrogen peroxide"
     ],
     "Product_name": "Accel TB",
-    "Follow_directions_for_this_virus": "Poliovirus; Feline calicivirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 1,
     "Company": "Virox Technologies Inc",
     "Formulation_type": [
@@ -10177,8 +10254,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-03-13",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-07-13",
     "Safer_or_Toxic": "Safer"
   },
   {
@@ -11642,6 +11719,32 @@
     "Safer_or_Toxic": "Safer"
   },
   {
+    "ID": 2122,
+    "EPA_reg_num": "85837-6",
+    "Active_ingredient": [
+      "Hydrogen peroxide",
+      "Peroxyacetic acid (Peracetic acid)"
+    ],
+    "Product_name": "Peraoxy Pro",
+    "Follow_directions_for_this_virus": "Human coronavirus",
+    "Contact_time": 1,
+    "Company": "Innovasource LLC",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)",
+      "Food Contact Post-Rinse Required (FCR)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional"
+    ],
+    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2021-07-13",
+    "Safer_or_Toxic": "Toxic"
+  },
+  {
     "ID": 1600,
     "EPA_reg_num": "86854-1",
     "Active_ingredient": [
@@ -12628,6 +12731,31 @@
     "Safer_or_Toxic": "Safer"
   },
   {
+    "ID": 2125,
+    "EPA_reg_num": "91452-6",
+    "Active_ingredient": [
+      "Citric acid"
+    ],
+    "Product_name": "LEXX RTU Liquid Food Contact Surface Disinfectant & Cleaner",
+    "Follow_directions_for_this_virus": "Feline calicivirus",
+    "Contact_time": 10,
+    "Company": "ProNatural Brands LLC",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-07-13",
+    "Safer_or_Toxic": "Safer"
+  },
+  {
     "ID": 1231,
     "EPA_reg_num": "9150-11",
     "Active_ingredient": [
@@ -13286,6 +13414,30 @@
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
     "Date_on_List_N": "2021-04-20",
+    "Safer_or_Toxic": "Toxic"
+  },
+  {
+    "ID": 2121,
+    "EPA_reg_num": "94196-3",
+    "Active_ingredient": [
+      "Quaternary ammonium"
+    ],
+    "Product_name": "My Shield Hospital Disinfectant",
+    "Follow_directions_for_this_virus": "Human coronavirus",
+    "Contact_time": 10,
+    "Company": "ESC Brands LLC",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional"
+    ],
+    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2021-07-13",
     "Safer_or_Toxic": "Toxic"
   },
   {
