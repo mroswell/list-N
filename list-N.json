@@ -61,6 +61,21 @@
       null
     ],
     [
+      2142,
+      "10324-111",
+      "Quaternary ammonium",
+      "Maquat 1412-10-FCS",
+      "SARS-CoV-2",
+      2,
+      "Mason Chemical Company",
+      "Dilutable",
+      "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
+      "Healthcare; Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19)",
+      "July, 27 2021 00:00:00",
+      null
+    ],
+    [
       1367,
       "10324-112",
       "Quaternary ammonium",
@@ -8026,6 +8041,21 @@
       null
     ],
     [
+      2140,
+      "94196-4",
+      "Quaternary ammonium",
+      "My Shield Broad Spectrum Disinfectant",
+      "Human coronavirus",
+      10,
+      "ESC Brands LLC",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional",
+      "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+      "July, 27 2021 00:00:00",
+      null
+    ],
+    [
       2000,
       "94363-1",
       "Hypochlorous acid",
@@ -8518,6 +8548,21 @@
       "Healthcare; Institutional; Residential",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "November, 05 2020 00:00:00",
+      null
+    ],
+    [
+      2141,
+      "98919-1",
+      "Hypochlorous acid",
+      "Caspian Disinfectant",
+      "SARS-CoV-2",
+      1,
+      "Wistwell",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "July, 27 2021 00:00:00",
       null
     ]
   ]

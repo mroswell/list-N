@@ -74,6 +74,32 @@
     "Safer_or_Toxic": "Toxic"
   },
   {
+    "ID": 2142,
+    "EPA_reg_num": "10324-111",
+    "Active_ingredient": [
+      "Quaternary ammonium"
+    ],
+    "Product_name": "Maquat 1412-10-FCS",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 2,
+    "Company": "Mason Chemical Company",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)",
+      "Food Contact Post-Rinse Required (FCR)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2021-07-27",
+    "Safer_or_Toxic": "Toxic"
+  },
+  {
     "ID": 1367,
     "EPA_reg_num": "10324-112",
     "Active_ingredient": [
@@ -13441,6 +13467,30 @@
     "Safer_or_Toxic": "Toxic"
   },
   {
+    "ID": 2140,
+    "EPA_reg_num": "94196-4",
+    "Active_ingredient": [
+      "Quaternary ammonium"
+    ],
+    "Product_name": "My Shield Broad Spectrum Disinfectant",
+    "Follow_directions_for_this_virus": "Human coronavirus",
+    "Contact_time": 10,
+    "Company": "ESC Brands LLC",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional"
+    ],
+    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2021-07-27",
+    "Safer_or_Toxic": "Toxic"
+  },
+  {
     "ID": 2000,
     "EPA_reg_num": "94363-1",
     "Active_ingredient": [
@@ -14269,6 +14319,30 @@
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-11-05",
+    "Safer_or_Toxic": "Toxic"
+  },
+  {
+    "ID": 2141,
+    "EPA_reg_num": "98919-1",
+    "Active_ingredient": [
+      "Hypochlorous acid"
+    ],
+    "Product_name": "Caspian Disinfectant",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 1,
+    "Company": "Wistwell",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-07-27",
     "Safer_or_Toxic": "Toxic"
   }
 ]
