@@ -823,7 +823,7 @@
     ],
     "Product_name": "Maquat 86-M",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 10,
+    "Contact_time": 1,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
       "Ready-to-use"
@@ -1719,8 +1719,8 @@
       "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "Virasept",
-    "Follow_directions_for_this_virus": "Norovirus; Rhinovirus",
-    "Contact_time": 4,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 0.25,
     "Company": "Ecolab Inc",
     "Formulation_type": [
       "Ready-to-use"
@@ -1733,8 +1733,8 @@
       "Healthcare",
       "Institutional"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-03-03",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-08-24",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -2109,6 +2109,32 @@
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-08-27",
+    "Safer_or_Toxic": "Safer"
+  },
+  {
+    "ID": 2161,
+    "EPA_reg_num": "1677-272",
+    "Active_ingredient": [
+      "Dodecylbenzenesulfonic acid"
+    ],
+    "Product_name": "Multi-Purpose Plus Disinfectant Cleaner",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 0.5,
+    "Company": "Ecolab Inc",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)",
+      "Food Contact No Rinse (FCNR)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-08-24",
     "Safer_or_Toxic": "Safer"
   },
   {
@@ -3275,7 +3301,7 @@
       "Citric acid"
     ],
     "Product_name": "Comet Disinfecting Bathroom Cleaner",
-    "Follow_directions_for_this_virus": "Feline calicivirus; Norovirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 10,
     "Company": "The Proctor & Gamble Company",
     "Formulation_type": [
@@ -3289,8 +3315,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-04-09",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-08-24",
     "Safer_or_Toxic": "Safer"
   },
   {
@@ -8862,8 +8888,8 @@
       "Sodium dichloroisocyanurate dihydrate"
     ],
     "Product_name": "Aseptrol S10-Tab",
-    "Follow_directions_for_this_virus": "Poliovirus Type 1",
-    "Contact_time": 10,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 1,
     "Company": "BASF Corporation",
     "Formulation_type": [
       "Solid"
@@ -8876,8 +8902,8 @@
       "Healthcare",
       "Institutional"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-03-26",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-08-24",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -10208,6 +10234,31 @@
     "Safer_or_Toxic": "Toxic"
   },
   {
+    "ID": 2160,
+    "EPA_reg_num": "73232-4",
+    "Active_ingredient": [
+      "Ethanol (Ethyl alcohol)",
+      "Isopropanol (Isopropyl alcohol)"
+    ],
+    "Product_name": "Alpet D2 Quat-Free Surface Sanitizer",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 5,
+    "Company": "Best Sanitizers Inc",
+    "Formulation_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Surface_type": [
+      "Healthcare",
+      "Institutional"
+    ],
+    "Use_site": [
+      "Tested against SARS-CoV-2 (COVID-19)"
+    ],
+    "Why_on_List_N": "SARS-CoV-2",
+    "Date_on_List_N": "2021-08-24",
+    "Safer_or_Toxic": "Safer"
+  },
+  {
     "ID": 1322,
     "EPA_reg_num": "74436-1",
     "Active_ingredient": [
@@ -10416,8 +10467,8 @@
       "Hydrogen peroxide"
     ],
     "Product_name": "Oxy-1 RTU",
-    "Follow_directions_for_this_virus": "Poliovirus",
-    "Contact_time": 0.5,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 1,
     "Company": "Virox Technologies Inc",
     "Formulation_type": [
       "Ready-to-use"
@@ -10430,8 +10481,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-03-13",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-08-24",
     "Safer_or_Toxic": "Safer"
   },
   {
@@ -10811,7 +10862,7 @@
       "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Lysol® Neutra Air® 2 in 1",
-    "Follow_directions_for_this_virus": "Human coronavirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 0.5,
     "Company": "Reckitt Benckiser LLC",
     "Formulation_type": [
@@ -10826,8 +10877,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2020-03-13",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2021-08-24",
     "Safer_or_Toxic": "Safer"
   },
   {
@@ -10855,6 +10906,31 @@
     "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
     "Date_on_List_N": "2020-04-30",
     "Safer_or_Toxic": "Safer"
+  },
+  {
+    "ID": 2162,
+    "EPA_reg_num": "777-141",
+    "Active_ingredient": [
+      "Ethanol"
+    ],
+    "Product_name": "Coleslaw",
+    "Follow_directions_for_this_virus": "Feline calicivirus",
+    "Contact_time": 10,
+    "Company": "Reckitt Benckiser LLC",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)",
+      "Food Contact Post-Rinse Required (FCR)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-08-24"
   },
   {
     "ID": 1142,
