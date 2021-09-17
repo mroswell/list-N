@@ -5845,7 +5845,7 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Clorox Disinfecting Wipes",
-    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Follow_directions_for_this_virus": "SARS-CoV-2; SARS-CoV-2 variant(s)",
     "Contact_time": 0.25,
     "Company": "The Clorox Company",
     "Formulation_type": [
@@ -5860,7 +5860,7 @@
       "Residential"
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2021-02-18",
+    "Date_on_List_N": "2021-09-17",
     "Safer_or_Toxic": "Toxic"
   },
   {
