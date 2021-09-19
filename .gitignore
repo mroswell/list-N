@@ -1,5 +1,6 @@
 attic
 attic2
+venv/
 .DS_Store
 .idea/
 shuffle/
