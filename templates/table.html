@@ -27,7 +27,7 @@ endif %} {% if human_description_en %}where {{ human_description_en }}{% endif %
         </div>
     </details>{% endif %}
 </div>
-
+<h3>EPA-Approved SARS-CoV-2 Disinfectants</h3>
 {% block description_source_license %}{% include "_description_source_license.html" %}{% endblock %} {% if filtered_table_rows_count or human_description_en %}
 <h3>{% if filtered_table_rows_count or filtered_table_rows_count == 0 %}{{ "{:,}".format(filtered_table_rows_count) }} row{% if filtered_table_rows_count == 1 %}{% else %}s{% endif %}{% endif %} {% if human_description_en %}{{ human_description_en }}{% endif
     %}

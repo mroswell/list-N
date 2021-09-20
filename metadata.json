@@ -1,8 +1,8 @@
 {
     "title": "Disinfectants Used for Addressing COVID",
     "description": "The EPA publishes 'List N' disinfectents. Unfortunately some can have significant health impacts.",
-    "license": "ODbL",
-    "license_url": "https://opendatacommons.org/licenses/odbl/",
+//    "license": "ODbL",
+//    "license_url": "https://opendatacommons.org/licenses/odbl/",
     "source": "List N Tool: COVID-19 Disinfectants",
     "source_url": "https://cfpub.epa.gov/giwiz/disinfectants/index.cfm",
     "extra_css_urls": ["/static/css/styles.css"],

@@ -168,3 +168,9 @@ tbody tr td {
       padding: 50px;
       background-color: #f9fafb;
   }
+
+  .page-header {
+      margin-top: 0;
+  }
+
+  i, i a {font-style: italic;}
