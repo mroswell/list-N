@@ -73,7 +73,7 @@ tbody tr td {
       line-height: 0;
       /* Collapse the original line */
   }
-  
+   td[data-time="0.1"]::after,
   td[data-time="0.25"]::after,
   td[data-time="0.5"]::after,
   td[data-time="1.0"]::after,
@@ -94,6 +94,11 @@ tbody tr td {
       line-height: initial;
       /* New content takes up original line height */
   }
+
+    td[data-time="0.1"]::after {
+      content: "6 seconds";
+  }
+
   
   td[data-time="0.25"]::after {
       content: "15 seconds";
