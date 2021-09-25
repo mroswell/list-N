@@ -45,11 +45,10 @@ endif %} {% if human_description_en %}where {{ human_description_en }}{% endif %
 <p><a class="not-underlined" title="{{ query.sql }}" href="{{ urls.database(database) }}?{{ {'sql': query.sql}|urlencode|safe }}{% if query.params %}&amp;{{ query.params|urlencode|safe }}{% endif %}">&#x270e; <span class="underlined">View and edit SQL</span></a></p>
 {% endif %} {% endif %}
 
-<p class="export-links" id="export-links"><a href="#export">Export This Data</a></p>
-
+<p class="export-links" style="display:none">{% for name, url in renderers.items() %}<a href="{{ url }}">{{ name }}</a>{{ ", " if not loop.last }}{% endfor %}</p><p><a href="#export">Export this Data</a></p>
 {% if suggested_facets %}
 <p class="suggested-facets">
-    Suggested facets: {% for facet in suggested_facets|sort_facets(request.query_string) %} {% if ( (facet.type or facet.name in ['Safer_or_Toxic','Contact_time','Why_on_List_N']) )%}<a href="{{ facet.toggle_url }}" class="suggested-facet-{{ facet.name }}">{{ facet.name }}</a>{%
+    Filter with Facets: {% for facet in suggested_facets|sort_facets(request.query_string) %} {% if ( (facet.type or facet.name in ['Safer_or_Toxic','Contact_time','Why_on_List_N']) )%}<a href="{{ facet.toggle_url }}" class="suggested-facet-{{ facet.name }}">{{ facet.name }}</a>{%
     if not loop.last %}, {% endif %} {% endif %} {% endfor %}
 </p>
 {% endif %} {% if facets_timed_out %}
