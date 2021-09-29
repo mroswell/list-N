@@ -2367,6 +2367,32 @@
     "Safer_or_Toxic": "Toxic"
   },
   {
+    "ID": 2182,
+    "EPA_reg_num": "1839-175",
+    "Active_ingredient": [
+      "Quaternary ammonium"
+    ],
+    "Product_name": "Solvent Free Detergent Disinfectant Pump Spray",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 0.5,
+    "Company": "Stepan Company",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)",
+      "Food Contact Post-Rinse Required (FCR)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2021-09-28",
+    "Safer_or_Toxic": "Toxic"
+  },
+  {
     "ID": 1070,
     "EPA_reg_num": "1839-176",
     "Active_ingredient": [
@@ -2968,8 +2994,8 @@
       "Quaternary ammonium"
     ],
     "Product_name": "BTC 2125M 10% Solution",
-    "Follow_directions_for_this_virus": "Adenovirus",
-    "Contact_time": 10,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 0.5,
     "Company": "Stepan Company",
     "Formulation_type": [
       "Dilutable"
@@ -2983,8 +3009,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-04-09",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-09-28",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -3651,9 +3677,9 @@
       "Potassium peroxymonosulfate",
       "Sodium chloride"
     ],
-    "Product_name": "Rely+On Multipurpose Disinfectant Cleaner",
-    "Follow_directions_for_this_virus": "Hepatitis A virus; Feline calicivirus",
-    "Contact_time": 10,
+    "Product_name": "Rely+On Virkon",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 1,
     "Company": "Lanxess Corporation",
     "Formulation_type": [
       "Dilutable"
@@ -3667,8 +3693,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-04-09",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-09-28",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -4688,7 +4714,7 @@
       "Sodium hypochlorite"
     ],
     "Product_name": "Scrubbing Bubbles® Bubbly Bleach Gel Toilet Bowl Disinfectant",
-    "Follow_directions_for_this_virus": "Rotavirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 10,
     "Company": "S.C. Johnson & Son Inc",
     "Formulation_type": [
@@ -4700,8 +4726,8 @@
     "Use_site": [
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-04-23",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-09-28",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -5147,6 +5173,32 @@
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
     "Date_on_List_N": "2020-11-05",
     "Safer_or_Toxic": "Toxic"
+  },
+  {
+    "ID": 2181,
+    "EPA_reg_num": "5741-33",
+    "Active_ingredient": [
+      "Hydrogen peroxide"
+    ],
+    "Product_name": "Profect HP",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 0.5,
+    "Company": "Spartan Chemical Company Inc",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)",
+      "Food Contact Post-Rinse Required (FCR)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": null,
+    "Safer_or_Toxic": "Safer"
   },
   {
     "ID": 1124,
@@ -9698,7 +9750,7 @@
       "Hydrogen peroxide"
     ],
     "Product_name": "Oxivir™ Wipes",
-    "Follow_directions_for_this_virus": "Norovirus; Poliovirus Type 1; Rhinovirus Type 14",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 1,
     "Company": "Diversey Inc",
     "Formulation_type": [
@@ -9712,8 +9764,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-03-03",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-09-28",
     "Safer_or_Toxic": "Safer"
   },
   {
@@ -11193,7 +11245,7 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Vital Oxide",
-    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Follow_directions_for_this_virus": "SARS-CoV-2; Electrostatic spray",
     "Contact_time": 5,
     "Company": "Vital Solutions LLC",
     "Formulation_type": [
@@ -11208,7 +11260,7 @@
       "Residential"
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2021-03-16",
+    "Date_on_List_N": "2021-09-28",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -11732,7 +11784,8 @@
     "Contact_time": 10,
     "Company": "Envirocleanse LLC",
     "Formulation_type": [
-      "Ready-to-use"
+      "Ready-to-use",
+      "Electrostatic spray"
     ],
     "Surface_type": [
       "Hard Nonporous (HN)"
@@ -11743,7 +11796,7 @@
       "Residential"
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2021-06-22",
+    "Date_on_List_N": "2021-09-28",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -13091,7 +13144,7 @@
     ],
     "Product_name": "Atmosphere",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 5,
+    "Contact_time": 1,
     "Company": "Atmosphere Global LLC",
     "Formulation_type": [
       "Dilutable"
@@ -13106,7 +13159,7 @@
       "Residential"
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-11-19",
+    "Date_on_List_N": "2021-09-28",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -14066,6 +14119,31 @@
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-08-13",
+    "Safer_or_Toxic": "Toxic"
+  },
+  {
+    "ID": 2180,
+    "EPA_reg_num": "96503-1",
+    "Active_ingredient": [
+      "Hypochlorous acid"
+    ],
+    "Product_name": "OmniSan Anolyte",
+    "Follow_directions_for_this_virus": "Norovirus",
+    "Contact_time": 10,
+    "Company": "Omni-Lyte Enviro Inc",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-09-28",
     "Safer_or_Toxic": "Toxic"
   },
   {
