@@ -10297,16 +10297,16 @@
     "Contact_time": 5,
     "Company": "Best Sanitizers Inc",
     "Formulation_type": [
-      "Hard Nonporous (HN)"
+      "Ready-to-use"
     ],
     "Surface_type": [
-      "Healthcare",
-      "Institutional"
+      "Hard Nonporous (HN)"
     ],
     "Use_site": [
-      "Tested against SARS-CoV-2 (COVID-19)"
+      "Healthcare",
+      "Institutional)"
     ],
-    "Why_on_List_N": "SARS-CoV-2",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
     "Date_on_List_N": "2021-08-24",
     "Safer_or_Toxic": "Safer"
   },
