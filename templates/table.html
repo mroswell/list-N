@@ -78,7 +78,9 @@ endif %} {% if human_description_en %}where {{ human_description_en }}{% endif %
 {% endif %}<p>&nbsp;</p> {% include custom_table_templates %} {% if next_url %}
 <p><a href="{{ next_url }}">Next page</a></p>
 {% endif %} {% if display_rows %}
+<div id="export" class="advanced-export">
 
+    <h3>Export This Data</h3>
 
     <form action="{{ url_csv_path }}" method="get">
         <p>
