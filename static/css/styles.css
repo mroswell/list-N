@@ -26,7 +26,7 @@ tbody tr td {
   }
   
   body {
-      background-color: #fdfefd;
+      background-color: #fff; /*#fdfefd;*/
       /*#fcfffe; /*#fafffd; /* fbfffb *#f3faf3;  /* #eeffee; #fbfbfa;*/
   }
   
@@ -179,3 +179,7 @@ tbody tr td {
   }
 
   i, i a {font-style: italic;}
+
+  td.col-ID {
+    display:none;
+  }
