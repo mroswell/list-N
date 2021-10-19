@@ -52,7 +52,7 @@ def transform(d):
                 break
         d["Active_ingredient"] = d["Active_ingredient"].split("; ")
         if d["Formulation_type"] is not None:
-            d["Formulation_type"] = d["Formulation_type"].replace(u'®', "").replace("(Clorox Total 360 system)", "").replace(" (use in conjunction with VHP generator)", "").replace(" CURIS", "").replace(" HaloFogger", "").split("; ")
+            d["Formulation_type"] = d["Formulation_type"].replace(u'®', "").replace(" (Clorox Total 360 system)", "").replace(" (use in conjunction with VHP generator)", "").replace(" CURIS", "").replace(" HaloFogger", "").split("; ")
         d["Surface_type"] = d["Surface_type"].split("; ")
         if d["Use_site"] is not None:
             d["Use_site"] = d["Use_site"].split("; ")
