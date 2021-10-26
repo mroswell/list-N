@@ -34,7 +34,7 @@ jobs:
         sqlite-utils insert disinfectants.db listN - --pk ID <list-N.transformed.json
         sqlite-utils transform disinfectants.db listN \
         --column-order EPA_reg_num \
-        --column-order Risk \
+        --column-order Risk_level \
         --column-order Active_ingredient \
         --column-order Product_name \
         --column-order Company \
