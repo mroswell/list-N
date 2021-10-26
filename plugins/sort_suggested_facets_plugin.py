@@ -5,11 +5,11 @@ from typing import Dict, Iterable, List
 from datasette import hookimpl
 
 
-SAFER_OR_TOXIC_QUERY_PATTERN = re.compile(r"Safer_or_Toxic=[^&]*")
+RISK_QUERY_PATTERN = re.compile(r"Risk=[^&]*")
 
 
 FACET_SORTING_ORDER_MAP = {
-    "Safer_or_Toxic": 1,
+    "Risk": 1,
     "Active_ingredient": 2,
     "Use_site": 3,
     "Surface_type": 4,
@@ -37,10 +37,10 @@ def _get_cleaned_suggested_facets(
     query string in `toggle_url`, ignoring ones containing
     `_facet={facet_name}`.
 
-    If the `query_string` only contains `Safer_or_Toxic={value}`
-    without `_facet=Safer_or_Toxic`, add the data (`name` and
+    If the `query_string` only contains `Risk={value}`
+    without `_facet=Risk`, add the data (`name` and
     `toggle_url`). And in all of the other facets data, remove
-    the `Safer_or_Toxic={value}` from the `toggle_url`.
+    the `Risk={value}` from the `toggle_url`.
     """
 
     cleaned_suggested_facets = {}
@@ -58,20 +58,20 @@ def _get_cleaned_suggested_facets(
         if facet_name not in cleaned_suggested_facets:
             cleaned_suggested_facets[facet_name] = facet_data
 
-    # Handle Safer_or_Toxic query string
-    safer_or_toxic = "Safer_or_Toxic"
-    match = SAFER_OR_TOXIC_QUERY_PATTERN.search(query_string)
+    # Handle Risk query string
+    risk = "Risk"
+    match = RISK_QUERY_PATTERN.search(query_string)
 
     if match:
-        if f"_facet={safer_or_toxic}" not in query_string:
-            if safer_or_toxic not in cleaned_suggested_facets:
+        if f"_facet={risk}" not in query_string:
+            if risk not in cleaned_suggested_facets:
                 sample_toggle_url = ""
 
-                # Remove `Safer_or_Toxic={value}` references from all toggle_urls
+                # Remove `Risk={value}` references from all toggle_urls
                 for _, facet_data in cleaned_suggested_facets.items():
                     if "toggle_url" in facet_data:
                         facet_data["toggle_url"] = (
-                            SAFER_OR_TOXIC_QUERY_PATTERN.sub(
+                            RISK_QUERY_PATTERN.sub(
                                 "", facet_data["toggle_url"]
                             )
                             .replace("?&", "?")
@@ -81,29 +81,29 @@ def _get_cleaned_suggested_facets(
                         if not sample_toggle_url:
                             sample_toggle_url = facet_data["toggle_url"]
 
-                # Add `Safer_or_Toxic` facet data
+                # Add `Risk` facet data
                 url, *_ = sample_toggle_url.partition("?")
 
-                safer_or_toxic_query_string = (
-                    SAFER_OR_TOXIC_QUERY_PATTERN.sub("", query_string)
+                risk_query_string = (
+                    RISK_QUERY_PATTERN.sub("", query_string)
                     .replace("?&", "?")
                     .replace("&&", "&")
                 )
 
-                query_sep = "" if safer_or_toxic_query_string.endswith("?") else "&"
+                query_sep = "" if risk_query_string.endswith("?") else "&"
 
-                safer_or_toxic_query_string = (
-                    f"{safer_or_toxic_query_string}{query_sep}_facet={safer_or_toxic}"
+                risk_query_string = (
+                    f"{risk_query_string}{query_sep}_facet={risk}"
                 )
-                safer_or_toxic_toggle_url = f"{url}?{safer_or_toxic_query_string}"
+                risk_toggle_url = f"{url}?{risk_query_string}"
 
-                cleaned_suggested_facets[safer_or_toxic] = dict(
-                    name=safer_or_toxic, toggle_url=safer_or_toxic_toggle_url
+                cleaned_suggested_facets[risk] = dict(
+                    name=risk, toggle_url=risk_toggle_url
                 )
 
     if (
-        safer_or_toxic not in cleaned_suggested_facets
-        and f"_facet={safer_or_toxic}" not in query_string
+        risk not in cleaned_suggested_facets
+        and f"_facet={risk}" not in query_string
     ):
         first_element = next(iter(cleaned_suggested_facets.values()), None)
         if first_element:
@@ -111,14 +111,14 @@ def _get_cleaned_suggested_facets(
             _toggle_url = first_element.get("toggle_url")
             if _toggle_url:
                 _toggle_url = re.sub(r"&[^&]*$", "", _toggle_url)
-                safer_or_toxic_toggle_url = f"{_toggle_url}&_facet={safer_or_toxic}".replace(
+                risk_toggle_url = f"{_toggle_url}&_facet={risk}".replace(
                     "?&", "?"
                 ).replace(
                     "&&", "&"
                 )
 
-                cleaned_suggested_facets[safer_or_toxic] = dict(
-                    name=safer_or_toxic, toggle_url=safer_or_toxic_toggle_url
+                cleaned_suggested_facets[risk] = dict(
+                    name=risk, toggle_url=risk_toggle_url
                 )
 
     return cleaned_suggested_facets.values()
