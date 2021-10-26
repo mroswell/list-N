@@ -4,7 +4,7 @@ import sys
 
 # $ curl 'https://cfpub.epa.gov/giwiz/disinfectants/includes/queries.cfc?method=getDisData&Keyword=&RegNum=&ActiveIng=All&ContactTime=&UseSite=&SurfType=' | python transform.py | jq . | sqlite-utils insert listN.db listN - --pk ID
 
-toxic_ingredients = ['Ammonium bicarbonate', 'Ammonium carbonate', 'Chlorine dioxide', 'Glutaraldehyde', 'Glycolic acid', 'Hydrochloric acid', 'Hydrogen chloride', 'Hypochlorous acid', 'Iodine', 'Octanoic acid', 'Peroxyacetic acid (Peracetic acid)', 'Peroxyoctanoic acid', 'Phenolic', 'PHMB', 'Potassium peroxymonosulfate', 'Quaternary ammonium', 'Silver', 'Silver ion', 'Sodium chloride', 'Sodium chlorite', 'Sodium dichloroisocyanurate', 'Sodium dichloroisocyanurate dihydrate', 'Sodium hypochlorite', 'Triethylene glycol']
+riskier_ingredients = ['Ammonium bicarbonate', 'Ammonium carbonate', 'Chlorine dioxide', 'Glutaraldehyde', 'Glycolic acid', 'Hydrochloric acid', 'Hydrogen chloride', 'Hypochlorous acid', 'Iodine', 'Octanoic acid', 'Peroxyacetic acid (Peracetic acid)', 'Peroxyoctanoic acid', 'Phenolic', 'PHMB', 'Potassium peroxymonosulfate', 'Quaternary ammonium', 'Silver', 'Silver ion', 'Sodium chloride', 'Sodium chlorite', 'Sodium dichloroisocyanurate', 'Sodium dichloroisocyanurate dihydrate', 'Sodium hypochlorite', 'Triethylene glycol']
 safer_ingredients = ['1,2-Hexanediol', 'Citric acid', 'Dodecylbenzenesulfonic acid', 'Ethanol', 'Ethanol (Ethyl alcohol)', 'Hydrogen peroxide', 'Isopropanol (Isopropyl alcohol)', 'L-Lactic acid', 'Sodium carbonate', 'Sodium carbonate peroxyhydrate', 'Tetraacetyl ethylenediamine', 'Thymol']
 date_list = []
 
@@ -44,11 +44,11 @@ def transform(d):
         d = dict(zip(columns, row))
         for s_ingredient in safer_ingredients:
             if s_ingredient in d["Active_ingredient"]:
-                 d["Safer_or_Toxic"] = 'Safer'
+                 d["Risk"] = 'Safer'
                  break
-        for t_ingredient in toxic_ingredients:
+        for t_ingredient in riskier_ingredients:
             if t_ingredient in d["Active_ingredient"]:
-                d["Safer_or_Toxic"] = 'Toxic' 
+                d["Risk"] = 'Increased Risk' 
                 break
         d["Active_ingredient"] = d["Active_ingredient"].split("; ")
         if d["Formulation_type"] is not None:
