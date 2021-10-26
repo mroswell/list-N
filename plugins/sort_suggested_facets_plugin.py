@@ -5,11 +5,11 @@ from typing import Dict, Iterable, List
 from datasette import hookimpl
 
 
-RISK_QUERY_PATTERN = re.compile(r"Risk=[^&]*")
+RISK_LEVEL_QUERY_PATTERN = re.compile(r"Risk_level=[^&]*")
 
 
 FACET_SORTING_ORDER_MAP = {
-    "Risk": 1,
+    "Risk_level": 1,
     "Active_ingredient": 2,
     "Use_site": 3,
     "Surface_type": 4,
@@ -37,10 +37,10 @@ def _get_cleaned_suggested_facets(
     query string in `toggle_url`, ignoring ones containing
     `_facet={facet_name}`.
 
-    If the `query_string` only contains `Risk={value}`
-    without `_facet=Risk`, add the data (`name` and
+    If the `query_string` only contains `Risk_level={value}`
+    without `_facet=Risk_level`, add the data (`name` and
     `toggle_url`). And in all of the other facets data, remove
-    the `Risk={value}` from the `toggle_url`.
+    the `Risk_level={value}` from the `toggle_url`.
     """
 
     cleaned_suggested_facets = {}
@@ -58,20 +58,20 @@ def _get_cleaned_suggested_facets(
         if facet_name not in cleaned_suggested_facets:
             cleaned_suggested_facets[facet_name] = facet_data
 
-    # Handle Risk query string
-    risk = "Risk"
-    match = RISK_QUERY_PATTERN.search(query_string)
+    # Handle Risk_level query string
+    risk_level = "Risk_level"
+    match = RISK_LEVEL_QUERY_PATTERN.search(query_string)
 
     if match:
-        if f"_facet={risk}" not in query_string:
-            if risk not in cleaned_suggested_facets:
+        if f"_facet={risk_level}" not in query_string:
+            if risk_level not in cleaned_suggested_facets:
                 sample_toggle_url = ""
 
-                # Remove `Risk={value}` references from all toggle_urls
+                # Remove `Risk_level={value}` references from all toggle_urls
                 for _, facet_data in cleaned_suggested_facets.items():
                     if "toggle_url" in facet_data:
                         facet_data["toggle_url"] = (
-                            RISK_QUERY_PATTERN.sub(
+                            RISK_LEVEL_QUERY_PATTERN.sub(
                                 "", facet_data["toggle_url"]
                             )
                             .replace("?&", "?")
@@ -81,11 +81,11 @@ def _get_cleaned_suggested_facets(
                         if not sample_toggle_url:
                             sample_toggle_url = facet_data["toggle_url"]
 
-                # Add `Risk` facet data
+                # Add `Risk_level` facet data
                 url, *_ = sample_toggle_url.partition("?")
 
                 risk_query_string = (
-                    RISK_QUERY_PATTERN.sub("", query_string)
+                    RISK_LEVEL_QUERY_PATTERN.sub("", query_string)
                     .replace("?&", "?")
                     .replace("&&", "&")
                 )
@@ -93,17 +93,17 @@ def _get_cleaned_suggested_facets(
                 query_sep = "" if risk_query_string.endswith("?") else "&"
 
                 risk_query_string = (
-                    f"{risk_query_string}{query_sep}_facet={risk}"
+                    f"{risk_query_string}{query_sep}_facet={risk_level}"
                 )
                 risk_toggle_url = f"{url}?{risk_query_string}"
 
-                cleaned_suggested_facets[risk] = dict(
-                    name=risk, toggle_url=risk_toggle_url
+                cleaned_suggested_facets[risk_level] = dict(
+                    name=risk_level, toggle_url=risk_toggle_url
                 )
 
     if (
-        risk not in cleaned_suggested_facets
-        and f"_facet={risk}" not in query_string
+        risk_level not in cleaned_suggested_facets
+        and f"_facet={risk_level}" not in query_string
     ):
         first_element = next(iter(cleaned_suggested_facets.values()), None)
         if first_element:
@@ -111,14 +111,14 @@ def _get_cleaned_suggested_facets(
             _toggle_url = first_element.get("toggle_url")
             if _toggle_url:
                 _toggle_url = re.sub(r"&[^&]*$", "", _toggle_url)
-                risk_toggle_url = f"{_toggle_url}&_facet={risk}".replace(
+                risk_toggle_url = f"{_toggle_url}&_facet={risk_level}".replace(
                     "?&", "?"
                 ).replace(
                     "&&", "&"
                 )
 
-                cleaned_suggested_facets[risk] = dict(
-                    name=risk, toggle_url=risk_toggle_url
+                cleaned_suggested_facets[risk_level] = dict(
+                    name=risk_level, toggle_url=risk_toggle_url
                 )
 
     return cleaned_suggested_facets.values()

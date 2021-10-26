@@ -44,11 +44,11 @@ def transform(d):
         d = dict(zip(columns, row))
         for s_ingredient in safer_ingredients:
             if s_ingredient in d["Active_ingredient"]:
-                 d["Risk"] = 'Safer'
+                 d["Risk_level"] = 'Safer'
                  break
         for t_ingredient in riskier_ingredients:
             if t_ingredient in d["Active_ingredient"]:
-                d["Risk"] = 'Increased Risk' 
+                d["Risk_level"] = 'Increased Risk'
                 break
         d["Active_ingredient"] = d["Active_ingredient"].split("; ")
         if d["Formulation_type"] is not None:
