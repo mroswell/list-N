@@ -54,7 +54,7 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Maquat 256-MN",
-    "Follow_directions_for_this_virus": "Human coronavirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 10,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
@@ -69,7 +69,7 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-03-13",
     "Safer_or_Toxic": "Toxic"
   },
@@ -106,7 +106,7 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Maquat 128-MN",
-    "Follow_directions_for_this_virus": "Human coronavirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 10,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
@@ -121,7 +121,7 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-03-13",
     "Safer_or_Toxic": "Toxic"
   },
@@ -132,7 +132,7 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Maquat 64-MN",
-    "Follow_directions_for_this_virus": "Human coronavirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 10,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
@@ -147,7 +147,7 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-03-13",
     "Safer_or_Toxic": "Toxic"
   },
@@ -158,7 +158,7 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Maquat 32-MN",
-    "Follow_directions_for_this_virus": "Human coronavirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 10,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
@@ -173,7 +173,7 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-03-13",
     "Safer_or_Toxic": "Toxic"
   },
@@ -694,7 +694,7 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Maquat 10",
-    "Follow_directions_for_this_virus": "Avian reovirus; Porcine rotavirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 10,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
@@ -708,8 +708,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2021-05-06",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-10-26",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -873,7 +873,7 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Maquat 20-M",
-    "Follow_directions_for_this_virus": "Avian reovirus; Porcine rotavirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 10,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
@@ -888,8 +888,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2021-05-06",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-10-26",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -1523,7 +1523,7 @@
     ],
     "Product_name": "Oxonia Active",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 10,
+    "Contact_time": 3,
     "Company": "Ecolab Inc",
     "Formulation_type": [
       "Dilutable"
@@ -1588,6 +1588,29 @@
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2021-05-06",
+    "Safer_or_Toxic": "Toxic"
+  },
+  {
+    "ID": 2202,
+    "EPA_reg_num": "1677-198",
+    "Active_ingredient": [
+      "Quaternary ammonium"
+    ],
+    "Product_name": "Multi-Quat",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 10,
+    "Company": "Ecolab Inc",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Hard Nonporous (HN)"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2021-10-26",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -1861,6 +1884,29 @@
     "Safer_or_Toxic": "Toxic"
   },
   {
+    "ID": 2200,
+    "EPA_reg_num": "1677-246",
+    "Active_ingredient": [
+      "Capric Acid"
+    ],
+    "Product_name": "73 Disinfecting Acid Bathroom Cleaner",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 2,
+    "Company": "Ecolab Inc",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2021-10-26"
+  },
+  {
     "ID": 1453,
     "EPA_reg_num": "1677-249",
     "Active_ingredient": [
@@ -1893,8 +1939,8 @@
       "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "Synergex",
-    "Follow_directions_for_this_virus": "Reovirus",
-    "Contact_time": 5,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 1.5,
     "Company": "Ecolab Inc",
     "Formulation_type": [
       "Dilutable"
@@ -1905,8 +1951,8 @@
     "Use_site": [
       "Institutional"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-03-13",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-10-26",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -6394,8 +6440,8 @@
       "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "Peraspray",
-    "Follow_directions_for_this_virus": "Rhinovirus Type 42",
-    "Contact_time": 10,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 2,
     "Company": "Enviro Tech Chemical Services Inc",
     "Formulation_type": [
       "Ready-to-use"
@@ -6408,8 +6454,8 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-10-21",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-10-26",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -7551,7 +7597,7 @@
       "Quaternary ammonium"
     ],
     "Product_name": "CloroxPro™ Clorox Total 360® Disinfecting Cleaner1",
-    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Follow_directions_for_this_virus": "SARS-CoV-2; SARS-CoV-2 variant(s)",
     "Contact_time": 2,
     "Company": "Clorox Professional Products Company",
     "Formulation_type": [
@@ -7568,7 +7614,7 @@
       "Residential"
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-10-15",
+    "Date_on_List_N": "2021-10-26",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -9895,7 +9941,7 @@
       "Hydrogen peroxide"
     ],
     "Product_name": "Oxivir™ 1 Wipes",
-    "Follow_directions_for_this_virus": "Enterovirus D68",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 1,
     "Company": "Diversey Inc",
     "Formulation_type": [
@@ -9908,7 +9954,7 @@
       "Healthcare",
       "Institutional"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-03-03",
     "Safer_or_Toxic": "Safer"
   },
@@ -10020,7 +10066,7 @@
       "Glutaraldehyde"
     ],
     "Product_name": "Virocid",
-    "Follow_directions_for_this_virus": "Porcine circovirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 10,
     "Company": "CID Lines NV",
     "Formulation_type": [
@@ -10032,8 +10078,8 @@
     "Use_site": [
       "Institutional"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-05-28",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-10-26",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -11264,6 +11310,31 @@
     "Safer_or_Toxic": "Toxic"
   },
   {
+    "ID": 2201,
+    "EPA_reg_num": "833-3",
+    "Active_ingredient": [
+      "Quaternary ammonium",
+      "Isopropanol (Isopropyl alcohol)"
+    ],
+    "Product_name": "WYANDOTTE SANIFECT D2",
+    "Follow_directions_for_this_virus": "Human Coronavirus",
+    "Contact_time": 5,
+    "Company": "ALEX C. FERGUSSON LLC",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional"
+    ],
+    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2021-10-26",
+    "Safer_or_Toxic": "Toxic"
+  },
+  {
     "ID": 1447,
     "EPA_reg_num": "83614-1",
     "Active_ingredient": [
@@ -12057,7 +12128,7 @@
     ],
     "Product_name": "Viking Pure Disinfectant",
     "Follow_directions_for_this_virus": "Human norovirus",
-    "Contact_time": 10,
+    "Contact_time": 5,
     "Company": "Viking Pure Solutions LLC",
     "Formulation_type": [
       "Ready-to-use"
@@ -12072,6 +12143,30 @@
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-11-10",
+    "Safer_or_Toxic": "Toxic"
+  },
+  {
+    "ID": 2203,
+    "EPA_reg_num": "87656-4",
+    "Active_ingredient": [
+      "Quaternary ammonium"
+    ],
+    "Product_name": "Bio-Spear Sanitizing Spray",
+    "Follow_directions_for_this_virus": "Human coronavirus",
+    "Contact_time": 10,
+    "Company": "ICPG LLC, D/B/A CONTEGO AMERICA",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional"
+    ],
+    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2021-10-26",
     "Safer_or_Toxic": "Toxic"
   },
   {
@@ -12340,8 +12435,8 @@
       "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "Panther Disinfectant Towelette",
-    "Follow_directions_for_this_virus": "Poliovirus",
-    "Contact_time": 3,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 1,
     "Company": "Maxill Inc",
     "Formulation_type": [
       "Wipe"
@@ -12353,8 +12448,8 @@
       "Healthcare",
       "Institutional"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-04-23",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-10-26",
     "Safer_or_Toxic": "Toxic"
   },
   {
