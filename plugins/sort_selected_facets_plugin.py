@@ -7,7 +7,7 @@ LATEST_SELECTED_FACET_COOKIE_NAME = "latest_selected_facet"
 
 
 FACET_SORTING_ORDER_MAP = {
-    "Safer_or_Toxic": 1,
+    "Risk": 1,
     "Active_ingredient": 2,
     "Use_site": 3,
     "Surface_type": 4,
