@@ -46,8 +46,8 @@ endif %} {% if human_description_en %}where {{ human_description_en }}{% endif %
 {% endif %} {% endif %}
 
 <p class="export-links" style="display:none">{% for name, url in renderers.items() %}<a href="{{ url }}">{{ name }}</a>{{ ", " if not loop.last }}{% endfor %}</p>
-<p><a href="#export">Export this Data</a> | <strong>Chart Safer or Toxic:</strong> <a href="https://disinfectants.saferortoxic.org/disinfectants/listN?_facet=Risk_level#g.mark=bar&g.x_column=Risk_level&g.x_type=ordinal&g.y_column=Company&g.y_type=ordinal&g.color_column=Risk_level">By Company,</a>  <a href="https://disinfectants.saferortoxic.org/disinfectants/listN?_facet=Risk_level#g.mark=bar&g.x_column=Risk_level&g.x_type=ordinal&g.y_column=Product_name&g.y_type=ordinal&g.color_column=Risk_level">By Product</a>,
-    <a href="https://disinfectants.saferortoxic.org/disinfectants/listN">Clear Chart</a></p>
+<p><a href="#export">Export this Data</a> | <strong>Chart Safer or Toxic:</strong> <a href="https://list.saferdisinfectants.org/disinfectants/listN?_facet=Risk_level#g.mark=bar&g.x_column=Risk_level&g.x_type=ordinal&g.y_column=Company&g.y_type=ordinal&g.color_column=Risk_level">By Company,</a>  <a href="https://list.saferdisinfectants.org/disinfectants/listN?_facet=Risk_level#g.mark=bar&g.x_column=Risk_level&g.x_type=ordinal&g.y_column=Product_name&g.y_type=ordinal&g.color_column=Risk_level">By Product</a>,
+    <a href="https://list.saferdisinfectants.org/disinfectants/listN">Clear Chart</a></p>
 {% if suggested_facets %}
 <p class="suggested-facets">
     <strong>Filter with Facets:</strong> {% for facet in suggested_facets|sort_facets(request.query_string) %} {% if ( (facet.type or facet.name in ['Risk_level','Contact_time','Why_on_List_N']) )%}<a href="{{ facet.toggle_url }}" class="suggested-facet-{{ facet.name }}">{{ facet.name }}</a>{%
