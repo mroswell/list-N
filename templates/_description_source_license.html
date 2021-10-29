@@ -8,7 +8,7 @@
     </div>
 {% endif %}
 {% if metadata.license or metadata.license_url or metadata.source or metadata.source_url %}
-    <p style="max-width: 45em;">
+    <p style="max-width: 50em;">
     {% if metadata.license or metadata.license_url %}Data license:
         {% if metadata.license_url %}
             <a href="{{ metadata.license_url }}">{{ metadata.license or metadata.license_url }}</a>

@@ -50,7 +50,7 @@ endif %} {% if human_description_en %}where {{ human_description_en }}{% endif %
     <a href="https://list.saferdisinfectants.org/disinfectants/listN">Clear Chart</a></p>
 {% if suggested_facets %}
 <p class="suggested-facets">
-    <strong>Filter with Facets:</strong> {% for facet in suggested_facets|sort_facets(request.query_string) %} {% if ( (facet.type or facet.name in ['Risk_level','Contact_time','Why_on_List_N']) )%}<a href="{{ facet.toggle_url }}" class="suggested-facet-{{ facet.name }}">{{ facet.name }}</a>{%
+    <strong>Add More Filters:</strong> {% for facet in suggested_facets|sort_facets(request.query_string) %} {% if ( (facet.type or facet.name in ['Risk_level','Contact_time','Why_on_List_N']) )%}<a href="{{ facet.toggle_url }}" class="suggested-facet-{{ facet.name }}">{{ facet.name }}</a>{%
     if not loop.last %}, {% endif %} {% endif %} {% endfor %}
 </p>
 {% endif %} {% if facets_timed_out %}
