@@ -16,13 +16,13 @@ curl 'https://cfpub.epa.gov/giwiz/disinfectants/includes/queries.cfc?method=getD
 ```
 ### Enable Full-Text Search
 ```
-sqlite-utils enable-fts disinfectants.db listN 'Surface_type' 'Active_ingredient' 'Safer_or_Toxic' 'Date_on_List_N'  'Company' 'Contact_time' 'Use_site' 'Product_name' 'Formulation_type' 'Follow_directions_for_this_virus' 'Why_on_List_N' 'EPA_reg_num' --create-triggers --tokenize=porter
+sqlite-utils enable-fts disinfectants.db listN 'Surface_type' 'Active_ingredient' 'Risk_level' 'Date_on_List_N'  'Company' 'Contact_time' 'Use_site' 'Product_name' 'Formulation_type' 'Follow_directions_for_this_virus' 'Why_on_List_N' 'EPA_reg_num' --create-triggers --tokenize=porter
 ```
 ### Update column order
 ```
 sqlite-utils transform disinfectants.db listN \
 --column-order EPA_reg_num \
---column-order Safer_or_Toxic \
+--column-order Risk_level \
 --column-order Active_ingredient \
 --column-order Product_name \
 --column-order Company \
@@ -116,7 +116,7 @@ Now:
 CREATE TABLE [listN] (
    [Surface_type] TEXT,
    [Active_ingredient] TEXT,
-   [Safer_or_Toxic] TEXT,
+   [Risk_level] TEXT,
    [Date_on_List_N] TEXT,
    [Company] TEXT,
    [Contact_time] FLOAT,
