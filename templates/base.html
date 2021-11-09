@@ -14,6 +14,15 @@
     <script src="https://kit.fontawesome.com/cb3420c359.js" crossorigin="anonymous"></script>
     <script {% if url.module %}type="module" {% endif %}src="{{ url.url }}" {% if url.sri %} integrity="{{ url.sri }}" crossorigin="anonymous" {% endif %}></script>
     {% endfor %} {% block extra_head %}{% endblock %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R76XRB0H0V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R76XRB0H0V');
+</script>
 
     <style>
         /************************************************/
