@@ -55,7 +55,7 @@ def transform(d):
             d["Formulation_type"] = d["Formulation_type"].replace(u'®', "").replace(" (Clorox Total 360 system)", "").replace(" (use in conjunction with VHP generator)", "").replace(" CURIS", "").replace(" HaloFogger", "").split("; ")
         d["Surface_type"] = d["Surface_type"].split("; ")
         if d["Use_site"] is not None:
-            d["Use_site"] = d["Use_site"].split("; ")
+            d["Use_site"] = d["Use_site"].strip().split("; ")
         if d["Date_on_List_N"] is not None:
             date_list = d["Date_on_List_N"].split()
             d["Date_on_List_N"]='{year}-{mon}-{day}'.format(mon=month_dict[date_list[0].split(",")[0]],day=date_list[1],year=date_list[2])
