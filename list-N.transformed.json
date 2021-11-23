@@ -5069,7 +5069,8 @@
       "Institutional"
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2021-11-23"
+    "Date_on_List_N": "2021-11-23",
+    "Risk_level": "Increased Risk"
   },
   {
     "ID": 1261,
@@ -7915,7 +7916,8 @@
       "Residential"
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2021-11-23"
+    "Date_on_List_N": "2021-11-23",
+    "Risk_level": "Increased Risk"
   },
   {
     "ID": 1104,
@@ -8934,7 +8936,8 @@
       "Residential"
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2021-11-23"
+    "Date_on_List_N": "2021-11-23",
+    "Risk_level": "Increased Risk"
   },
   {
     "ID": 1109,
@@ -10208,7 +10211,8 @@
       "Institutional"
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2021-11-23"
+    "Date_on_List_N": "2021-11-23",
+    "Risk_level": "Safer"
   },
   {
     "ID": 1270,
@@ -12473,7 +12477,8 @@
       "Residential"
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2021-11-23"
+    "Date_on_List_N": "2021-11-23",
+    "Risk_level": "Increased Risk"
   },
   {
     "ID": 1077,
@@ -13129,7 +13134,8 @@
       "Institutional"
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2021-11-23"
+    "Date_on_List_N": "2021-11-23",
+    "Risk_level": "Increased Risk"
   },
   {
     "ID": 1198,
