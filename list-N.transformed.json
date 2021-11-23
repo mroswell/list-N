@@ -2211,6 +2211,29 @@
     "Risk_level": "Safer"
   },
   {
+    "ID": 2222,
+    "EPA_reg_num": "1677-43",
+    "Active_ingredient": [
+      "Quaternary ammonium"
+    ],
+    "Product_name": "Ster-bac",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 4,
+    "Company": "Ecolab Inc",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Institutional"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2021-11-23",
+    "Risk_level": "Increased Risk"
+  },
+  {
     "ID": 2100,
     "EPA_reg_num": "178-9",
     "Active_ingredient": [
@@ -3366,6 +3389,31 @@
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2021-02-18",
     "Risk_level": "Safer"
+  },
+  {
+    "ID": 2220,
+    "EPA_reg_num": "3573-100",
+    "Active_ingredient": [
+      "Quaternary ammonium"
+    ],
+    "Product_name": "Markie",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 5,
+    "Company": "Proctor & Gamble",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2021-11-23",
+    "Risk_level": "Increased Risk"
   },
   {
     "ID": 1169,
@@ -4999,6 +5047,29 @@
     "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
     "Date_on_List_N": "2020-03-13",
     "Risk_level": "Increased Risk"
+  },
+  {
+    "ID": 2226,
+    "EPA_reg_num": "55364-3",
+    "Active_ingredient": [
+      "Quatenary Ammonium Compounds "
+    ],
+    "Product_name": "Control III Laboratory Disinfectant/Germicide",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 10,
+    "Company": "Maril Products Inc",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2021-11-23"
   },
   {
     "ID": 1261,
@@ -7824,6 +7895,29 @@
     "Risk_level": "Increased Risk"
   },
   {
+    "ID": 2229,
+    "EPA_reg_num": "6836-138",
+    "Active_ingredient": [
+      "Quatenary Ammonium Compounds "
+    ],
+    "Product_name": "Lonza Formulation S-38-F",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 1,
+    "Company": "Arxanda, LLC",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2021-11-23"
+  },
+  {
     "ID": 1104,
     "EPA_reg_num": "6836-139",
     "Active_ingredient": [
@@ -8818,6 +8912,29 @@
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-03-03",
     "Risk_level": "Increased Risk"
+  },
+  {
+    "ID": 2230,
+    "EPA_reg_num": "6836-73",
+    "Active_ingredient": [
+      "Quatenary Ammonium Compounds "
+    ],
+    "Product_name": "Lonza Formulation S-38",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 1,
+    "Company": "Arxanda, LLC",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2021-11-23"
   },
   {
     "ID": 1109,
@@ -10069,6 +10186,29 @@
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2021-03-16",
     "Risk_level": "Safer"
+  },
+  {
+    "ID": 2224,
+    "EPA_reg_num": "70627-83",
+    "Active_ingredient": [
+      "Hydrogen Peroxide"
+    ],
+    "Product_name": "Alpha - HP 5",
+    "Follow_directions_for_this_virus": "Canine Parvovirus",
+    "Contact_time": 5,
+    "Company": "Diversey Inc",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-11-23"
   },
   {
     "ID": 1270,
@@ -12312,6 +12452,30 @@
     "Risk_level": "Increased Risk"
   },
   {
+    "ID": 2227,
+    "EPA_reg_num": "88341-11",
+    "Active_ingredient": [
+      "Chlorine Dioxide"
+    ],
+    "Product_name": "Pure 100",
+    "Follow_directions_for_this_virus": "Feline Calicivirus",
+    "Contact_time": 10,
+    "Company": "T.A. Comb, LLC",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-11-23"
+  },
+  {
     "ID": 1077,
     "EPA_reg_num": "88373-1",
     "Active_ingredient": [
@@ -12944,6 +13108,28 @@
     "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
     "Date_on_List_N": "2020-04-23",
     "Risk_level": "Safer"
+  },
+  {
+    "ID": 2228,
+    "EPA_reg_num": "91386-1",
+    "Active_ingredient": [
+      "Sodium Chloride"
+    ],
+    "Product_name": "Salt Cartridge For Giselle",
+    "Follow_directions_for_this_virus": "Feline Calicivirus",
+    "Contact_time": 10,
+    "Company": "Industrie De Nora, S.P.A.",
+    "Formulation_type": [
+      "Generator"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Institutional"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-11-23"
   },
   {
     "ID": 1198,
@@ -14283,6 +14469,31 @@
     "Risk_level": "Increased Risk"
   },
   {
+    "ID": 2225,
+    "EPA_reg_num": "96738-3",
+    "Active_ingredient": [
+      "Quaternary ammonium",
+      "Ethanol (Ethyl alcohol)"
+    ],
+    "Product_name": "Aktive Disinfecting Wipes",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 10,
+    "Company": "Vaxman Group 2015 LTD",
+    "Formulation_type": [
+      "Wipe"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2021-11-23",
+    "Risk_level": "Increased Risk"
+  },
+  {
     "ID": 1149,
     "EPA_reg_num": "96865-1",
     "Active_ingredient": [
@@ -14358,6 +14569,31 @@
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-12-17",
+    "Risk_level": "Increased Risk"
+  },
+  {
+    "ID": 2223,
+    "EPA_reg_num": "97101-2",
+    "Active_ingredient": [
+      "Hypochlorous acid"
+    ],
+    "Product_name": "Simple Elements",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 10,
+    "Company": "Sapphire Services LLC",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2021-11-23",
     "Risk_level": "Increased Risk"
   },
   {
@@ -14608,6 +14844,31 @@
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2021-07-27",
+    "Risk_level": "Increased Risk"
+  },
+  {
+    "ID": 2221,
+    "EPA_reg_num": "99783-1",
+    "Active_ingredient": [
+      "Hypochlorous acid"
+    ],
+    "Product_name": "TK60 One-Step Disinfectant",
+    "Follow_directions_for_this_virus": "Human coronavirus",
+    "Contact_time": 1,
+    "Company": "Bottom Line Distributers",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2021-11-23",
     "Risk_level": "Increased Risk"
   }
 ]
