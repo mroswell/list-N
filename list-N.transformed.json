@@ -5052,7 +5052,7 @@
     "ID": 2226,
     "EPA_reg_num": "55364-3",
     "Active_ingredient": [
-      "Quatenary Ammonium Compounds "
+      "Quaternary Ammonium Compounds"
     ],
     "Product_name": "Control III Laboratory Disinfectant/Germicide",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -5069,8 +5069,7 @@
       "Institutional"
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2021-11-23",
-    "Risk_level": "Increased Risk"
+    "Date_on_List_N": "2021-11-23"
   },
   {
     "ID": 1261,
@@ -7899,7 +7898,7 @@
     "ID": 2229,
     "EPA_reg_num": "6836-138",
     "Active_ingredient": [
-      "Quatenary Ammonium Compounds "
+      "Quaternary Ammonium Compounds"
     ],
     "Product_name": "Lonza Formulation S-38-F",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -7916,8 +7915,7 @@
       "Residential"
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2021-11-23",
-    "Risk_level": "Increased Risk"
+    "Date_on_List_N": "2021-11-23"
   },
   {
     "ID": 1104,
@@ -8919,7 +8917,7 @@
     "ID": 2230,
     "EPA_reg_num": "6836-73",
     "Active_ingredient": [
-      "Quatenary Ammonium Compounds "
+      "Quaternary Ammonium Compounds"
     ],
     "Product_name": "Lonza Formulation S-38",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -8936,8 +8934,7 @@
       "Residential"
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2021-11-23",
-    "Risk_level": "Increased Risk"
+    "Date_on_List_N": "2021-11-23"
   },
   {
     "ID": 1109,
