@@ -5069,7 +5069,8 @@
       "Institutional"
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2021-11-23"
+    "Date_on_List_N": "2021-11-23",
+    "Risk_level": "Increased Risk"
   },
   {
     "ID": 1261,
@@ -7915,7 +7916,8 @@
       "Residential"
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2021-11-23"
+    "Date_on_List_N": "2021-11-23",
+    "Risk_level": "Increased Risk"
   },
   {
     "ID": 1104,
@@ -8934,7 +8936,8 @@
       "Residential"
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2021-11-23"
+    "Date_on_List_N": "2021-11-23",
+    "Risk_level": "Increased Risk"
   },
   {
     "ID": 1109,
