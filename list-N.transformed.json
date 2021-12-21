@@ -55,7 +55,7 @@
     ],
     "Product_name": "Maquat 256-MN",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 10,
+    "Contact_time": 2,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
       "Dilutable"
@@ -107,7 +107,7 @@
     ],
     "Product_name": "Maquat 128-MN",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 10,
+    "Contact_time": 2,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
       "Dilutable"
@@ -133,7 +133,7 @@
     ],
     "Product_name": "Maquat 64-MN",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 10,
+    "Contact_time": 2,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
       "Dilutable"
@@ -159,7 +159,7 @@
     ],
     "Product_name": "Maquat 32-MN",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 10,
+    "Contact_time": 2,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
       "Dilutable"
@@ -184,8 +184,8 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Maquat 750-M",
-    "Follow_directions_for_this_virus": "Human coronavirus",
-    "Contact_time": 10,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 2,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
       "Dilutable"
@@ -198,7 +198,7 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-03-13",
     "Risk_level": "Increased Risk"
   },
@@ -209,8 +209,8 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Maquat 710-M",
-    "Follow_directions_for_this_virus": "Norovirus; Feline calicivirus",
-    "Contact_time": 10,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 2,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
       "Dilutable"
@@ -225,7 +225,7 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-06-08",
     "Risk_level": "Increased Risk"
   },
@@ -263,7 +263,7 @@
     ],
     "Product_name": "Maquat 256-NHQ",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 10,
+    "Contact_time": 2,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
       "Dilutable"
@@ -314,7 +314,7 @@
     ],
     "Product_name": "Maquat 64-NHQ",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 10,
+    "Contact_time": 2,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
       "Dilutable"
@@ -339,7 +339,7 @@
     ],
     "Product_name": "Maquat 128-NHQ",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 10,
+    "Contact_time": 2,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
       "Dilutable"
@@ -389,7 +389,7 @@
     ],
     "Product_name": "Maquat 32-NHQ",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 10,
+    "Contact_time": 2,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
       "Dilutable"
@@ -489,8 +489,8 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Maquat 705-M",
-    "Follow_directions_for_this_virus": "Human coronavirus",
-    "Contact_time": 10,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 2,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
       "Dilutable"
@@ -505,7 +505,7 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-03-13",
     "Risk_level": "Increased Risk"
   },
@@ -541,8 +541,8 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Maquat 702.5-M",
-    "Follow_directions_for_this_virus": "Human coronavirus",
-    "Contact_time": 10,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 2,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
       "Dilutable"
@@ -556,7 +556,7 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-03-13",
     "Risk_level": "Increased Risk"
   },
@@ -695,7 +695,7 @@
     ],
     "Product_name": "Maquat 10",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 10,
+    "Contact_time": 2,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
       "Dilutable"
@@ -745,7 +745,7 @@
     ],
     "Product_name": "Maquat 615-HD",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 10,
+    "Contact_time": 2,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
       "Dilutable"
@@ -759,7 +759,7 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-03-13",
     "Risk_level": "Increased Risk"
   },
@@ -771,7 +771,7 @@
     ],
     "Product_name": "Maquat 5.5-M",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 10,
+    "Contact_time": 2,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
       "Dilutable"
@@ -795,8 +795,8 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Maquat 7.5-M",
-    "Follow_directions_for_this_virus": "Norovirus; Feline calicivirus",
-    "Contact_time": 10,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 2,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
       "Dilutable"
@@ -811,7 +811,7 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-06-04",
     "Risk_level": "Increased Risk"
   },
@@ -874,7 +874,7 @@
     ],
     "Product_name": "Maquat 20-M",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 10,
+    "Contact_time": 2,
     "Company": "Mason Chemical Company",
     "Formulation_type": [
       "Dilutable"
@@ -1548,8 +1548,8 @@
       "Octanoic acid"
     ],
     "Product_name": "Vortexx",
-    "Follow_directions_for_this_virus": "Reovirus",
-    "Contact_time": 10,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 2,
     "Company": "Ecolab Inc",
     "Formulation_type": [
       "Dilutable"
@@ -1561,7 +1561,7 @@
     "Use_site": [
       "Institutional"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-05-07",
     "Risk_level": "Increased Risk"
   },
@@ -1670,8 +1670,8 @@
       "Octanoic acid"
     ],
     "Product_name": "Octave FS",
-    "Follow_directions_for_this_virus": "Feline calicivirus",
-    "Contact_time": 10,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 3,
     "Company": "Ecolab Inc",
     "Formulation_type": [
       "Dilutable"
@@ -1682,7 +1682,7 @@
     "Use_site": [
       "Institutional"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-05-07",
     "Risk_level": "Increased Risk"
   },
@@ -4158,7 +4158,7 @@
     ],
     "Product_name": "Facility + RTU",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 1,
+    "Contact_time": 0.5,
     "Company": "Midlab",
     "Formulation_type": [
       "Ready-to-use"
@@ -4932,7 +4932,7 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Spraypak Foaming Cleaner Disinfectant & Deodorizer",
-    "Follow_directions_for_this_virus": "Rhinovirus Type 39",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 10,
     "Company": "Chase Products Co",
     "Formulation_type": [
@@ -4946,7 +4946,7 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2021-01-13",
     "Risk_level": "Increased Risk"
   },
@@ -9111,6 +9111,32 @@
     "Risk_level": "Increased Risk"
   },
   {
+    "ID": 2242,
+    "EPA_reg_num": "69658-3",
+    "Active_ingredient": [
+      "Ethanol",
+      "Phenol",
+      "o-Phenylphenol"
+    ],
+    "Product_name": "Novigard (Quick Dry)",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 5,
+    "Company": "World Pharm-Trust",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19",
+    "Date_on_List_N": "2021-12-21",
+    "Risk_level": "Safer"
+  },
+  {
     "ID": 1189,
     "EPA_reg_num": "70060-19",
     "Active_ingredient": [
@@ -9652,7 +9678,7 @@
     ],
     "Product_name": "Claire Disinfectant Spray Q",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 2,
+    "Contact_time": 3,
     "Company": "Claire Manufacturing Company",
     "Formulation_type": [
       "Ready-to-use"
@@ -9879,8 +9905,8 @@
       "Hydrogen peroxide"
     ],
     "Product_name": "Oxy-Team™ Disinfectant Cleaner",
-    "Follow_directions_for_this_virus": "Canine parvovirus; Feline picornavirus",
-    "Contact_time": 5,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 1,
     "Company": "Diversey Inc",
     "Formulation_type": [
       "Dilutable"
@@ -9892,7 +9918,7 @@
       "Healthcare",
       "Institutional"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-03-03",
     "Risk_level": "Safer"
   },
@@ -9953,7 +9979,7 @@
       "Hydrogen peroxide"
     ],
     "Product_name": "Phato 1:64 Disinfectant Cleaner",
-    "Follow_directions_for_this_virus": "Feline calicivirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 5,
     "Company": "Diversey Inc",
     "Formulation_type": [
@@ -9966,7 +9992,7 @@
       "Healthcare",
       "Institutional"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-05-21",
     "Risk_level": "Safer"
   },
@@ -10146,7 +10172,7 @@
       "Hydrogen peroxide"
     ],
     "Product_name": "Oxivir™ HC Wipes",
-    "Follow_directions_for_this_virus": "Feline calicivirus; Rhinovirus; Adenovirus; Rotavirus; Poliovirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 1,
     "Company": "Diversey Inc",
     "Formulation_type": [
@@ -10160,7 +10186,7 @@
       "Healthcare",
       "Institutional"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-04-23",
     "Risk_level": "Safer"
   },
@@ -10617,6 +10643,29 @@
     "Risk_level": "Safer"
   },
   {
+    "ID": 2240,
+    "EPA_reg_num": "74559-12",
+    "Active_ingredient": [
+      "Hydrogen Peroxide"
+    ],
+    "Product_name": "OXY 5 Concentrate Disinfectant Cleaner",
+    "Follow_directions_for_this_virus": "Canine Parvovirus",
+    "Contact_time": 5,
+    "Company": "Virox Technologies, Inc",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Institutional"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-12-21",
+    "Risk_level": "Safer"
+  },
+  {
     "ID": 1445,
     "EPA_reg_num": "74559-3",
     "Active_ingredient": [
@@ -10917,7 +10966,7 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Lysol® Disinfecting Wipes (All Scents)",
-    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Follow_directions_for_this_virus": "SARS-CoV-2; SARS-CoV-2 variant(s)",
     "Contact_time": 2,
     "Company": "Reckitt Benckiser LLC",
     "Formulation_type": [
@@ -12085,8 +12134,8 @@
       "Hydrogen peroxide"
     ],
     "Product_name": "All-Purpose Disinfectant Spray",
-    "Follow_directions_for_this_virus": "Rhinovirus",
-    "Contact_time": 10,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 3,
     "Company": "Innovasource LLC",
     "Formulation_type": [
       "Ready-to-use"
@@ -12099,7 +12148,7 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2021-01-28",
     "Risk_level": "Safer"
   },
@@ -13744,6 +13793,30 @@
     "Risk_level": "Safer"
   },
   {
+    "ID": 2241,
+    "EPA_reg_num": "93728-2",
+    "Active_ingredient": [
+      "Hydrogen Peroxide"
+    ],
+    "Product_name": "Aura-D Cartridge",
+    "Follow_directions_for_this_virus": "Norovirus",
+    "Contact_time": 10,
+    "Company": "Sterifre Medical, Inc",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2021-12-21",
+    "Risk_level": "Safer"
+  },
+  {
     "ID": 2080,
     "EPA_reg_num": "93744-1",
     "Active_ingredient": [
@@ -14058,7 +14131,7 @@
       "Hydrogen peroxide"
     ],
     "Product_name": "Sani-HyPerCide Germicidal Spray",
-    "Follow_directions_for_this_virus": "Norovirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 1,
     "Company": "Professional Disposables International Inc",
     "Formulation_type": [
@@ -14071,7 +14144,7 @@
       "Healthcare",
       "Institutional"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-03-03",
     "Risk_level": "Safer"
   },
