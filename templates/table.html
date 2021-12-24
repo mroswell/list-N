@@ -46,7 +46,7 @@ endif %} {% if human_description_en %}where {{ human_description_en }}{% endif %
 {% endif %} {% endif %}
 
 <p class="export-links" style="display:none">{% for name, url in renderers.items() %}<a href="{{ url }}">{{ name }}</a>{{ ", " if not loop.last }}{% endfor %}</p>
-<p><a href="#export">Export this Data</a> | <a href="https://list.saferdisinfectants.org/disinfectants/listN?_facet=Risk_level#g.mark=bar&g.x_column=Risk_level&g.x_type=ordinal&g.y_column=Product_name&g.y_type=ordinal&g.color_column=Risk_level">Chart Risk Level by Product</a>,
+<p><a href="#export">Export this Data</a> | <a href="https://list.saferdisinfectants.org/disinfectants/listN?_facet=Risk_level#g.mark=bar&g.x_column=Risk_level&g.x_type=ordinal&g.y_column=Product_name&g.y_type=ordinal&g.color_column=Risk_level">Chart Risk Level by Product</a>&nbsp;
     <a href="https://list.saferdisinfectants.org/disinfectants/listN">Clear Chart</a></p>
 {% if suggested_facets %}
 <p class="suggested-facets">
