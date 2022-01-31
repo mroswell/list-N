@@ -2910,8 +2910,8 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Stepan Spray Disinfectant Concentrate",
-    "Follow_directions_for_this_virus": "Rhinovirus",
-    "Contact_time": 5,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 0.25,
     "Company": "Stepan Company",
     "Formulation_type": [
       "Dilutable"
@@ -2924,7 +2924,7 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-03-03",
     "Risk_level": "Increased Risk"
   },
@@ -3831,7 +3831,8 @@
       "Ready-to-use"
     ],
     "Surface_type": [
-      "Hard Nonporous (HN)"
+      "Hard Nonporous (HN)",
+      "Residual"
     ],
     "Use_site": [
       "Healthcare",
@@ -5811,6 +5812,31 @@
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-09-10",
     "Risk_level": "Safer"
+  },
+  {
+    "ID": 2261,
+    "EPA_reg_num": "5813-130",
+    "Active_ingredient": [
+      "Quaternary ammonium"
+    ],
+    "Product_name": "Thorn",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 5,
+    "Company": "Clorox Co",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2022-01-31",
+    "Risk_level": "Increased Risk"
   },
   {
     "ID": 1125,
@@ -8824,7 +8850,8 @@
     "Contact_time": 0.5,
     "Company": "Lonza LLC",
     "Formulation_type": [
-      "Ready-to-use"
+      "Ready-to-use",
+      "Electrostatic Spray"
     ],
     "Surface_type": [
       "Hard Nonporous (HN)"
@@ -10697,7 +10724,7 @@
       "Hydrogen peroxide"
     ],
     "Product_name": "Accel (Concentrate) Disinfectant Cleaner",
-    "Follow_directions_for_this_virus": "Poliovirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 5,
     "Company": "Virox Technologies Inc",
     "Formulation_type": [
@@ -10711,7 +10738,7 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-03-13",
     "Risk_level": "Safer"
   },
@@ -10967,7 +10994,7 @@
     ],
     "Product_name": "Lysol® Disinfecting Wipes (All Scents)",
     "Follow_directions_for_this_virus": "SARS-CoV-2; SARS-CoV-2 variant(s)",
-    "Contact_time": 2,
+    "Contact_time": 0.25,
     "Company": "Reckitt Benckiser LLC",
     "Formulation_type": [
       "Wipe"
@@ -11489,6 +11516,30 @@
     "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
     "Date_on_List_N": "2021-05-04",
     "Risk_level": "Increased Risk"
+  },
+  {
+    "ID": 2260,
+    "EPA_reg_num": "82229-1",
+    "Active_ingredient": [
+      "Hypochlorous Acid"
+    ],
+    "Product_name": "Hyposhield 1000",
+    "Follow_directions_for_this_virus": "Rhinovirus",
+    "Contact_time": 10,
+    "Company": "Chlorking, Inc",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2022-01-31"
   },
   {
     "ID": 1194,
@@ -12353,6 +12404,31 @@
     "Risk_level": "Increased Risk"
   },
   {
+    "ID": 2262,
+    "EPA_reg_num": "87656-3",
+    "Active_ingredient": [
+      "Quaternary ammonium"
+    ],
+    "Product_name": "Bio-Spear Sanitizing Wipes",
+    "Follow_directions_for_this_virus": "Human coronavirus",
+    "Contact_time": 10,
+    "Company": "Contego America",
+    "Formulation_type": [
+      "Wipe"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2022-01-31",
+    "Risk_level": "Increased Risk"
+  },
+  {
     "ID": 2203,
     "EPA_reg_num": "87656-4",
     "Active_ingredient": [
@@ -12384,7 +12460,7 @@
     ],
     "Product_name": "Thymox Disinfectant Spray",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 3,
+    "Contact_time": 1,
     "Company": "Laboratorie M2",
     "Formulation_type": [
       "Ready-to-use",
@@ -14933,7 +15009,7 @@
     ],
     "Product_name": "TK60 One-Step Disinfectant",
     "Follow_directions_for_this_virus": "Human coronavirus",
-    "Contact_time": 1,
+    "Contact_time": 0.5,
     "Company": "Bottom Line Distributers",
     "Formulation_type": [
       "Ready-to-use"
