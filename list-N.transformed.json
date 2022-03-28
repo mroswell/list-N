@@ -1914,8 +1914,8 @@
       "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "Klercide 70/30 IPA",
-    "Follow_directions_for_this_virus": "Rhinovirus",
-    "Contact_time": 5,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 1,
     "Company": "Ecolab Inc",
     "Formulation_type": [
       "Ready-to-use"
@@ -1927,7 +1927,7 @@
       "Healthcare",
       "Institutional"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-03-03",
     "Risk_level": "Safer"
   },
@@ -2417,8 +2417,8 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Stepan Towelette",
-    "Follow_directions_for_this_virus": "Norovirus",
-    "Contact_time": 10,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 0.5,
     "Company": "Stepan Company",
     "Formulation_type": [
       "Wipe"
@@ -2432,7 +2432,7 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-05-14",
     "Risk_level": "Increased Risk"
   },
@@ -3749,7 +3749,7 @@
       "Sodium chloride"
     ],
     "Product_name": "Virkon S",
-    "Follow_directions_for_this_virus": "Feline calicivirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 10,
     "Company": "Lanxess Corporation",
     "Formulation_type": [
@@ -3761,7 +3761,7 @@
     "Use_site": [
       "Institutional"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-05-21",
     "Risk_level": "Increased Risk"
   },
@@ -4852,6 +4852,28 @@
     "Risk_level": "Increased Risk"
   },
   {
+    "ID": 2301,
+    "EPA_reg_num": "49547-15",
+    "Active_ingredient": [
+      "Sodium Hypochlorite"
+    ],
+    "Product_name": "CLNBT",
+    "Follow_directions_for_this_virus": "Rhinovirus",
+    "Contact_time": 5,
+    "Company": "AIEn del Norte",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Residential"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2022-03-28"
+  },
+  {
     "ID": 1055,
     "EPA_reg_num": "4959-16",
     "Active_ingredient": [
@@ -5253,8 +5275,8 @@
       "Phenolic"
     ],
     "Product_name": "Steripene II Brand Disinfectant Deodorant",
-    "Follow_directions_for_this_virus": "Mycobacterium bovis",
-    "Contact_time": 10,
+    "Follow_directions_for_this_virus": "Norovirus",
+    "Contact_time": 5,
     "Company": "Spartan Chemical Company Inc",
     "Formulation_type": [
       "Ready-to-use"
@@ -5266,7 +5288,7 @@
       "Healthcare",
       "Institutional"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19)",
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-07-23",
     "Risk_level": "Increased Risk"
   },
@@ -5718,7 +5740,7 @@
       "Sodium hypochlorite"
     ],
     "Product_name": "CRB",
-    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Follow_directions_for_this_virus": "SARS-CoV-2; SARS-CoV-2 Variant(s)",
     "Contact_time": 6,
     "Company": "The Clorox Company",
     "Formulation_type": [
@@ -5784,6 +5806,30 @@
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
     "Date_on_List_N": "2021-01-14",
+    "Risk_level": "Increased Risk"
+  },
+  {
+    "ID": 2300,
+    "EPA_reg_num": "5813-123",
+    "Active_ingredient": [
+      "Quaternary ammonium"
+    ],
+    "Product_name": "Tail",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 15,
+    "Company": "The Clorox Company",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Porous (P) (laundry presoak only)"
+    ],
+    "Use_site": [
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2022-03-28",
     "Risk_level": "Increased Risk"
   },
   {
@@ -7038,7 +7084,7 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Acticide C&D 09 Wipes",
-    "Follow_directions_for_this_virus": "Human rotavirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 0.25,
     "Company": "Thor Specialties Inc",
     "Formulation_type": [
@@ -7052,7 +7098,7 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2021-04-13",
     "Risk_level": "Increased Risk"
   },
@@ -8906,7 +8952,7 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Nugen NR RTU",
-    "Follow_directions_for_this_virus": "Norovirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 4,
     "Company": "Lonza LLC",
     "Formulation_type": [
@@ -8920,7 +8966,7 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2021-02-11",
     "Risk_level": "Increased Risk"
   },
@@ -8932,7 +8978,7 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Nugen NR-128",
-    "Follow_directions_for_this_virus": "Norovirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 4,
     "Company": "Lonza LLC",
     "Formulation_type": [
@@ -8946,7 +8992,7 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2021-02-11",
     "Risk_level": "Increased Risk"
   },
@@ -9767,7 +9813,7 @@
       "Quaternary ammonium"
     ],
     "Product_name": "Claire Disinfectant Bathroom Cleaner",
-    "Follow_directions_for_this_virus": "Adenovirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 10,
     "Company": "Claire Manufacturing Company",
     "Formulation_type": [
@@ -9782,7 +9828,7 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-04-16",
     "Risk_level": "Increased Risk"
   },
@@ -10019,7 +10065,7 @@
     ],
     "Product_name": "Oxivir™ Wipes",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 1,
+    "Contact_time": 0.25,
     "Company": "Diversey Inc",
     "Formulation_type": [
       "Wipe"
@@ -11082,8 +11128,8 @@
       "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Lysol® Disinfectant Max Cover Mist",
-    "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 2,
+    "Follow_directions_for_this_virus": "SARS-CoV-2; SARS-CoV-2 Variant(s)",
+    "Contact_time": 0.25,
     "Company": "Reckitt Benckiser LLC",
     "Formulation_type": [
       "Ready-to-use"
@@ -11323,7 +11369,7 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-09-17",
     "Risk_level": "Increased Risk"
   },
@@ -11509,8 +11555,8 @@
       "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Lysol® Disinfectant Spray",
-    "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 2,
+    "Follow_directions_for_this_virus": "SARS-CoV-2; SARS-CoV-2 Variant(s)",
+    "Contact_time": 0.25,
     "Company": "Reckitt Benckiser LLC",
     "Formulation_type": [
       "Ready-to-use"
@@ -15061,6 +15107,30 @@
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2021-07-27",
     "Risk_level": "Increased Risk"
+  },
+  {
+    "ID": 2302,
+    "EPA_reg_num": "99349-1",
+    "Active_ingredient": [
+      "Hypochlorous Acid"
+    ],
+    "Product_name": "Hy-Gen",
+    "Follow_directions_for_this_virus": "Rhinovirus",
+    "Contact_time": 5,
+    "Company": "Saltwater Biocides",
+    "Formulation_type": [
+      "Generator"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2022-03-28"
   },
   {
     "ID": 2221,
