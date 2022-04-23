@@ -4871,7 +4871,8 @@
       "Residential"
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2022-03-28"
+    "Date_on_List_N": "2022-03-28",
+    "Risk_level": "Increased Risk"
   },
   {
     "ID": 1055,
@@ -11622,7 +11623,8 @@
       "Residential"
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2022-01-31"
+    "Date_on_List_N": "2022-01-31",
+    "Risk_level": "Increased Risk"
   },
   {
     "ID": 1194,
@@ -13117,7 +13119,8 @@
       "Residential"
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2022-02-22"
+    "Date_on_List_N": "2022-02-22",
+    "Risk_level": "Increased Risk"
   },
   {
     "ID": 2020,
@@ -15130,7 +15133,8 @@
       "Residential"
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2022-03-28"
+    "Date_on_List_N": "2022-03-28",
+    "Risk_level": "Increased Risk"
   },
   {
     "ID": 2221,
