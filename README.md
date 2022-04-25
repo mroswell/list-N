@@ -12,7 +12,11 @@ datasette install datasette-publish-vercel
 cd Projects/Advocacy/list-N/list-N
 sqlite-utils insert list-N.db listN list-N.csv --csv
     or
+curl "https://cfpub.epa.gov/wizards/disinfectants/includes/queries.cfc?method=getDisData&Keyword=&RegNum=&ActiveIng=All&ContactTime=&UseSite=&SurfType="
+
+(was: 
 curl 'https://cfpub.epa.gov/giwiz/disinfectants/includes/queries.cfc?method=getDisData&Keyword=&RegNum=&ActiveIng=All&ContactTime=&UseSite=&SurfType=' | python transform.py | jq . | sqlite-utils insert disinfectants.db listN - --pk ID
+)
 ```
 ### Enable Full-Text Search
 ```
