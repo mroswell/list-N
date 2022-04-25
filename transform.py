@@ -4,8 +4,9 @@ import sys
 
 # $ curl 'https://cfpub.epa.gov/giwiz/disinfectants/includes/queries.cfc?method=getDisData&Keyword=&RegNum=&ActiveIng=All&ContactTime=&UseSite=&SurfType=' | python transform.py | jq . | sqlite-utils insert listN.db listN - --pk ID
 
-riskier_ingredients = ['Sodium Chloride', 'Ammonium bicarbonate', 'Ammonium carbonate', 'Chlorine dioxide', 'Chlorine Dioxide', 'Quaternary Ammonium Compounds', 'Glutaraldehyde', 'Glycolic acid', 'Hydrochloric acid', 'Hydrogen chloride', 'Hypochlorous acid', 'Hypochlorous Acid', 'Iodine', 'Octanoic acid', 'Peroxyacetic acid (Peracetic acid)', 'Peroxyoctanoic acid', 'Phenolic', 'PHMB', 'Potassium peroxymonosulfate', 'Quaternary ammonium', 'Silver', 'Silver ion', 'Sodium chlorite', 'Sodium dichloroisocyanurate', 'Sodium dichloroisocyanurate dihydrate', 'Sodium hypochlorite', 'Sodium Hypochlorite', 'Triethylene glycol']
-safer_ingredients = ['1,2-Hexanediol', 'Capric Acid', 'Capric acid', 'Citric acid', 'Dodecylbenzenesulfonic acid', 'Ethanol', 'Ethanol (Ethyl alcohol)', 'Hydrogen peroxide', 'Hydrogen Peroxide', 'Isopropanol (Isopropyl alcohol)', 'L-Lactic acid', 'Sodium carbonate', 'Sodium carbonate peroxyhydrate', 'Tetraacetyl ethylenediamine', 'Thymol', 'Sodium chloride']
+riskier_ingredients = ['Ammonium bicarbonate', 'Ammonium carbonate', 'Chlorine dioxide', 'Quaternary Ammonium Compounds', 'Glutaraldehyde', 'Glycolic acid', 'Hydrochloric acid', 'Hydrogen chloride', 'Hypochlorous acid', 'Iodine', 'o-Phenylphenol', 'Octanoic acid', 'Peroxyacetic acid (Peracetic acid)', 'Peroxyoctanoic acid', 'Phenolic', 'PHMB', 'Potassium peroxymonosulfate', 'Quaternary ammonium', 'Silver', 'Silver ion', 'Sodium chlorite', 'Sodium dichloroisocyanurate', 'Sodium dichloroisocyanurate dihydrate', 'Sodium hypochlorite', 'Triethylene glycol']
+safer_ingredients = ['1,2-Hexanediol', 'Capric acid', 'Citric acid', 'Dodecylbenzenesulfonic acid', 'Ethanol', 'Ethanol (Ethyl alcohol)', 'Hydrogen peroxide', 'Isopropanol (Isopropyl alcohol)', 'L-Lactic acid', 'Sodium carbonate', 'Sodium carbonate peroxyhydrate', 'Tetraacetyl ethylenediamine', 'Thymol', 'Sodium chloride']
+
 date_list = []
 
 month_dict = {"January"   : "01",
@@ -43,14 +44,19 @@ def transform(d):
     for row in data:
         d = dict(zip(columns, row))
         for s_ingredient in safer_ingredients:
-            if s_ingredient in d["Active_ingredient"]:
+            if s_ingredient.casefold() in d["Active_ingredient"].casefold():
                  d["Risk_level"] = 'Safer'
                  break
         for t_ingredient in riskier_ingredients:
-            if t_ingredient in d["Active_ingredient"]:
+            if t_ingredient.casefold() in d["Active_ingredient"].casefold():
                 d["Risk_level"] = 'Increased Risk'
                 break
         d["Active_ingredient"] = d["Active_ingredient"].split("; ")
+        for i in range(len(d["Active_ingredient"])):
+            if "o-Phenylphenol" in d["Active_ingredient"][i]:
+                d["Active_ingredient"][i] = "o-Phenylphenol"
+            else:
+                d["Active_ingredient"][i] = d["Active_ingredient"][i].title()
         if d["Formulation_type"] is not None:
             d["Formulation_type"] = d["Formulation_type"].replace(u'®', "").replace(" (Clorox Total 360 system)", "").replace(" (use in conjunction with VHP generator)", "").replace(" CURIS", "").replace(" HaloFogger", "").split("; ")
         d["Surface_type"] = d["Surface_type"].split("; ")
