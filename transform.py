@@ -53,8 +53,21 @@ def transform(d):
                 break
         d["Active_ingredient"] = d["Active_ingredient"].split("; ")
         for i in range(len(d["Active_ingredient"])):
-            if "o-Phenylphenol" in d["Active_ingredient"][i]:
+            ing = d["Active_ingredient"][i].casefold()
+            if ing == "o-phenylphenol":
                 d["Active_ingredient"][i] = "o-Phenylphenol"
+            elif ing == "l-lactic acid":
+                d["Active_ingredient"][i] = "L-Lactic acid"
+            elif ing == "phmb":
+                d["Active_ingredient"][i] = "PHMB"
+            elif ing == "quaternary ammonium compounds":
+                d["Active_ingredient"][i] = "Quaternary ammonium"
+            elif ing == "peroxyacetic acid (peracetic acid)":
+                d["Active_ingredient"][i] = "Peroxyacetic acid (Peracetic acid)"
+            elif ing == "isopropanol (isopropyl alcohol)":
+                d["Active_ingredient"][i] = "Isopropanol (Isopropyl alcohol)"
+            elif ing in ["ethanol (ethyl alcohol)","ethanol"]:
+                d["Active_ingredient"][i] = "Ethanol (Ethyl alcohol)"
             else:
                 d["Active_ingredient"][i] = d["Active_ingredient"][i].title()
         if d["Formulation_type"] is not None:
