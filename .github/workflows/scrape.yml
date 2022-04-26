@@ -66,7 +66,7 @@ jobs:
         --install datasette-vega \
         --setting default_page_size 3000 \
         --setting max_returned_rows 3000 \
-        --setting default_facet_size 37 \
+        --setting default_facet_size 39 \
         --static static:static/ \
         --template-dir templates/ \
         --plugins-dir plugins/ \
