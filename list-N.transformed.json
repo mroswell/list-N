@@ -565,7 +565,7 @@
     "EPA_reg_num": "10324-214",
     "Active_ingredient": [
       "Hydrogen Peroxide",
-      "Peroxyacetic Acid (Peracetic Acid)"
+      "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "Maguard 5626",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -591,7 +591,7 @@
     "EPA_reg_num": "10324-230",
     "Active_ingredient": [
       "Hydrogen Peroxide",
-      "Peroxyacetic Acid (Peracetic Acid)"
+      "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "Maguard 1522",
     "Follow_directions_for_this_virus": "Human coronavirus",
@@ -948,7 +948,7 @@
     "EPA_reg_num": "1043-119",
     "Active_ingredient": [
       "Hydrogen Peroxide",
-      "Peroxyacetic Acid (Peracetic Acid)"
+      "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "SPOR-KLENZ Ready To Use",
     "Follow_directions_for_this_virus": "Murine norovirus",
@@ -1065,7 +1065,7 @@
     "EPA_reg_num": "1043-129",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Isopropanol (Isopropyl Alcohol)"
+      "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "Vesta-Syde SQ64 Ready-to-Use Disinfectant",
     "Follow_directions_for_this_virus": "Feline calicivirus",
@@ -1162,7 +1162,7 @@
     "EPA_reg_num": "10492-4",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Isopropanol (Isopropyl Alcohol)"
+      "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "Discide Ultra Disinfecting Towelettes",
     "Follow_directions_for_this_virus": "Adenovirus Type 2",
@@ -1188,7 +1188,7 @@
     "EPA_reg_num": "10492-5",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Isopropanol (Isopropyl Alcohol)"
+      "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "Discide Ultra Disinfecting Spray",
     "Follow_directions_for_this_virus": "Human coronavirus",
@@ -1265,7 +1265,7 @@
     "ID": 1232,
     "EPA_reg_num": "10807-177",
     "Active_ingredient": [
-      "Ethanol (Ethyl Alcohol)",
+      "Ethanol (Ethyl alcohol)",
       "Phenolic"
     ],
     "Product_name": "Misty II Disinfectant & Deodorant",
@@ -1315,7 +1315,7 @@
     "EPA_reg_num": "1130-15",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Isopropanol (Isopropyl Alcohol)"
+      "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "Weiman Germicidal Solution",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -1416,7 +1416,7 @@
     "EPA_reg_num": "11525-30",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Disinfectant Spray \"G\"",
     "Follow_directions_for_this_virus": "Rhinovirus",
@@ -1442,7 +1442,7 @@
     "ID": 1269,
     "EPA_reg_num": "12120-4",
     "Active_ingredient": [
-      "Peroxyacetic Acid (Peracetic Acid)",
+      "Peroxyacetic acid (Peracetic acid)",
       "Hydrogen Peroxide"
     ],
     "Product_name": "SSS Synersys Sporicidal Disinfectant",
@@ -1519,7 +1519,7 @@
     "EPA_reg_num": "1677-129",
     "Active_ingredient": [
       "Hydrogen Peroxide",
-      "Peroxyacetic Acid (Peracetic Acid)"
+      "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "Oxonia Active",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -1544,7 +1544,7 @@
     "EPA_reg_num": "1677-158",
     "Active_ingredient": [
       "Hydrogen Peroxide",
-      "Peroxyacetic Acid (Peracetic Acid)",
+      "Peroxyacetic acid (Peracetic acid)",
       "Octanoic Acid"
     ],
     "Product_name": "Vortexx",
@@ -1569,7 +1569,7 @@
     "ID": 1268,
     "EPA_reg_num": "1677-193",
     "Active_ingredient": [
-      "Peroxyacetic Acid (Peracetic Acid)",
+      "Peroxyacetic acid (Peracetic acid)",
       "Hydrogen Peroxide"
     ],
     "Product_name": "AdvaCare 120 Sanitizer/Sour",
@@ -1739,7 +1739,7 @@
     "Active_ingredient": [
       "Hydrogen Peroxide",
       "Octanoic Acid",
-      "Peroxyacetic Acid (Peracetic Acid)"
+      "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "Virasept",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -1814,7 +1814,7 @@
     "EPA_reg_num": "1677-237",
     "Active_ingredient": [
       "Hydrogen Peroxide",
-      "Peroxyacetic Acid (Peracetic Acid)"
+      "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "Oxycide Daily Disinfectant Cleaner",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -1911,7 +1911,7 @@
     "ID": 1453,
     "EPA_reg_num": "1677-249",
     "Active_ingredient": [
-      "Isopropanol (Isopropyl Alcohol)"
+      "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "Klercide 70/30 IPA",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -1937,7 +1937,7 @@
     "Active_ingredient": [
       "Hydrogen Peroxide",
       "Peroxyoctanoic Acid",
-      "Peroxyacetic Acid (Peracetic Acid)"
+      "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "Synergex",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -2057,7 +2057,7 @@
     "EPA_reg_num": "1677-259",
     "Active_ingredient": [
       "Dodecylbenzenesulfonic Acid",
-      "L-Lactic Acid"
+      "L-Lactic acid"
     ],
     "Product_name": "CW32A-RTU",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -2085,7 +2085,7 @@
     "EPA_reg_num": "1677-260",
     "Active_ingredient": [
       "Dodecylbenzenesulfonic Acid",
-      "L-Lactic Acid"
+      "L-Lactic acid"
     ],
     "Product_name": "S&S Sanitizer",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -3191,7 +3191,7 @@
     "EPA_reg_num": "33176-5",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Ethanol (Ethyl Alcohol)",
+      "Ethanol (Ethyl alcohol)",
       "Phenolic"
     ],
     "Product_name": "Airysol Brand Surface Disinfectant",
@@ -3949,7 +3949,7 @@
     "ID": 1177,
     "EPA_reg_num": "42048-4",
     "Active_ingredient": [
-      "L-Lactic Acid"
+      "L-Lactic acid"
     ],
     "Product_name": "Sani-Cide EX3 (10X) RTU",
     "Follow_directions_for_this_virus": "Feline calicivirus",
@@ -3973,7 +3973,7 @@
     "EPA_reg_num": "42182-13",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Ironman Wipe",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -4000,7 +4000,7 @@
     "EPA_reg_num": "42182-9",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Firebird F130",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -4026,7 +4026,7 @@
     "EPA_reg_num": "42964-17",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Asepticare",
     "Follow_directions_for_this_virus": "Human coronavirus",
@@ -4077,7 +4077,7 @@
     "EPA_reg_num": "44446-67",
     "Active_ingredient": [
       "Phenolic",
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Concept Hospital Disinfectant Deodorant",
     "Follow_directions_for_this_virus": "Adenovirus; Canine hepatitis virus",
@@ -4103,7 +4103,7 @@
     "EPA_reg_num": "44446-81",
     "Active_ingredient": [
       "Phenolic",
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Phenomenal II Hospital Disinfectant Deodorant",
     "Follow_directions_for_this_virus": "Adenovirus Type 5; Infectious canine adenovirus 1",
@@ -4182,8 +4182,8 @@
     "EPA_reg_num": "46781-12",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Ethanol (Ethyl Alcohol)",
-      "Isopropanol (Isopropyl Alcohol)"
+      "Ethanol (Ethyl alcohol)",
+      "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "Cavicide 1",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -4209,8 +4209,8 @@
     "EPA_reg_num": "46781-13",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Ethanol (Ethyl Alcohol)",
-      "Isopropanol (Isopropyl Alcohol)"
+      "Ethanol (Ethyl alcohol)",
+      "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "Caviwipes 1",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -4287,7 +4287,7 @@
     "EPA_reg_num": "46781-17",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Isopropanol (Isopropyl Alcohol)"
+      "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "CaviWipes 2.0",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -4338,7 +4338,7 @@
     "EPA_reg_num": "46781-6",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Isopropanol (Isopropyl Alcohol)"
+      "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "Cavicide",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -4364,7 +4364,7 @@
     "EPA_reg_num": "46781-8",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Isopropanol (Isopropyl Alcohol)"
+      "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "Caviwipes",
     "Follow_directions_for_this_virus": "Mycobacterium bovis",
@@ -4615,7 +4615,7 @@
     "ID": 1288,
     "EPA_reg_num": "4822-592",
     "Active_ingredient": [
-      "L-Lactic Acid"
+      "L-Lactic acid"
     ],
     "Product_name": "Hygeia",
     "Follow_directions_for_this_virus": "Rotavirus",
@@ -4640,7 +4640,7 @@
     "ID": 1164,
     "EPA_reg_num": "4822-593",
     "Active_ingredient": [
-      "L-Lactic Acid"
+      "L-Lactic acid"
     ],
     "Product_name": "Windex Disinfectant Cleaner",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -4688,7 +4688,7 @@
     "ID": 1405,
     "EPA_reg_num": "4822-606",
     "Active_ingredient": [
-      "L-Lactic Acid"
+      "L-Lactic acid"
     ],
     "Product_name": "Fangio",
     "Follow_directions_for_this_virus": "Human coronavirus",
@@ -4737,7 +4737,7 @@
     "ID": 1407,
     "EPA_reg_num": "4822-608",
     "Active_ingredient": [
-      "L-Lactic Acid"
+      "L-Lactic acid"
     ],
     "Product_name": "Gurney",
     "Follow_directions_for_this_virus": "Human coronavirus",
@@ -4902,7 +4902,7 @@
     "ID": 1038,
     "EPA_reg_num": "498-134",
     "Active_ingredient": [
-      "Ethanol (Ethyl Alcohol)",
+      "Ethanol (Ethyl alcohol)",
       "Phenolic"
     ],
     "Product_name": "Spraypak Spray Disinfectant Formula 2",
@@ -4928,7 +4928,7 @@
     "EPA_reg_num": "498-179",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Champion Sprayon Spray Disinfectant Formula 3",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -4953,7 +4953,7 @@
     "ID": 1114,
     "EPA_reg_num": "498-194",
     "Active_ingredient": [
-      "Ethanol (Ethyl Alcohol)",
+      "Ethanol (Ethyl alcohol)",
       "Phenolic"
     ],
     "Product_name": "Spraypak Spray Disinfectant/Lubricant",
@@ -5054,7 +5054,7 @@
     "EPA_reg_num": "52252-7",
     "Active_ingredient": [
       "Hydrogen Peroxide",
-      "Peroxyacetic Acid (Peracetic Acid)"
+      "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "Actril Cold Sterilant",
     "Follow_directions_for_this_virus": "Tuberculocidal",
@@ -5077,7 +5077,7 @@
     "ID": 1409,
     "EPA_reg_num": "54289-4",
     "Active_ingredient": [
-      "Peroxyacetic Acid (Peracetic Acid)"
+      "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "Peraclean 15 (Peroxyacetic Acid Solution)",
     "Follow_directions_for_this_virus": "Human coronavirus",
@@ -5101,7 +5101,7 @@
     "ID": 2226,
     "EPA_reg_num": "55364-3",
     "Active_ingredient": [
-      "Quaternary Ammonium Compounds"
+      "Quaternary ammonium"
     ],
     "Product_name": "Control III Laboratory Disinfectant/Germicide",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -5272,7 +5272,7 @@
     "ID": 1123,
     "EPA_reg_num": "5741-22",
     "Active_ingredient": [
-      "Ethanol (Ethyl Alcohol)",
+      "Ethanol (Ethyl alcohol)",
       "Phenolic"
     ],
     "Product_name": "Steripene II Brand Disinfectant Deodorant",
@@ -6280,7 +6280,7 @@
     "ID": 1286,
     "EPA_reg_num": "58300-25",
     "Active_ingredient": [
-      "Peroxyacetic Acid (Peracetic Acid)",
+      "Peroxyacetic acid (Peracetic acid)",
       "Hydrogen Peroxide"
     ],
     "Product_name": "Stericide",
@@ -6331,7 +6331,7 @@
     "EPA_reg_num": "59894-10",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Isopropanol (Isopropyl Alcohol)"
+      "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "Kwikkill Disinfectant Deodorizing Cleaning Wipes",
     "Follow_directions_for_this_virus": "Mycobacterium tuberculosis",
@@ -6608,7 +6608,7 @@
     "EPA_reg_num": "63838-15",
     "Active_ingredient": [
       "Hydrogen Peroxide",
-      "Peroxyacetic Acid (Peracetic Acid)"
+      "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "Peraspray",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -6658,7 +6658,7 @@
     "ID": 1212,
     "EPA_reg_num": "64240-65",
     "Active_ingredient": [
-      "L-Lactic Acid"
+      "L-Lactic acid"
     ],
     "Product_name": "WC Complete",
     "Follow_directions_for_this_virus": "Rhinovirus",
@@ -6684,7 +6684,7 @@
     "EPA_reg_num": "65402-1",
     "Active_ingredient": [
       "Hydrogen Peroxide",
-      "Peroxyacetic Acid (Peracetic Acid)"
+      "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "Vigorox Liquid Sanitizer and Disinfectant",
     "Follow_directions_for_this_virus": "Avian reovirus",
@@ -6711,7 +6711,7 @@
     "EPA_reg_num": "65402-13",
     "Active_ingredient": [
       "Hydrogen Peroxide",
-      "Peroxyacetic Acid (Peracetic Acid)"
+      "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "VigorOx CR",
     "Follow_directions_for_this_virus": "Avian reovirus",
@@ -6734,7 +6734,7 @@
     "ID": 1341,
     "EPA_reg_num": "65402-3",
     "Active_ingredient": [
-      "Peroxyacetic Acid (Peracetic Acid)",
+      "Peroxyacetic acid (Peracetic acid)",
       "Hydrogen Peroxide"
     ],
     "Product_name": "VigorOx SP-15 Antimicrobial Agent",
@@ -6758,7 +6758,7 @@
     "ID": 1762,
     "EPA_reg_num": "65402-6",
     "Active_ingredient": [
-      "Peroxyacetic Acid (Peracetic Acid)",
+      "Peroxyacetic acid (Peracetic acid)",
       "Hydrogen Peroxide"
     ],
     "Product_name": "VigorOx Citrus XA",
@@ -6784,7 +6784,7 @@
     "ID": 1188,
     "EPA_reg_num": "65402-9",
     "Active_ingredient": [
-      "Peroxyacetic Acid (Peracetic Acid)",
+      "Peroxyacetic acid (Peracetic acid)",
       "Hydrogen Peroxide"
     ],
     "Product_name": "VigorOx 15/10 Antimicrobial Agent",
@@ -6858,7 +6858,7 @@
     "ID": 1168,
     "EPA_reg_num": "66171-103",
     "Active_ingredient": [
-      "Peroxyacetic Acid (Peracetic Acid)",
+      "Peroxyacetic acid (Peracetic acid)",
       "Hydrogen Peroxide"
     ],
     "Product_name": "Peraside A Peroxyacetic Acid-Based Sanitizer/Disinfectant",
@@ -7209,7 +7209,7 @@
     "EPA_reg_num": "67603-4",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Spray Disinfectant",
     "Follow_directions_for_this_virus": "Mycobacterium bovis",
@@ -7438,7 +7438,7 @@
     "EPA_reg_num": "67619-21",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Clorox Commercial Solutions® Clorox® Disinfecting Spray",
     "Follow_directions_for_this_virus": "Coxsackievirus; Echovirus; Feline calicivirus; Hepatitis A virus; Poliovirus",
@@ -7589,7 +7589,7 @@
     "ID": 1475,
     "EPA_reg_num": "67619-29",
     "Active_ingredient": [
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Saginaw",
     "Follow_directions_for_this_virus": "Coxsackievirus; Hepatitis A virus; Rhinovirus; Rotavirus",
@@ -7715,7 +7715,7 @@
     "ID": 1435,
     "EPA_reg_num": "67619-35",
     "Active_ingredient": [
-      "Peroxyacetic Acid (Peracetic Acid)",
+      "Peroxyacetic acid (Peracetic acid)",
       "Hydrogen Peroxide"
     ],
     "Product_name": "Blacksmith",
@@ -7998,7 +7998,7 @@
     "ID": 2229,
     "EPA_reg_num": "6836-138",
     "Active_ingredient": [
-      "Quaternary Ammonium Compounds"
+      "Quaternary ammonium"
     ],
     "Product_name": "Lonza Formulation S-38-F",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -8949,7 +8949,7 @@
     "ID": 1701,
     "EPA_reg_num": "6836-445",
     "Active_ingredient": [
-      "Phmb",
+      "PHMB",
       "Quaternary Ammonium"
     ],
     "Product_name": "Nugen NR RTU",
@@ -8975,7 +8975,7 @@
     "ID": 1702,
     "EPA_reg_num": "6836-446",
     "Active_ingredient": [
-      "Phmb",
+      "PHMB",
       "Quaternary Ammonium"
     ],
     "Product_name": "Nugen NR-128",
@@ -9027,7 +9027,7 @@
     "ID": 2230,
     "EPA_reg_num": "6836-73",
     "Active_ingredient": [
-      "Quaternary Ammonium Compounds"
+      "Quaternary ammonium"
     ],
     "Product_name": "Lonza Formulation S-38",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -9130,7 +9130,7 @@
     "EPA_reg_num": "68660-11",
     "Active_ingredient": [
       "Hydrogen Peroxide",
-      "Peroxyacetic Acid (Peracetic Acid)"
+      "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "Proxitane® AHC",
     "Follow_directions_for_this_virus": "Rhinovirus",
@@ -9225,7 +9225,7 @@
     "ID": 2242,
     "EPA_reg_num": "69658-3",
     "Active_ingredient": [
-      "Ethanol",
+      "Ethanol (Ethyl alcohol)",
       "Phenol",
       "o-Phenylphenol"
     ],
@@ -9278,7 +9278,7 @@
     "EPA_reg_num": "70144-1",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Isopropanol (Isopropyl Alcohol)"
+      "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "Opti-Cide 3®",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -9304,7 +9304,7 @@
     "EPA_reg_num": "70144-2",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Isopropanol (Isopropyl Alcohol)"
+      "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "Opti-Cide 3® Wipes",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -9329,7 +9329,7 @@
     "EPA_reg_num": "70144-4",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Opti-cide Max Wipes",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -9356,7 +9356,7 @@
     "EPA_reg_num": "70144-5",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Opti-cide Max",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -9607,7 +9607,7 @@
     "EPA_reg_num": "70271-37",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Disinfectant Spray G",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -9634,7 +9634,7 @@
     "EPA_reg_num": "70299-19",
     "Active_ingredient": [
       "Hydrogen Peroxide",
-      "Peroxyacetic Acid (Peracetic Acid)"
+      "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "Sanidate 5.0",
     "Follow_directions_for_this_virus": "Human coronavirus",
@@ -9659,7 +9659,7 @@
     "EPA_reg_num": "70299-27",
     "Active_ingredient": [
       "Hydrogen Peroxide",
-      "Peroxyacetic Acid (Peracetic Acid)"
+      "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "SaniDate All Purpose Disinfectant",
     "Follow_directions_for_this_virus": "Human coronavirus",
@@ -10380,7 +10380,7 @@
     "EPA_reg_num": "71355-2",
     "Active_ingredient": [
       "Hydrogen Peroxide",
-      "Peroxyacetic Acid (Peracetic Acid)"
+      "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "Kickstart",
     "Follow_directions_for_this_virus": "Avian reovirus",
@@ -10604,7 +10604,7 @@
     "ID": 1343,
     "EPA_reg_num": "73232-1",
     "Active_ingredient": [
-      "Isopropanol (Isopropyl Alcohol)",
+      "Isopropanol (Isopropyl alcohol)",
       "Quaternary Ammonium"
     ],
     "Product_name": "Alpet D2",
@@ -10630,8 +10630,8 @@
     "ID": 2160,
     "EPA_reg_num": "73232-4",
     "Active_ingredient": [
-      "Ethanol (Ethyl Alcohol)",
-      "Isopropanol (Isopropyl Alcohol)"
+      "Ethanol (Ethyl alcohol)",
+      "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "Alpet D2 Quat-Free Surface Sanitizer",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -11126,7 +11126,7 @@
     "EPA_reg_num": "777-127",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Lysol® Disinfectant Max Cover Mist",
     "Follow_directions_for_this_virus": "SARS-CoV-2; SARS-CoV-2 Variant(s)",
@@ -11275,7 +11275,7 @@
     "ID": 1524,
     "EPA_reg_num": "777-136",
     "Active_ingredient": [
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Lysol® Neutra Air® 2 in 1",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -11327,7 +11327,7 @@
     "ID": 2162,
     "EPA_reg_num": "777-141",
     "Active_ingredient": [
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Coleslaw",
     "Follow_directions_for_this_virus": "Feline calicivirus",
@@ -11553,7 +11553,7 @@
     "EPA_reg_num": "777-99",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Lysol® Disinfectant Spray",
     "Follow_directions_for_this_virus": "SARS-CoV-2; SARS-CoV-2 Variant(s)",
@@ -11657,7 +11657,7 @@
     "EPA_reg_num": "833-3",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Isopropanol (Isopropyl Alcohol)"
+      "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "WYANDOTTE SANIFECT D2",
     "Follow_directions_for_this_virus": "Human Coronavirus",
@@ -11707,7 +11707,7 @@
     "EPA_reg_num": "8383-12",
     "Active_ingredient": [
       "Hydrogen Peroxide",
-      "Peroxyacetic Acid (Peracetic Acid)"
+      "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "Peridox",
     "Follow_directions_for_this_virus": "Norovirus; Rhinovirus",
@@ -11732,7 +11732,7 @@
     "EPA_reg_num": "8383-13",
     "Active_ingredient": [
       "Hydrogen Peroxide",
-      "Peroxyacetic Acid (Peracetic Acid)"
+      "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "PeridoxRTU ™",
     "Follow_directions_for_this_virus": "Feline calicivirus",
@@ -11757,7 +11757,7 @@
     "EPA_reg_num": "8383-14",
     "Active_ingredient": [
       "Hydrogen Peroxide",
-      "Peroxyacetic Acid (Peracetic Acid)"
+      "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "PeridoxRTU™ (Brand) One-step Germicidal Wipes",
     "Follow_directions_for_this_virus": "Human coronavirus",
@@ -11832,7 +11832,7 @@
     "ID": 1499,
     "EPA_reg_num": "84150-1",
     "Active_ingredient": [
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "PURELL Professional Surface Disinfectant Wipes",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -11858,7 +11858,7 @@
     "ID": 1448,
     "EPA_reg_num": "84150-2",
     "Active_ingredient": [
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Mitersaw",
     "Follow_directions_for_this_virus": "Feline calicivirus",
@@ -11882,7 +11882,7 @@
     "ID": 1700,
     "EPA_reg_num": "84150-3",
     "Active_ingredient": [
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Salsa",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -11908,7 +11908,7 @@
     "ID": 1089,
     "EPA_reg_num": "84150-4",
     "Active_ingredient": [
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Charleston",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -11957,7 +11957,7 @@
     "ID": 1500,
     "EPA_reg_num": "84368-1",
     "Active_ingredient": [
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Urthpro",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -12062,7 +12062,7 @@
     "EPA_reg_num": "84545-5",
     "Active_ingredient": [
       "Hydrogen Peroxide",
-      "Peroxyacetic Acid (Peracetic Acid)"
+      "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "Peradox HC Activator Solution Part B",
     "Follow_directions_for_this_virus": "Mycobacterium bovis",
@@ -12293,7 +12293,7 @@
     "EPA_reg_num": "85837-6",
     "Active_ingredient": [
       "Hydrogen Peroxide",
-      "Peroxyacetic Acid (Peracetic Acid)"
+      "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "Peraoxy Pro",
     "Follow_directions_for_this_virus": "Human coronavirus",
@@ -12593,7 +12593,7 @@
     "EPA_reg_num": "88089-2",
     "Active_ingredient": [
       "Hydrogen Peroxide",
-      "Peroxyacetic Acid (Peracetic Acid)"
+      "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "Peridox",
     "Follow_directions_for_this_virus": "Feline calicivirus; Norovirus",
@@ -12619,7 +12619,7 @@
     "EPA_reg_num": "88089-4",
     "Active_ingredient": [
       "Hydrogen Peroxide",
-      "Peroxyacetic Acid (Peracetic Acid)"
+      "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "PeridoxRTU™",
     "Follow_directions_for_this_virus": "Canine parvovirus",
@@ -12720,7 +12720,7 @@
     "EPA_reg_num": "88494-1",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Wedge Disinfectant",
     "Follow_directions_for_this_virus": "Human coronavirus",
@@ -12745,7 +12745,7 @@
     "ID": 1223,
     "EPA_reg_num": "88494-2",
     "Active_ingredient": [
-      "Ethanol (Ethyl Alcohol)",
+      "Ethanol (Ethyl alcohol)",
       "Quaternary Ammonium"
     ],
     "Product_name": "Wedge Disinfectant Wipes",
@@ -12773,7 +12773,7 @@
     "EPA_reg_num": "88494-3",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Peak Disinfectant",
     "Follow_directions_for_this_virus": "Poliovirus Type 1; Rhinovirus",
@@ -12799,7 +12799,7 @@
     "EPA_reg_num": "88494-4",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Peak Disinfectant Wipes",
     "Follow_directions_for_this_virus": "Poliovirus Type 1; Rhinovirus",
@@ -12825,8 +12825,8 @@
     "EPA_reg_num": "88897-1",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Ethanol (Ethyl Alcohol)",
-      "Isopropanol (Isopropyl Alcohol)"
+      "Ethanol (Ethyl alcohol)",
+      "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "Panther Disinfectant Towelette",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -12851,8 +12851,8 @@
     "EPA_reg_num": "88897-2",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Ethanol (Ethyl Alcohol)",
-      "Isopropanol (Isopropyl Alcohol)"
+      "Ethanol (Ethyl alcohol)",
+      "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "Panther Disinfectant",
     "Follow_directions_for_this_virus": "Adenovirus; Feline calicivirus",
@@ -14007,7 +14007,7 @@
     "EPA_reg_num": "93744-1",
     "Active_ingredient": [
       "Hydrogen Peroxide",
-      "Peroxyacetic Acid (Peracetic Acid)"
+      "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "Pathco Disinfectant",
     "Follow_directions_for_this_virus": "Canine parvovirus",
@@ -14212,8 +14212,8 @@
     "EPA_reg_num": "9480-10",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Ethanol (Ethyl Alcohol)",
-      "Isopropanol (Isopropyl Alcohol)"
+      "Ethanol (Ethyl alcohol)",
+      "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "Sani-Prime Germicidal Spray",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -14263,8 +14263,8 @@
     "EPA_reg_num": "9480-12",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Ethanol (Ethyl Alcohol)",
-      "Isopropanol (Isopropyl Alcohol)"
+      "Ethanol (Ethyl alcohol)",
+      "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "Sani-Cloth Prime Germicidal Disposable Wipe",
     "Follow_directions_for_this_virus": "Feline calicivirus",
@@ -14363,7 +14363,7 @@
     "EPA_reg_num": "9480-4",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Isopropanol (Isopropyl Alcohol)"
+      "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "Super Sani-Cloth Germicidal Disposable Wipe",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -14514,7 +14514,7 @@
     "ID": 1116,
     "EPA_reg_num": "954-10",
     "Active_ingredient": [
-      "Isopropanol (Isopropyl Alcohol)",
+      "Isopropanol (Isopropyl alcohol)",
       "Phenolic"
     ],
     "Product_name": "Clippercide Spray",
@@ -14637,7 +14637,7 @@
     "EPA_reg_num": "96041-3",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Isopropanol (Isopropyl Alcohol)"
+      "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "Sani-Spray",
     "Follow_directions_for_this_virus": "Rotavirus",
@@ -14712,7 +14712,7 @@
     "EPA_reg_num": "96706-1",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Isopropanol (Isopropyl Alcohol)"
+      "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "MBS MedTech Germicidal* Disposable Wipes",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -14738,7 +14738,7 @@
     "EPA_reg_num": "96738-3",
     "Active_ingredient": [
       "Quaternary Ammonium",
-      "Ethanol (Ethyl Alcohol)"
+      "Ethanol (Ethyl alcohol)"
     ],
     "Product_name": "Aktive Disinfecting Wipes",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
@@ -14891,7 +14891,7 @@
     "ID": 1660,
     "EPA_reg_num": "97755-1",
     "Active_ingredient": [
-      "Isopropanol (Isopropyl Alcohol)"
+      "Isopropanol (Isopropyl alcohol)"
     ],
     "Product_name": "Swipe Clean 70/30 IPA",
     "Follow_directions_for_this_virus": "Rhinovirus Type 37",
