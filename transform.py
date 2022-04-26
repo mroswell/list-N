@@ -60,7 +60,7 @@ def transform(d):
                 d["Active_ingredient"][i] = "L-Lactic acid"
             elif ing == "phmb":
                 d["Active_ingredient"][i] = "PHMB"
-            elif ing == "quaternary ammonium compounds":
+            elif ing in ["quaternary ammonium compounds","quatenary ammonium"]:
                 d["Active_ingredient"][i] = "Quaternary ammonium"
             elif ing == "peroxyacetic acid (peracetic acid)":
                 d["Active_ingredient"][i] = "Peroxyacetic acid (Peracetic acid)"
