@@ -69,7 +69,7 @@ def transform(d):
             elif ing in ["ethanol (ethyl alcohol)","ethanol"]:
                 d["Active_ingredient"][i] = "Ethanol (Ethyl alcohol)"
             else:
-                d["Active_ingredient"][i] = d["Active_ingredient"][i].title()
+                d["Active_ingredient"][i] = d["Active_ingredient"][i].capitalize()
         if d["Formulation_type"] is not None:
             d["Formulation_type"] = d["Formulation_type"].replace(u'®', "").replace(" (Clorox Total 360 system)", "").replace(" (use in conjunction with VHP generator)", "").replace(" CURIS", "").replace(" HaloFogger", "").split("; ")
         d["Surface_type"] = d["Surface_type"].split("; ")
