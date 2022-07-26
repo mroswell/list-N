@@ -406,6 +406,21 @@
       null
     ],
     [
+      2380,
+      "10324-237",
+      "Quaternary ammonium; Glutaraldehyde",
+      "Maquat 11-25",
+      "Canine parvovirus",
+      10,
+      "Mason Chemical Company",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Institutional; Residential",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "July, 26 2022 00:00:00",
+      null
+    ],
+    [
       1381,
       "10324-57",
       "Quaternary ammonium",
@@ -4003,6 +4018,21 @@
       "Institutional; Residential",
       "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "July, 23 2020 00:00:00",
+      null
+    ],
+    [
+      2381,
+      "63679-2",
+      "Quaternary ammonium",
+      "KC-644",
+      "Norovirus",
+      10,
+      "Packers Sanitiation Services, Inc",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Institutional",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "July, 26 2022 00:00:00",
       null
     ],
     [
@@ -8968,6 +8998,21 @@
       "Healthcare; Institutional",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "August, 13 2020 00:00:00",
+      null
+    ],
+    [
+      2382,
+      "96209-1",
+      "Hypochlorous acid",
+      "Electrilyte",
+      "Norovirus; Rhinovirus 37",
+      10,
+      "Electrichlor Technologies Inc. ",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "July, 26 2022 00:00:00",
       null
     ],
     [

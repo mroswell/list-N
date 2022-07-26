@@ -663,6 +663,31 @@
     "Risk_level": "Increased Risk"
   },
   {
+    "ID": 2380,
+    "EPA_reg_num": "10324-237",
+    "Active_ingredient": [
+      "Quaternary ammonium",
+      "Glutaraldehyde"
+    ],
+    "Product_name": "Maquat 11-25",
+    "Follow_directions_for_this_virus": "Canine parvovirus",
+    "Contact_time": 10,
+    "Company": "Mason Chemical Company",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2022-07-26",
+    "Risk_level": "Increased Risk"
+  },
+  {
     "ID": 1381,
     "EPA_reg_num": "10324-57",
     "Active_ingredient": [
@@ -6677,6 +6702,29 @@
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-07-23",
+    "Risk_level": "Increased Risk"
+  },
+  {
+    "ID": 2381,
+    "EPA_reg_num": "63679-2",
+    "Active_ingredient": [
+      "Quaternary ammonium"
+    ],
+    "Product_name": "KC-644",
+    "Follow_directions_for_this_virus": "Norovirus",
+    "Contact_time": 10,
+    "Company": "Packers Sanitiation Services, Inc",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Institutional"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2022-07-26",
     "Risk_level": "Increased Risk"
   },
   {
@@ -15019,6 +15067,30 @@
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-08-13",
+    "Risk_level": "Increased Risk"
+  },
+  {
+    "ID": 2382,
+    "EPA_reg_num": "96209-1",
+    "Active_ingredient": [
+      "Hypochlorous acid"
+    ],
+    "Product_name": "Electrilyte",
+    "Follow_directions_for_this_virus": "Norovirus; Rhinovirus 37",
+    "Contact_time": 10,
+    "Company": "Electrichlor Technologies Inc. ",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2022-07-26",
     "Risk_level": "Increased Risk"
   },
   {
