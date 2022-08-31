@@ -31,6 +31,36 @@
       null
     ],
     [
+      2410,
+      "100766-1",
+      "Citric acid",
+      "Dolphin Green",
+      "Human Coronavirus",
+      10,
+      "Italkem SRL Unipersonale",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Institutional",
+      "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+      "August, 31 2022 00:00:00",
+      null
+    ],
+    [
+      2400,
+      "100777-1",
+      "Hypochlorous acid",
+      "EWCO 200",
+      "SARS-CoV-2",
+      5,
+      "EWCO LLC",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "August, 31 2022 00:00:00",
+      null
+    ],
+    [
       2341,
       "100798-1",
       "Hypochlorous acid",
@@ -343,6 +373,21 @@
       "Healthcare; Institutional; Residential",
       "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "March, 13 2020 00:00:00",
+      null
+    ],
+    [
+      2409,
+      "10324-194",
+      "Quaternary ammonium",
+      "Maquat 2420-10",
+      "SARS-CoV-2",
+      1,
+      "Mason Chemical Company",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19)",
+      "August, 31 2022 00:00:00",
       null
     ],
     [
@@ -748,6 +793,51 @@
       "Healthcare; Institutional; Residential",
       "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
       "March, 13 2020 00:00:00",
+      null
+    ],
+    [
+      2403,
+      "106-83",
+      "Quaternary ammonium",
+      "Uniquat Plus 256",
+      "SARS-CoV-2",
+      10,
+      "Brulin & Company Inc",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "August, 31 2022 00:00:00",
+      null
+    ],
+    [
+      2402,
+      "106-84",
+      "Quaternary ammonium",
+      "Uniquat Plus 128",
+      "SARS-CoV-2",
+      10,
+      "Brulin & Company Inc",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "August, 31 2022 00:00:00",
+      null
+    ],
+    [
+      2401,
+      "106-85",
+      "Quaternary ammonium",
+      "Uniquat Plus 64",
+      "SARS-CoV-2",
+      10,
+      "Brulin & Company Inc",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "August, 31 2022 00:00:00",
       null
     ],
     [
@@ -1348,6 +1438,36 @@
       "Healthcare; Institutional",
       "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "July, 13 2021 00:00:00",
+      null
+    ],
+    [
+      2404,
+      "1677-275",
+      "Hydrogen peroxide; Peroxyacetic acid (Peracetic acid)",
+      "KX-6257",
+      "SARS-CoV-2",
+      2,
+      "Ecolab Inc.",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Institutional",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "August, 31 2022 00:00:00",
+      null
+    ],
+    [
+      2405,
+      "1677-275",
+      "Hydrogen peroxide; Peroxyacetic acid (Peracetic acid)",
+      "KX-6257",
+      "SARS-CoV-2",
+      2,
+      "Ecolab Inc.",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Institutional",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "August, 31 2022 00:00:00",
       null
     ],
     [
@@ -3646,6 +3766,21 @@
       null
     ],
     [
+      2411,
+      "5813-134",
+      "Citric acid",
+      "Atticus",
+      "SARS-CoV-2",
+      0.5,
+      "The Clorox Co.",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "August, 31 2022 00:00:00",
+      null
+    ],
+    [
       1125,
       "5813-20",
       "Sodium hypochlorite",
@@ -4108,6 +4243,21 @@
       "Institutional; Residential",
       "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "October, 26 2021 00:00:00",
+      null
+    ],
+    [
+      2412,
+      "63838-36",
+      "Quaternary ammonium",
+      "EP-Q7.5",
+      "SARS-CoV-2",
+      1,
+      "Enviro Tech Chemical Services, Inc.",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "August, 31 2022 00:00:00",
       null
     ],
     [
@@ -6331,6 +6481,21 @@
       null
     ],
     [
+      2408,
+      "70627-84",
+      "Quaternary ammonium",
+      "Virex Plus",
+      "SARS-CoV-2",
+      1,
+      "Diversey, Inc",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "August, 31 2022 00:00:00",
+      null
+    ],
+    [
       1270,
       "71355-1",
       "Quaternary ammonium; Glutaraldehyde",
@@ -6733,6 +6898,21 @@
       "Healthcare",
       "Tested against SARS-CoV-2 (COVID-19)",
       "January, 13 2021 00:00:00",
+      null
+    ],
+    [
+      2406,
+      "75757-2",
+      "Chlorine dioxide",
+      "CDG Solution 3000",
+      "Rhinovirus",
+      10,
+      "CSG Environmental, LLC",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "August, 31 2022 00:00:00",
       null
     ],
     [
@@ -9058,6 +9238,21 @@
       "Healthcare; Institutional",
       "Tested against SARS-CoV-2 (COVID-19)",
       "November, 23 2021 00:00:00",
+      null
+    ],
+    [
+      2407,
+      "96847-1",
+      "Hypochlorous acid",
+      "Shield Disinfectant Sanitizer",
+      "Norovirus; Rhinovirus",
+      10,
+      "Shield Products, LLC",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional; Residential",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "August, 31 2022 00:00:00",
       null
     ],
     [
