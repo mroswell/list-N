@@ -1456,6 +1456,21 @@
       null
     ],
     [
+      2423,
+      "1677-276",
+      "Sodium dichloroisocyanurate",
+      "KAY-5 Sanitizer/Cleaner Tablet",
+      "SARS-CoV-2",
+      0.25,
+      "Ecolab, Inc.",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "September, 27 2022 00:00:00",
+      null
+    ],
+    [
       2222,
       "1677-43",
       "Quaternary ammonium",
@@ -2704,7 +2719,7 @@
       2280,
       "46781-18",
       "Hydrogen peroxide",
-      "HP-Wipe-36",
+      "CaviWipes HP",
       "SARS-CoV-2",
       1,
       "Metrex Research",
@@ -2765,13 +2780,13 @@
       "46851-1",
       "Phenolic",
       "Omni II",
-      "Mycobacterium bovis",
+      "Adenovirus",
       5,
       "Certol International LLC",
       "Dilutable",
       "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
       "Healthcare; Institutional; Residential",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19)",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "July, 23 2020 00:00:00",
       null
     ],
@@ -2795,13 +2810,13 @@
       "46851-5",
       "Phenolic",
       "OMC II Spray",
-      "Mycobacterium bovis",
+      "Adenovirus",
       5,
       "Certol International LLC",
       "Ready-to-use",
       "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
       "Healthcare; Institutional; Residential",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19)",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "July, 23 2020 00:00:00",
       null
     ],
@@ -3043,6 +3058,21 @@
       "Residential",
       "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "September, 28 2021 00:00:00",
+      null
+    ],
+    [
+      2421,
+      "4822-625",
+      "Quaternary ammonium",
+      "Gertrude SL",
+      "SARS-CoV-2",
+      5,
+      "S.C. Johnson & Son, Inc",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "September, 27 2022 00:00:00",
       null
     ],
     [
@@ -6736,6 +6766,21 @@
       null
     ],
     [
+      2424,
+      "74559-13",
+      "Citric acid",
+      "Citri-1 Wipes",
+      "SARS-CoV-2",
+      1,
+      "Virox Technologies, Inc.",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "September, 27 2022 00:00:00",
+      null
+    ],
+    [
       1445,
       "74559-3",
       "Hydrogen peroxide",
@@ -8536,6 +8581,21 @@
       null
     ],
     [
+      2422,
+      "92082-3",
+      "Quaternary ammonium",
+      "Jaguar 5",
+      "Human Coronavirus",
+      10,
+      "SRFC Bio, Inc.",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional; Residential",
+      "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+      "September, 27 2022 00:00:00",
+      null
+    ],
+    [
       1199,
       "92108-1",
       "Hypochlorous acid",
@@ -9328,6 +9388,21 @@
       "Healthcare; Institutional",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "January, 28 2021 00:00:00",
+      null
+    ],
+    [
+      2420,
+      "97801-1",
+      "Hypochlorous acid",
+      "Sani-Test",
+      "Human Coronavirus",
+      10,
+      "Sani-Test, LLC",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional; Residential",
+      "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+      "September, 27 2022 00:00:00",
       null
     ],
     [

@@ -2407,6 +2407,30 @@
     "Risk_level": "Increased Risk"
   },
   {
+    "ID": 2423,
+    "EPA_reg_num": "1677-276",
+    "Active_ingredient": [
+      "Sodium dichloroisocyanurate"
+    ],
+    "Product_name": "KAY-5 Sanitizer/Cleaner Tablet",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 0.25,
+    "Company": "Ecolab, Inc.",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2022-09-27",
+    "Risk_level": "Increased Risk"
+  },
+  {
     "ID": 2222,
     "EPA_reg_num": "1677-43",
     "Active_ingredient": [
@@ -4535,7 +4559,7 @@
     "Active_ingredient": [
       "Hydrogen peroxide"
     ],
-    "Product_name": "HP-Wipe-36",
+    "Product_name": "CaviWipes HP",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 1,
     "Company": "Metrex Research",
@@ -4639,7 +4663,7 @@
       "Phenolic"
     ],
     "Product_name": "Omni II",
-    "Follow_directions_for_this_virus": "Mycobacterium bovis",
+    "Follow_directions_for_this_virus": "Adenovirus",
     "Contact_time": 5,
     "Company": "Certol International LLC",
     "Formulation_type": [
@@ -4654,7 +4678,7 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19)",
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-07-23",
     "Risk_level": "Increased Risk"
   },
@@ -4691,7 +4715,7 @@
       "Phenolic"
     ],
     "Product_name": "OMC II Spray",
-    "Follow_directions_for_this_virus": "Mycobacterium bovis",
+    "Follow_directions_for_this_virus": "Adenovirus",
     "Contact_time": 5,
     "Company": "Certol International LLC",
     "Formulation_type": [
@@ -4706,7 +4730,7 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19)",
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-07-23",
     "Risk_level": "Increased Risk"
   },
@@ -5096,6 +5120,29 @@
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2021-09-28",
+    "Risk_level": "Increased Risk"
+  },
+  {
+    "ID": 2421,
+    "EPA_reg_num": "4822-625",
+    "Active_ingredient": [
+      "Quaternary ammonium"
+    ],
+    "Product_name": "Gertrude SL",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 5,
+    "Company": "S.C. Johnson & Son, Inc",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2022-09-27",
     "Risk_level": "Increased Risk"
   },
   {
@@ -11258,6 +11305,31 @@
     "Risk_level": "Safer"
   },
   {
+    "ID": 2424,
+    "EPA_reg_num": "74559-13",
+    "Active_ingredient": [
+      "Citric acid"
+    ],
+    "Product_name": "Citri-1 Wipes",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 1,
+    "Company": "Virox Technologies, Inc.",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2022-09-27",
+    "Risk_level": "Safer"
+  },
+  {
     "ID": 1445,
     "EPA_reg_num": "74559-3",
     "Active_ingredient": [
@@ -14276,6 +14348,31 @@
     "Risk_level": "Increased Risk"
   },
   {
+    "ID": 2422,
+    "EPA_reg_num": "92082-3",
+    "Active_ingredient": [
+      "Quaternary ammonium"
+    ],
+    "Product_name": "Jaguar 5",
+    "Follow_directions_for_this_virus": "Human Coronavirus",
+    "Contact_time": 10,
+    "Company": "SRFC Bio, Inc.",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2022-09-27",
+    "Risk_level": "Increased Risk"
+  },
+  {
     "ID": 1199,
     "EPA_reg_num": "92108-1",
     "Active_ingredient": [
@@ -15612,6 +15709,31 @@
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2021-01-28",
     "Risk_level": "Safer"
+  },
+  {
+    "ID": 2420,
+    "EPA_reg_num": "97801-1",
+    "Active_ingredient": [
+      "Hypochlorous acid"
+    ],
+    "Product_name": "Sani-Test",
+    "Follow_directions_for_this_virus": "Human Coronavirus",
+    "Contact_time": 10,
+    "Company": "Sani-Test, LLC",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2022-09-27",
+    "Risk_level": "Increased Risk"
   },
   {
     "ID": 1560,
