@@ -505,31 +505,6 @@
     "Risk_level": "Increased Risk"
   },
   {
-    "ID": 1374,
-    "EPA_reg_num": "10324-164",
-    "Active_ingredient": [
-      "Quaternary ammonium"
-    ],
-    "Product_name": "Maquat 256-PD",
-    "Follow_directions_for_this_virus": "Human coronavirus",
-    "Contact_time": 10,
-    "Company": "Mason Chemical Company",
-    "Formulation_type": [
-      "Dilutable"
-    ],
-    "Surface_type": [
-      "Hard Nonporous (HN)"
-    ],
-    "Use_site": [
-      "Healthcare",
-      "Institutional",
-      "Residential"
-    ],
-    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2020-03-13",
-    "Risk_level": "Increased Risk"
-  },
-  {
     "ID": 1375,
     "EPA_reg_num": "10324-166",
     "Active_ingredient": [
@@ -736,31 +711,6 @@
     "Risk_level": "Increased Risk"
   },
   {
-    "ID": 1381,
-    "EPA_reg_num": "10324-57",
-    "Active_ingredient": [
-      "Quaternary ammonium"
-    ],
-    "Product_name": "Maquat 42",
-    "Follow_directions_for_this_virus": "Human coronavirus",
-    "Contact_time": 10,
-    "Company": "Mason Chemical Company",
-    "Formulation_type": [
-      "Dilutable"
-    ],
-    "Surface_type": [
-      "Hard Nonporous (HN)"
-    ],
-    "Use_site": [
-      "Healthcare",
-      "Institutional",
-      "Residential"
-    ],
-    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2020-03-13",
-    "Risk_level": "Increased Risk"
-  },
-  {
     "ID": 1382,
     "EPA_reg_num": "10324-58",
     "Active_ingredient": [
@@ -833,31 +783,6 @@
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2021-10-26",
-    "Risk_level": "Increased Risk"
-  },
-  {
-    "ID": 1384,
-    "EPA_reg_num": "10324-71",
-    "Active_ingredient": [
-      "Quaternary ammonium"
-    ],
-    "Product_name": "Maquat 280",
-    "Follow_directions_for_this_virus": "Human coronavirus",
-    "Contact_time": 10,
-    "Company": "Mason Chemical Company",
-    "Formulation_type": [
-      "Dilutable"
-    ],
-    "Surface_type": [
-      "Hard Nonporous (HN)"
-    ],
-    "Use_site": [
-      "Healthcare",
-      "Institutional",
-      "Residential"
-    ],
-    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2020-03-13",
     "Risk_level": "Increased Risk"
   },
   {
@@ -1042,31 +967,6 @@
     "Risk_level": "Increased Risk"
   },
   {
-    "ID": 1390,
-    "EPA_reg_num": "10324-99",
-    "Active_ingredient": [
-      "Quaternary ammonium"
-    ],
-    "Product_name": "Maquat 10-PD",
-    "Follow_directions_for_this_virus": "Human coronavirus",
-    "Contact_time": 10,
-    "Company": "Mason Chemical Company",
-    "Formulation_type": [
-      "Dilutable"
-    ],
-    "Surface_type": [
-      "Hard Nonporous (HN)"
-    ],
-    "Use_site": [
-      "Healthcare",
-      "Institutional",
-      "Residential"
-    ],
-    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2020-03-13",
-    "Risk_level": "Increased Risk"
-  },
-  {
     "ID": 1285,
     "EPA_reg_num": "1043-119",
     "Active_ingredient": [
@@ -1089,52 +989,6 @@
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-05-14",
     "Risk_level": "Increased Risk"
-  },
-  {
-    "ID": 1118,
-    "EPA_reg_num": "1043-124",
-    "Active_ingredient": [
-      "Hydrogen peroxide"
-    ],
-    "Product_name": "HASTe-SSD-Component B",
-    "Follow_directions_for_this_virus": "Mycobacterium bovis",
-    "Contact_time": 1,
-    "Company": "Steris Corporation",
-    "Formulation_type": [
-      "Dilutable"
-    ],
-    "Surface_type": [
-      "Hard Nonporous (HN)"
-    ],
-    "Use_site": [
-      "Healthcare"
-    ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2020-07-23",
-    "Risk_level": "Safer"
-  },
-  {
-    "ID": 1119,
-    "EPA_reg_num": "1043-125",
-    "Active_ingredient": [
-      "Tetraacetyl ethylenediamine"
-    ],
-    "Product_name": "HASTe-SSD-Component A",
-    "Follow_directions_for_this_virus": "Mycobacterium bovis",
-    "Contact_time": 1,
-    "Company": "Steris Corporation",
-    "Formulation_type": [
-      "Dilutable"
-    ],
-    "Surface_type": [
-      "Hard Nonporous (HN)"
-    ],
-    "Use_site": [
-      "Healthcare"
-    ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2020-07-23",
-    "Risk_level": "Safer"
   },
   {
     "ID": 1307,
@@ -1206,30 +1060,6 @@
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-05-07",
-    "Risk_level": "Increased Risk"
-  },
-  {
-    "ID": 1117,
-    "EPA_reg_num": "1043-92",
-    "Active_ingredient": [
-      "Phenolic"
-    ],
-    "Product_name": "LpH® se",
-    "Follow_directions_for_this_virus": "Mycobacterium bovis",
-    "Contact_time": 10,
-    "Company": "Steris Corporation",
-    "Formulation_type": [
-      "Dilutable"
-    ],
-    "Surface_type": [
-      "Hard Nonporous (HN)",
-      "Food Contact Post-Rinse Required (FCR)"
-    ],
-    "Use_site": [
-      "Healthcare"
-    ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2020-07-23",
     "Risk_level": "Increased Risk"
   },
   {
@@ -1409,31 +1239,6 @@
     "Risk_level": "Safer"
   },
   {
-    "ID": 1232,
-    "EPA_reg_num": "10807-177",
-    "Active_ingredient": [
-      "Ethanol (Ethyl alcohol)",
-      "Phenolic"
-    ],
-    "Product_name": "Misty II Disinfectant & Deodorant",
-    "Follow_directions_for_this_virus": "Mycobacterium bovis",
-    "Contact_time": 10,
-    "Company": "Amrep Inc",
-    "Formulation_type": [
-      "Ready-to-use"
-    ],
-    "Surface_type": [
-      "Hard Nonporous (HN)"
-    ],
-    "Use_site": [
-      "Healthcare",
-      "Institutional"
-    ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2020-07-23",
-    "Risk_level": "Increased Risk"
-  },
-  {
     "ID": 1308,
     "EPA_reg_num": "10897-108",
     "Active_ingredient": [
@@ -1556,33 +1361,6 @@
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19)",
     "Date_on_List_N": "2020-03-26",
-    "Risk_level": "Increased Risk"
-  },
-  {
-    "ID": 1326,
-    "EPA_reg_num": "11525-30",
-    "Active_ingredient": [
-      "Quaternary ammonium",
-      "Ethanol (Ethyl alcohol)"
-    ],
-    "Product_name": "Disinfectant Spray \"G\"",
-    "Follow_directions_for_this_virus": "Rhinovirus",
-    "Contact_time": 10,
-    "Company": "Aerosols Danville Inc",
-    "Formulation_type": [
-      "Ready-to-use"
-    ],
-    "Surface_type": [
-      "Hard Nonporous (HN)",
-      "Food Contact Post-Rinse Required (FCR)"
-    ],
-    "Use_site": [
-      "Healthcare",
-      "Institutional",
-      "Residential"
-    ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-04-23",
     "Risk_level": "Increased Risk"
   },
   {
@@ -2359,7 +2137,7 @@
     "Risk_level": "Safer"
   },
   {
-    "ID": 2404,
+    "ID": 2405,
     "EPA_reg_num": "1677-275",
     "Active_ingredient": [
       "Hydrogen peroxide",
@@ -2383,7 +2161,7 @@
     "Risk_level": "Increased Risk"
   },
   {
-    "ID": 2405,
+    "ID": 2404,
     "EPA_reg_num": "1677-275",
     "Active_ingredient": [
       "Hydrogen peroxide",
@@ -2429,6 +2207,29 @@
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2022-09-27",
     "Risk_level": "Increased Risk"
+  },
+  {
+    "ID": 2441,
+    "EPA_reg_num": "1677-277",
+    "Active_ingredient": [
+      "Hydrogen peroxide"
+    ],
+    "Product_name": "Bioquell Hydrogen Peroxide Sterilant - AQ",
+    "Follow_directions_for_this_virus": "Use this product according to the directions for use for sterilization",
+    "Contact_time": null,
+    "Company": "Ecolab, Inc.",
+    "Formulation_type": [
+      "Gas (use in conjunction with HPV generator)"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Institutional"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2022-10-25",
+    "Risk_level": "Safer"
   },
   {
     "ID": 2222,
@@ -3560,30 +3361,6 @@
     "Risk_level": "Increased Risk"
   },
   {
-    "ID": 1160,
-    "EPA_reg_num": "34810-35",
-    "Active_ingredient": [
-      "Citric acid"
-    ],
-    "Product_name": "Cleancide",
-    "Follow_directions_for_this_virus": "Feline calicivirus",
-    "Contact_time": 5,
-    "Company": "Wexford Labs Inc",
-    "Formulation_type": [
-      "Ready-to-use"
-    ],
-    "Surface_type": [
-      "Hard Nonporous (HN)"
-    ],
-    "Use_site": [
-      "Healthcare",
-      "Institutional"
-    ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-04-09",
-    "Risk_level": "Safer"
-  },
-  {
     "ID": 1344,
     "EPA_reg_num": "34810-36",
     "Active_ingredient": [
@@ -3799,31 +3576,6 @@
     "Company": "ABC Compounding Co Inc",
     "Formulation_type": [
       "Ready-to-use"
-    ],
-    "Surface_type": [
-      "Hard Nonporous (HN)"
-    ],
-    "Use_site": [
-      "Healthcare",
-      "Institutional",
-      "Residential"
-    ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2020-07-23",
-    "Risk_level": "Increased Risk"
-  },
-  {
-    "ID": 1122,
-    "EPA_reg_num": "3862-177",
-    "Active_ingredient": [
-      "Phenolic"
-    ],
-    "Product_name": "Tek-Trol Disinfectant Cleaner Concentrate",
-    "Follow_directions_for_this_virus": "Mycobacterium bovis",
-    "Contact_time": 10,
-    "Company": "ABC Compounding Co Inc",
-    "Formulation_type": [
-      "Dilutable"
     ],
     "Surface_type": [
       "Hard Nonporous (HN)"
@@ -6745,57 +6497,6 @@
     "Risk_level": "Safer"
   },
   {
-    "ID": 1239,
-    "EPA_reg_num": "59894-10",
-    "Active_ingredient": [
-      "Quaternary ammonium",
-      "Isopropanol (Isopropyl alcohol)"
-    ],
-    "Product_name": "Kwikkill Disinfectant Deodorizing Cleaning Wipes",
-    "Follow_directions_for_this_virus": "Mycobacterium tuberculosis",
-    "Contact_time": 2,
-    "Company": "M & S Research Inc",
-    "Formulation_type": [
-      "Wipe"
-    ],
-    "Surface_type": [
-      "Hard Nonporous (HN)",
-      "Food Contact Post-Rinse Required (FCR)"
-    ],
-    "Use_site": [
-      "Healthcare",
-      "Institutional"
-    ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2020-07-23",
-    "Risk_level": "Increased Risk"
-  },
-  {
-    "ID": 1252,
-    "EPA_reg_num": "61178-1",
-    "Active_ingredient": [
-      "Quaternary ammonium"
-    ],
-    "Product_name": "D-125",
-    "Follow_directions_for_this_virus": "Rotavirus; Porcine rotavirus",
-    "Contact_time": 10,
-    "Company": "Microgen Inc",
-    "Formulation_type": [
-      "Dilutable"
-    ],
-    "Surface_type": [
-      "Hard Nonporous (HN)"
-    ],
-    "Use_site": [
-      "Healthcare",
-      "Institutional",
-      "Residential"
-    ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-07-09",
-    "Risk_level": "Increased Risk"
-  },
-  {
     "ID": 1210,
     "EPA_reg_num": "61178-2",
     "Active_ingredient": [
@@ -8408,6 +8109,31 @@
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2021-03-16",
+    "Risk_level": "Safer"
+  },
+  {
+    "ID": 2440,
+    "EPA_reg_num": "67619-45",
+    "Active_ingredient": [
+      "L-Lactic acid"
+    ],
+    "Product_name": "Shrub",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 0.5,
+    "Company": "Clorox Professional Products Company",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2022-10-25",
     "Risk_level": "Safer"
   },
   {
@@ -13951,6 +13677,56 @@
     "Risk_level": "Increased Risk"
   },
   {
+    "ID": 2443,
+    "EPA_reg_num": "90920-1",
+    "Active_ingredient": [
+      "Quaternary ammonium"
+    ],
+    "Product_name": "Bio-Oxygen Chem Decon Part A",
+    "Follow_directions_for_this_virus": "Feline calicivirus",
+    "Contact_time": 10,
+    "Company": "Artemis Bio-solutions, LLC",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2022-10-25",
+    "Risk_level": "Increased Risk"
+  },
+  {
+    "ID": 2444,
+    "EPA_reg_num": "90920-2",
+    "Active_ingredient": [
+      "Hydrogen peroxide"
+    ],
+    "Product_name": "Bio-Oxygen Chem Decon Part B",
+    "Follow_directions_for_this_virus": "Feline calicivirus",
+    "Contact_time": 10,
+    "Company": "Artemis Bio-solutions, LLC",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2022-10-25",
+    "Risk_level": "Safer"
+  },
+  {
     "ID": 1780,
     "EPA_reg_num": "91112-2",
     "Active_ingredient": [
@@ -14221,6 +13997,31 @@
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-03-19",
+    "Risk_level": "Increased Risk"
+  },
+  {
+    "ID": 2442,
+    "EPA_reg_num": "91628-6",
+    "Active_ingredient": [
+      "Hydrogen peroxide",
+      "Peroxyacetic acid (Peracetic acid)"
+    ],
+    "Product_name": "Oxysan RTU",
+    "Follow_directions_for_this_virus": "Use this product according to the directions for use for sterilization",
+    "Contact_time": 20,
+    "Company": "Biosan LLC",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2022-10-25",
     "Risk_level": "Increased Risk"
   },
   {
@@ -15909,6 +15710,30 @@
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-11-05",
+    "Risk_level": "Increased Risk"
+  },
+  {
+    "ID": 2445,
+    "EPA_reg_num": "98343-1",
+    "Active_ingredient": [
+      "Quaternary ammonium"
+    ],
+    "Product_name": "Disinfecting Floor Wipes",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 5,
+    "Company": "Hangzhou Just Clean Technology Co., Ltd",
+    "Formulation_type": [
+      "Wipe"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Healthcare",
+      "Institutional"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2022-10-25",
     "Risk_level": "Increased Risk"
   },
   {
