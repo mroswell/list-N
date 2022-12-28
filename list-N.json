@@ -2480,7 +2480,7 @@
       "45745-12",
       "Hydrogen peroxide",
       "Facility + RTU",
-      "SARS-CoV-2",
+      "SARS-CoV-2; SARS-CoV-2 variant(s)",
       0.5,
       "Midlab",
       "Ready-to-use",
@@ -3646,21 +3646,6 @@
       null
     ],
     [
-      2460,
-      "5813-132",
-      "Citric acid",
-      "Tron",
-      "Rhinovirus; Feline calicivirus",
-      2,
-      "The Clorox Co.",
-      "Ready-to-use",
-      "Hard Nonporous (HN)",
-      "Hospital; Institutional; Residential",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "November, 28 2022 00:00:00",
-      null
-    ],
-    [
       2462,
       "5813-132",
       "Citric acid",
@@ -3676,7 +3661,7 @@
       null
     ],
     [
-      2468,
+      2466,
       "5813-132",
       "Citric acid",
       "Tron",
@@ -3691,7 +3676,22 @@
       null
     ],
     [
-      2466,
+      2460,
+      "5813-132",
+      "Citric acid",
+      "Tron",
+      "Rhinovirus; Feline calicivirus",
+      2,
+      "The Clorox Co.",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional; Residential",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "November, 28 2022 00:00:00",
+      null
+    ],
+    [
+      2468,
       "5813-132",
       "Citric acid",
       "Tron",
@@ -3973,6 +3973,21 @@
       "Institutional",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "April, 09 2020 00:00:00",
+      null
+    ],
+    [
+      2500,
+      "61178-1",
+      "Quaternary ammonium",
+      "D-125",
+      "Rotavirus; Feline calicivirus",
+      10,
+      "Microgen, Inc",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Hospital, Institutional; Residential",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "December, 28 2022 00:00:00",
       null
     ],
     [
@@ -9110,13 +9125,13 @@
       "94602-31",
       "Quaternary Ammonium",
       "GBS 2.5% Sanitizer",
-      "Feline calicivirus",
+      "SARS-CoV-2",
       10,
       "Gray Beard, LLC",
       "Dilutable",
       "Hard Nonporous (HN); Porous (Laundry pre-soak)",
       "Hospital; Institutional; Residential",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "November, 28 2022 00:00:00",
       null
     ],

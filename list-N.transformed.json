@@ -4156,7 +4156,7 @@
       "Hydrogen peroxide"
     ],
     "Product_name": "Facility + RTU",
-    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Follow_directions_for_this_virus": "SARS-CoV-2; SARS-CoV-2 variant(s)",
     "Contact_time": 0.5,
     "Company": "Midlab",
     "Formulation_type": [
@@ -6082,31 +6082,6 @@
     "Risk_level": "Increased Risk"
   },
   {
-    "ID": 2460,
-    "EPA_reg_num": "5813-132",
-    "Active_ingredient": [
-      "Citric acid"
-    ],
-    "Product_name": "Tron",
-    "Follow_directions_for_this_virus": "Rhinovirus; Feline calicivirus",
-    "Contact_time": 2,
-    "Company": "The Clorox Co.",
-    "Formulation_type": [
-      "Ready-to-use"
-    ],
-    "Surface_type": [
-      "Hard Nonporous (HN)"
-    ],
-    "Use_site": [
-      "Hospital",
-      "Institutional",
-      "Residential"
-    ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2022-11-28",
-    "Risk_level": "Safer"
-  },
-  {
     "ID": 2462,
     "EPA_reg_num": "5813-132",
     "Active_ingredient": [
@@ -6132,7 +6107,7 @@
     "Risk_level": "Safer"
   },
   {
-    "ID": 2468,
+    "ID": 2466,
     "EPA_reg_num": "5813-132",
     "Active_ingredient": [
       "Citric acid"
@@ -6157,7 +6132,32 @@
     "Risk_level": "Safer"
   },
   {
-    "ID": 2466,
+    "ID": 2460,
+    "EPA_reg_num": "5813-132",
+    "Active_ingredient": [
+      "Citric acid"
+    ],
+    "Product_name": "Tron",
+    "Follow_directions_for_this_virus": "Rhinovirus; Feline calicivirus",
+    "Contact_time": 2,
+    "Company": "The Clorox Co.",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Hospital",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2022-11-28",
+    "Risk_level": "Safer"
+  },
+  {
+    "ID": 2468,
     "EPA_reg_num": "5813-132",
     "Active_ingredient": [
       "Citric acid"
@@ -6620,6 +6620,30 @@
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-04-09",
     "Risk_level": "Safer"
+  },
+  {
+    "ID": 2500,
+    "EPA_reg_num": "61178-1",
+    "Active_ingredient": [
+      "Quaternary ammonium"
+    ],
+    "Product_name": "D-125",
+    "Follow_directions_for_this_virus": "Rotavirus; Feline calicivirus",
+    "Contact_time": 10,
+    "Company": "Microgen, Inc",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Hospital, Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2022-12-28",
+    "Risk_level": "Increased Risk"
   },
   {
     "ID": 1210,
@@ -15237,7 +15261,7 @@
       "Quaternary ammonium"
     ],
     "Product_name": "GBS 2.5% Sanitizer",
-    "Follow_directions_for_this_virus": "Feline calicivirus",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
     "Contact_time": 10,
     "Company": "Gray Beard, LLC",
     "Formulation_type": [
@@ -15252,7 +15276,7 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2022-11-28",
     "Risk_level": "Increased Risk"
   },
