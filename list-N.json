@@ -3241,6 +3241,21 @@
       null
     ],
     [
+      2561,
+      "55852-6",
+      "Sodium hypochlorite",
+      "Sodium Hypochlorite 7.5%",
+      "SARS-CoV-2",
+      10,
+      "Champion Packaging and Distribution, Inc",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      null,
+      null
+    ],
+    [
       1410,
       "56392-10",
       "Sodium hypochlorite",
@@ -3751,7 +3766,7 @@
       null
     ],
     [
-      2460,
+      2466,
       "5813-132",
       "Citric acid",
       "Tron",
@@ -3781,7 +3796,7 @@
       null
     ],
     [
-      2468,
+      2460,
       "5813-132",
       "Citric acid",
       "Tron",
@@ -3796,7 +3811,7 @@
       null
     ],
     [
-      2466,
+      2468,
       "5813-132",
       "Citric acid",
       "Tron",
@@ -8158,6 +8173,21 @@
       "Healthcare; Institutional; Residential",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19)",
       "March, 26 2020 00:00:00",
+      null
+    ],
+    [
+      2560,
+      "88098-2",
+      "Hypochlorous Acid",
+      "Nixall Daily Disinfectant",
+      "Human coronavirus",
+      3,
+      "Seriously Clean Ltd",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Hospital, Institutional, Residential",
+      "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+      "March, 31 2023 00:00:00",
       null
     ],
     [

@@ -5415,6 +5415,30 @@
     "Risk_level": "Increased Risk"
   },
   {
+    "ID": 2561,
+    "EPA_reg_num": "55852-6",
+    "Active_ingredient": [
+      "Sodium hypochlorite"
+    ],
+    "Product_name": "Sodium Hypochlorite 7.5%",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 10,
+    "Company": "Champion Packaging and Distribution, Inc",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": null,
+    "Risk_level": "Increased Risk"
+  },
+  {
     "ID": 1410,
     "EPA_reg_num": "56392-10",
     "Active_ingredient": [
@@ -6256,7 +6280,7 @@
     "Risk_level": "Increased Risk"
   },
   {
-    "ID": 2460,
+    "ID": 2466,
     "EPA_reg_num": "5813-132",
     "Active_ingredient": [
       "Citric acid"
@@ -6306,7 +6330,7 @@
     "Risk_level": "Safer"
   },
   {
-    "ID": 2468,
+    "ID": 2460,
     "EPA_reg_num": "5813-132",
     "Active_ingredient": [
       "Citric acid"
@@ -6331,7 +6355,7 @@
     "Risk_level": "Safer"
   },
   {
-    "ID": 2466,
+    "ID": 2468,
     "EPA_reg_num": "5813-132",
     "Active_ingredient": [
       "Citric acid"
@@ -13633,6 +13657,29 @@
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19)",
     "Date_on_List_N": "2020-03-26",
+    "Risk_level": "Increased Risk"
+  },
+  {
+    "ID": 2560,
+    "EPA_reg_num": "88098-2",
+    "Active_ingredient": [
+      "Hypochlorous acid"
+    ],
+    "Product_name": "Nixall Daily Disinfectant",
+    "Follow_directions_for_this_virus": "Human coronavirus",
+    "Contact_time": 3,
+    "Company": "Seriously Clean Ltd",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Hospital, Institutional, Residential"
+    ],
+    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2023-03-31",
     "Risk_level": "Increased Risk"
   },
   {
