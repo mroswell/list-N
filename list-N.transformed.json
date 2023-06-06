@@ -1598,7 +1598,7 @@
     ],
     "Product_name": "Oxonia Active",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 3,
+    "Contact_time": 10,
     "Company": "Ecolab Inc",
     "Formulation_type": [
       "Dilutable"
@@ -1867,8 +1867,8 @@
       "Sodium hypochlorite"
     ],
     "Product_name": "Bleach Disinfectant Cleaner",
-    "Follow_directions_for_this_virus": "Murine norovirus; Poliovirus; Rhinovirus",
-    "Contact_time": 1,
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 0.25,
     "Company": "Ecolab Inc",
     "Formulation_type": [
       "Ready-to-use"
@@ -2167,7 +2167,7 @@
     ],
     "Product_name": "Disinfectant 1 Spray",
     "Follow_directions_for_this_virus": "Norovirus; Canine parvovirus",
-    "Contact_time": 0.5,
+    "Contact_time": 1,
     "Company": "Ecolab Inc",
     "Formulation_type": [
       "Ready-to-use"
@@ -2192,7 +2192,7 @@
     ],
     "Product_name": "Disinfectant 1 Wipe",
     "Follow_directions_for_this_virus": "Norovirus; Canine parvovirus",
-    "Contact_time": 0.5,
+    "Contact_time": 1,
     "Company": "Ecolab Inc",
     "Formulation_type": [
       "Wipe"
@@ -3118,7 +3118,7 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2023-02-02",
     "Risk_level": "Increased Risk"
   },
@@ -5373,8 +5373,8 @@
       "Peroxyacetic acid (Peracetic acid)"
     ],
     "Product_name": "Peraclean 15 (Peroxyacetic Acid Solution)",
-    "Follow_directions_for_this_virus": "Feline calicivirus",
-    "Contact_time": 10,
+    "Follow_directions_for_this_virus": "Human coronavirus",
+    "Contact_time": 1,
     "Company": "Evonik Corporation",
     "Formulation_type": [
       "Dilutable"
@@ -5386,7 +5386,7 @@
       "Healthcare",
       "Institutional"
     ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
     "Date_on_List_N": "2020-03-13",
     "Risk_level": "Increased Risk"
   },
@@ -7063,79 +7063,7 @@
     "Risk_level": "Increased Risk"
   },
   {
-    "ID": 2463,
-    "EPA_reg_num": "63761-11",
-    "Active_ingredient": [
-      "Sodium percarbonate",
-      "Tetraacetylethylenediamine"
-    ],
-    "Product_name": "Provastride",
-    "Follow_directions_for_this_virus": "Feline calicivirus",
-    "Contact_time": 1.5,
-    "Company": "Sterilex LLC.",
-    "Formulation_type": [
-      "Dilutable"
-    ],
-    "Surface_type": [
-      "Hard Nonporous (HN)"
-    ],
-    "Use_site": [
-      "Hospital",
-      "Institutional"
-    ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2022-11-28"
-  },
-  {
-    "ID": 2461,
-    "EPA_reg_num": "63761-11",
-    "Active_ingredient": [
-      "Sodium percarbonate",
-      "Tetraacetylethylenediamine"
-    ],
-    "Product_name": "Provastride",
-    "Follow_directions_for_this_virus": "Feline calicivirus",
-    "Contact_time": 1.5,
-    "Company": "Sterilex LLC.",
-    "Formulation_type": [
-      "Dilutable"
-    ],
-    "Surface_type": [
-      "Hard Nonporous (HN)"
-    ],
-    "Use_site": [
-      "Hospital",
-      "Institutional"
-    ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2022-11-28"
-  },
-  {
     "ID": 2469,
-    "EPA_reg_num": "63761-11",
-    "Active_ingredient": [
-      "Sodium percarbonate",
-      "Tetraacetylethylenediamine"
-    ],
-    "Product_name": "Provastride",
-    "Follow_directions_for_this_virus": "Feline calicivirus",
-    "Contact_time": 1.5,
-    "Company": "Sterilex LLC.",
-    "Formulation_type": [
-      "Dilutable"
-    ],
-    "Surface_type": [
-      "Hard Nonporous (HN)"
-    ],
-    "Use_site": [
-      "Hospital",
-      "Institutional"
-    ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2022-11-28"
-  },
-  {
-    "ID": 2467,
     "EPA_reg_num": "63761-11",
     "Active_ingredient": [
       "Sodium percarbonate",
@@ -10606,7 +10534,7 @@
       "Sodium hypochlorite"
     ],
     "Product_name": "Bleach-rite Disinfecting Spray With Bleach",
-    "Follow_directions_for_this_virus": "Human coronavirus",
+    "Follow_directions_for_this_virus": "Feline calicivirus",
     "Contact_time": 1,
     "Company": "Current Technologies Inc",
     "Formulation_type": [
@@ -10619,7 +10547,7 @@
       "Healthcare",
       "Institutional"
     ],
-    "Why_on_List_N": "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-03-13",
     "Risk_level": "Increased Risk"
   },
@@ -11347,7 +11275,7 @@
     ],
     "Product_name": "Klorsept",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 4,
+    "Contact_time": 1,
     "Company": "Medentech LTD",
     "Formulation_type": [
       "Dilutable",
@@ -12387,6 +12315,30 @@
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-09-17",
+    "Risk_level": "Increased Risk"
+  },
+  {
+    "ID": 2601,
+    "EPA_reg_num": "777-70",
+    "Active_ingredient": [
+      "Quaternary ammonium"
+    ],
+    "Product_name": "Lysol Brand Cling & Fresh Toilet Bowl Cleaner",
+    "Follow_directions_for_this_virus": "Rotavirus",
+    "Contact_time": 0.5,
+    "Company": "Reckitt Benckiser LLC",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2023-06-06",
     "Risk_level": "Increased Risk"
   },
   {
@@ -13895,32 +13847,6 @@
     "Company": "North American Infection Control Ltd",
     "Formulation_type": [
       "Ready-to-use"
-    ],
-    "Surface_type": [
-      "Hard Nonporous (HN)"
-    ],
-    "Use_site": [
-      "Healthcare",
-      "Institutional",
-      "Residential"
-    ],
-    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-03-03",
-    "Risk_level": "Increased Risk"
-  },
-  {
-    "ID": 1502,
-    "EPA_reg_num": "88494-4",
-    "Active_ingredient": [
-      "Quaternary ammonium",
-      "Ethanol (Ethyl alcohol)"
-    ],
-    "Product_name": "Peak Disinfectant Wipes",
-    "Follow_directions_for_this_virus": "Poliovirus Type 1; Rhinovirus",
-    "Contact_time": 1,
-    "Company": "North American Infection Control Ltd",
-    "Formulation_type": [
-      "Wipe"
     ],
     "Surface_type": [
       "Hard Nonporous (HN)"
@@ -15697,12 +15623,12 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2020-11-19",
     "Risk_level": "Increased Risk"
   },
   {
-    "ID": 1504,
+    "ID": 2600,
     "EPA_reg_num": "9480-12",
     "Active_ingredient": [
       "Quaternary ammonium",
@@ -15711,7 +15637,7 @@
     ],
     "Product_name": "Sani-Cloth Prime Germicidal Disposable Wipe",
     "Follow_directions_for_this_virus": "Feline calicivirus",
-    "Contact_time": 3,
+    "Contact_time": 1,
     "Company": "Professional Disposables International Inc",
     "Formulation_type": [
       "Wipe"
@@ -15720,11 +15646,10 @@
       "Hard Nonporous (HN)"
     ],
     "Use_site": [
-      "Healthcare",
-      "Institutional"
+      "Healthcare"
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-    "Date_on_List_N": "2020-03-03",
+    "Date_on_List_N": "2023-06-06",
     "Risk_level": "Increased Risk"
   },
   {
@@ -15749,7 +15674,7 @@
       "Institutional",
       "Residential"
     ],
-    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2021-03-09",
     "Risk_level": "Increased Risk"
   },
