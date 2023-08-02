@@ -98,6 +98,31 @@
     "Risk_level": "Increased Risk"
   },
   {
+    "ID": 2623,
+    "EPA_reg_num": "100869-1",
+    "Active_ingredient": [
+      "Quaternary ammonium",
+      "Hydrogen peroxide"
+    ],
+    "Product_name": "Zoono Z-91 Microbe Shield",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 1,
+    "Company": "Zoono USA Holdings",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Hospital",
+      "Institutional, Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2023-08-02",
+    "Risk_level": "Increased Risk"
+  },
+  {
     "ID": 1073,
     "EPA_reg_num": "10190-14",
     "Active_ingredient": [
@@ -2260,7 +2285,7 @@
     "Risk_level": "Safer"
   },
   {
-    "ID": 2404,
+    "ID": 2405,
     "EPA_reg_num": "1677-275",
     "Active_ingredient": [
       "Hydrogen peroxide",
@@ -2284,7 +2309,7 @@
     "Risk_level": "Increased Risk"
   },
   {
-    "ID": 2405,
+    "ID": 2404,
     "EPA_reg_num": "1677-275",
     "Active_ingredient": [
       "Hydrogen peroxide",
@@ -5761,6 +5786,32 @@
     "Risk_level": "Increased Risk"
   },
   {
+    "ID": 2620,
+    "EPA_reg_num": "5741-36",
+    "Active_ingredient": [
+      "Ethanol (Ethyl alcohol)",
+      "Isopropyl alcohol"
+    ],
+    "Product_name": "FP Ethyl Sanitizer",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 1,
+    "Company": "Spartan Chemical Company, Inc. ",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Hospital",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2023-08-02",
+    "Risk_level": "Safer"
+  },
+  {
     "ID": 1124,
     "EPA_reg_num": "5813-1",
     "Active_ingredient": [
@@ -6303,7 +6354,7 @@
     "Risk_level": "Increased Risk"
   },
   {
-    "ID": 2466,
+    "ID": 2468,
     "EPA_reg_num": "5813-132",
     "Active_ingredient": [
       "Citric acid"
@@ -6328,7 +6379,7 @@
     "Risk_level": "Safer"
   },
   {
-    "ID": 2462,
+    "ID": 2466,
     "EPA_reg_num": "5813-132",
     "Active_ingredient": [
       "Citric acid"
@@ -6378,7 +6429,7 @@
     "Risk_level": "Safer"
   },
   {
-    "ID": 2468,
+    "ID": 2462,
     "EPA_reg_num": "5813-132",
     "Active_ingredient": [
       "Citric acid"
@@ -6424,6 +6475,29 @@
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2022-08-31",
+    "Risk_level": "Safer"
+  },
+  {
+    "ID": 2622,
+    "EPA_reg_num": "5813-135",
+    "Active_ingredient": [
+      "Citric acid"
+    ],
+    "Product_name": "Pyn",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 1,
+    "Company": "The Clorox Company",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2023-08-02",
     "Risk_level": "Safer"
   },
   {
@@ -9698,6 +9772,31 @@
     "Risk_level": "Safer"
   },
   {
+    "ID": 2625,
+    "EPA_reg_num": "6836-513",
+    "Active_ingredient": [
+      "Citric acid"
+    ],
+    "Product_name": "Nugen Citric-Guard Plus 16",
+    "Follow_directions_for_this_virus": "Adenovirus",
+    "Contact_time": 10,
+    "Company": "Arxada, LLC",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Hospital",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2023-08-02",
+    "Risk_level": "Safer"
+  },
+  {
     "ID": 1486,
     "EPA_reg_num": "6836-70",
     "Active_ingredient": [
@@ -12291,6 +12390,30 @@
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2022-11-28",
     "Risk_level": "Safer"
+  },
+  {
+    "ID": 2624,
+    "EPA_reg_num": "777-146",
+    "Active_ingredient": [
+      "Quaternary ammonium"
+    ],
+    "Product_name": "Nodo",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 10,
+    "Company": "Reckitt Benckiser, LLC",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2023-08-02",
+    "Risk_level": "Increased Risk"
   },
   {
     "ID": 1142,
@@ -16147,6 +16270,31 @@
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2022-11-28",
     "Risk_level": "Increased Risk"
+  },
+  {
+    "ID": 2621,
+    "EPA_reg_num": "96420-1",
+    "Active_ingredient": [
+      "Ethanol (Ethyl alcohol)"
+    ],
+    "Product_name": "Sweet Carefor Alcohol Wipes",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 10,
+    "Company": "Imperial Palace Commodity (Dongguan) Co., Ltd.",
+    "Formulation_type": [
+      "Wipe"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Hospital",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2023-08-02",
+    "Risk_level": "Safer"
   },
   {
     "ID": 2180,

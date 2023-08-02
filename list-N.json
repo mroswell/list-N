@@ -76,6 +76,21 @@
       null
     ],
     [
+      2623,
+      "100869-1",
+      "Quaternary Ammonium; Hydrogen Peroxide",
+      "Zoono Z-91 Microbe Shield",
+      "SARS-CoV-2",
+      1,
+      "Zoono USA Holdings",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional, Residential",
+      "Tested against SARS-CoV-2 (COVID-19)",
+      "August, 02 2023 00:00:00",
+      null
+    ],
+    [
       1073,
       "10190-14",
       "Quaternary ammonium",
@@ -1366,7 +1381,7 @@
       null
     ],
     [
-      2404,
+      2405,
       "1677-275",
       "Hydrogen peroxide; Peroxyacetic acid (Peracetic acid)",
       "KX-6257",
@@ -1381,7 +1396,7 @@
       null
     ],
     [
-      2405,
+      2404,
       "1677-275",
       "Hydrogen peroxide; Peroxyacetic acid (Peracetic acid)",
       "KX-6257",
@@ -3451,6 +3466,21 @@
       null
     ],
     [
+      2620,
+      "5741-36",
+      "Ethanol; Isopropyl Alcohol",
+      "FP Ethyl Sanitizer",
+      "SARS-CoV-2",
+      1,
+      "Spartan Chemical Company, Inc. ",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "August, 02 2023 00:00:00",
+      null
+    ],
+    [
       1124,
       "5813-1",
       "Sodium hypochlorite",
@@ -3781,7 +3811,7 @@
       null
     ],
     [
-      2466,
+      2468,
       "5813-132",
       "Citric acid",
       "Tron",
@@ -3796,7 +3826,7 @@
       null
     ],
     [
-      2462,
+      2466,
       "5813-132",
       "Citric acid",
       "Tron",
@@ -3826,7 +3856,7 @@
       null
     ],
     [
-      2468,
+      2462,
       "5813-132",
       "Citric acid",
       "Tron",
@@ -3853,6 +3883,21 @@
       "Institutional; Residential",
       "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "August, 31 2022 00:00:00",
+      null
+    ],
+    [
+      2622,
+      "5813-135",
+      "Citric Acid",
+      "Pyn",
+      "SARS-CoV-2",
+      1,
+      "The Clorox Company",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "August, 02 2023 00:00:00",
       null
     ],
     [
@@ -5806,6 +5851,21 @@
       null
     ],
     [
+      2625,
+      "6836-513",
+      "Citric Acid",
+      "Nugen Citric-Guard Plus 16",
+      "Adenovirus",
+      10,
+      "Arxada, LLC",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional; Residential",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "August, 02 2023 00:00:00",
+      null
+    ],
+    [
       1486,
       "6836-70",
       "Quaternary ammonium",
@@ -7363,6 +7423,21 @@
       "Hospital; Institutional; Residential",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "November, 28 2022 00:00:00",
+      null
+    ],
+    [
+      2624,
+      "777-146",
+      "Quaternary Ammonium",
+      "Nodo",
+      "SARS-CoV-2",
+      10,
+      "Reckitt Benckiser, LLC",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "August, 02 2023 00:00:00",
       null
     ],
     [
@@ -9658,6 +9733,21 @@
       "Hospital; Institutional",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "November, 28 2022 00:00:00",
+      null
+    ],
+    [
+      2621,
+      "96420-1",
+      "Ethanol",
+      "Sweet Carefor Alcohol Wipes",
+      "SARS-CoV-2",
+      10,
+      "Imperial Palace Commodity (Dongguan) Co., Ltd.",
+      "Wipe",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "August, 02 2023 00:00:00",
       null
     ],
     [
