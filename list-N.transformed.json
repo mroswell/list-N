@@ -1,5 +1,30 @@
 [
   {
+    "ID": 2623,
+    "EPA_reg_num": "100098-1",
+    "Active_ingredient": [
+      "Quaternary ammonium",
+      "Hydrogen peroxide"
+    ],
+    "Product_name": "Zoono Z-91 Microbe Shield",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 1,
+    "Company": "Zoono Holdings USA",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Hospital",
+      "Institutional, Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2023-08-02",
+    "Risk_level": "Increased Risk"
+  },
+  {
     "ID": 1662,
     "EPA_reg_num": "100629-2",
     "Active_ingredient": [
@@ -95,31 +120,6 @@
     ],
     "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2022-05-26",
-    "Risk_level": "Increased Risk"
-  },
-  {
-    "ID": 2623,
-    "EPA_reg_num": "10089-1",
-    "Active_ingredient": [
-      "Quaternary ammonium",
-      "Hydrogen peroxide"
-    ],
-    "Product_name": "Zoono Z-91 Microbe Shield",
-    "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 1,
-    "Company": "Zoono USA Holdings",
-    "Formulation_type": [
-      "Ready-to-use"
-    ],
-    "Surface_type": [
-      "Hard Nonporous (HN)"
-    ],
-    "Use_site": [
-      "Hospital",
-      "Institutional, Residential"
-    ],
-    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
-    "Date_on_List_N": "2023-08-02",
     "Risk_level": "Increased Risk"
   },
   {

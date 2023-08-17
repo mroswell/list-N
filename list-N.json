@@ -16,6 +16,21 @@
   ],
   "DATA": [
     [
+      2623,
+      "100098-1",
+      "Quaternary Ammonium; Hydrogen Peroxide",
+      "Zoono Z-91 Microbe Shield",
+      "SARS-CoV-2",
+      1,
+      "Zoono Holdings USA",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional, Residential",
+      "Tested against SARS-CoV-2 (COVID-19)",
+      "August, 02 2023 00:00:00",
+      null
+    ],
+    [
       1662,
       "100629-2",
       "Quaternary ammonium",
@@ -73,21 +88,6 @@
       "Healthcare; Institutional",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "May, 26 2022 00:00:00",
-      null
-    ],
-    [
-      2623,
-      "10089-1",
-      "Quaternary Ammonium; Hydrogen Peroxide",
-      "Zoono Z-91 Microbe Shield",
-      "SARS-CoV-2",
-      1,
-      "Zoono USA Holdings",
-      "Ready-to-use",
-      "Hard Nonporous (HN)",
-      "Hospital; Institutional, Residential",
-      "Tested against SARS-CoV-2 (COVID-19)",
-      "August, 02 2023 00:00:00",
       null
     ],
     [
