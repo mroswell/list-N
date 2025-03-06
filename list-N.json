@@ -106,6 +106,21 @@
       null
     ],
     [
+      2761,
+      "103095-1",
+      "Hypochlorous Acid",
+      "Hy-Gen",
+      "Rhinovirus",
+      5,
+      "SDS Technologies, LLC",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional; Residential",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "November, 27 2024 00:00:00",
+      null
+    ],
+    [
       1365,
       "10324-105",
       "Quaternary ammonium",
@@ -811,21 +826,6 @@
       null
     ],
     [
-      2401,
-      "106-85",
-      "Quaternary ammonium",
-      "Uniquat Plus 64",
-      "SARS-CoV-2",
-      10,
-      "Brulin & Company Inc",
-      "Dilutable",
-      "Hard Nonporous (HN)",
-      "Healthcare; Institutional",
-      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "August, 31 2022 00:00:00",
-      null
-    ],
-    [
       1283,
       "10772-21",
       "Hydrogen peroxide",
@@ -886,21 +886,6 @@
       null
     ],
     [
-      2581,
-      "1130-20",
-      "Quaternary ammonium",
-      "Disinfectant I",
-      "SARS-CoV-2",
-      1,
-      "Weiman Products, LLS",
-      "Ready-to-use",
-      "Hard Nonporous (HN)",
-      "Hospital; Institutional; Residential",
-      "Tested against SARS-CoV-2 (COVID-19)",
-      "April, 28 2023 00:00:00",
-      null
-    ],
-    [
       1202,
       "11346-3",
       "Sodium hypochlorite",
@@ -958,6 +943,21 @@
       "Healthcare; Institutional",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "May, 28 2020 00:00:00",
+      null
+    ],
+    [
+      2663,
+      "12446-20002",
+      "Quaternary ammonium",
+      "Quintagen",
+      "SARS-CoV-2",
+      10,
+      "Zee Company",
+      "Dilutable",
+      "Hard Nonporous (HN);  Porous (P) (laundry)",
+      "Healthcare; Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "December, 05 2023 00:00:00",
       null
     ],
     [
@@ -1366,6 +1366,36 @@
       null
     ],
     [
+      2741,
+      "1677-264",
+      "Quaternary Ammonium",
+      "XLS-CQC",
+      "Norovirus",
+      5,
+      "Ecolab",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "September, 27 2024 00:00:00",
+      null
+    ],
+    [
+      2740,
+      "1677-264",
+      "Quaternary Ammonium",
+      "XLS-CQC",
+      "Norovirus",
+      5,
+      "Ecolab",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "September, 27 2024 00:00:00",
+      null
+    ],
+    [
       2161,
       "1677-272",
       "Dodecylbenzenesulfonic acid",
@@ -1396,7 +1426,7 @@
       null
     ],
     [
-      2404,
+      2405,
       "1677-275",
       "Hydrogen peroxide; Peroxyacetic acid (Peracetic acid)",
       "KX-6257",
@@ -1411,7 +1441,7 @@
       null
     ],
     [
-      2405,
+      2404,
       "1677-275",
       "Hydrogen peroxide; Peroxyacetic acid (Peracetic acid)",
       "KX-6257",
@@ -2056,6 +2086,21 @@
       null
     ],
     [
+      2701,
+      "2686-23",
+      "Hydrogen Peroxide; Ethaneperoxoic acid",
+      "Hydrite PAA HP 5.9:27.3",
+      "Rhinovirus; Norovirus",
+      10,
+      "Hydrite Chemical",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Institutional",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "March, 21 2024 00:00:00",
+      null
+    ],
+    [
       1233,
       "33176-5",
       "Quaternary ammonium; Ethanol (Ethyl alcohol); Phenolic",
@@ -2136,7 +2181,7 @@
       "Citric Acid",
       "Cleancide",
       "Feline calicivirus",
-      5,
+      1,
       "Wexford Labs, Inc.",
       "Ready-to-use",
       "Hard Nonporous (HN)",
@@ -2166,7 +2211,7 @@
       "Citric acid",
       "Wexford Disinfectant Wipes",
       "Rhinovirus",
-      3,
+      0.5,
       "Wexford Labs Inc",
       "Wipe",
       "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
@@ -2586,7 +2631,7 @@
       "Phenolic; Ethanol (Ethyl alcohol)",
       "Phenomenal II Hospital Disinfectant Deodorant",
       "Adenovirus Type 5; Infectious canine adenovirus 1",
-      10,
+      3,
       "Quest Specialty Corp",
       "Ready-to-use",
       "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
@@ -3106,6 +3151,21 @@
       null
     ],
     [
+      2721,
+      "4822-634",
+      "Quaternary Ammonium ",
+      "StainLift",
+      "SARS-CoV-2",
+      5,
+      "S.C. Johnson & Son, Inc",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "June, 27 2024 00:00:00",
+      null
+    ],
+    [
       2301,
       "49547-15",
       "Sodium hypochlorite",
@@ -3466,17 +3526,32 @@
       null
     ],
     [
+      2665,
+      "5741-33",
+      "Hydrogen Peroxide",
+      "Profect HP",
+      "SARS-CoV-2",
+      0.5,
+      "Spartan Chemical Company, Inc. ",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "December, 05 2023 00:00:00",
+      null
+    ],
+    [
       2365,
       "5741-34",
       "Quaternary ammonium",
       "Profect Neutral 128 (5741-xx)",
-      "Feline Picornavirus; Human Rotavirus",
+      "SARS-CoV-2",
       10,
       "Spartan Chemical Company, Inc",
       "Dilutable",
       "Hard Nonporous (HN)",
       "Healthcare; Institutional; Residential",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "June, 27 2022 00:00:00",
       null
     ],
@@ -3485,13 +3560,13 @@
       "5741-35",
       "Quaternary ammonium",
       "Profect Neutral 64",
-      "Feline Picornavirus; Human Rotavirus",
+      "SARS-CoV-2",
       10,
       "Spartan Chemical Company, Inc",
       "Dilutable",
       "Hard Nonporous (HN)",
       "Healthcare; Institutional; Residential",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "June, 27 2022 00:00:00",
       null
     ],
@@ -3508,6 +3583,36 @@
       "Hospital; Institutional; Residential",
       "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "August, 02 2023 00:00:00",
+      null
+    ],
+    [
+      2742,
+      "5741-37",
+      "Hydrogen Peroxide",
+      "Profect HP Concentrate",
+      "SARS-CoV-2",
+      1,
+      "Spartan Chemical Company, Inc. ",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "September, 27 2024 00:00:00",
+      null
+    ],
+    [
+      2747,
+      "5741-37",
+      "Hydrogen Peroxide",
+      "Profect HP Concentrate",
+      "SARS-CoV-2",
+      1,
+      "Spartan Chemical Company, Inc. ",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "September, 27 2024 00:00:00",
       null
     ],
     [
@@ -3841,22 +3946,37 @@
       null
     ],
     [
-      2468,
-      "5813-132",
-      "Citric acid",
-      "Tron",
-      "Rhinovirus; Feline calicivirus",
-      2,
-      "The Clorox Co.",
-      "Ready-to-use",
+      2746,
+      "5813-131",
+      "Quaternary Ammonium",
+      "Dino Jr. ",
+      "SARS-CoV-2",
+      0.5,
+      "Clorox Co. ",
+      "Dilutable",
       "Hard Nonporous (HN)",
-      "Hospital; Institutional; Residential",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "November, 28 2022 00:00:00",
+      "Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "September, 27 2024 00:00:00",
       null
     ],
     [
-      2466,
+      2751,
+      "5813-131",
+      "Quaternary Ammonium",
+      "Dino Jr. ",
+      "SARS-CoV-2",
+      0.5,
+      "Clorox Co. ",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "September, 27 2024 00:00:00",
+      null
+    ],
+    [
+      2462,
       "5813-132",
       "Citric acid",
       "Tron",
@@ -3886,7 +4006,22 @@
       null
     ],
     [
-      2462,
+      2468,
+      "5813-132",
+      "Citric acid",
+      "Tron",
+      "Rhinovirus; Feline calicivirus",
+      2,
+      "The Clorox Co.",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional; Residential",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "November, 28 2022 00:00:00",
+      null
+    ],
+    [
+      2466,
       "5813-132",
       "Citric acid",
       "Tron",
@@ -3928,6 +4063,21 @@
       "Residential",
       "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "August, 02 2023 00:00:00",
+      null
+    ],
+    [
+      2660,
+      "5813-136",
+      "Hydrogen Peroxide",
+      "Swivel",
+      "Human coronavirus",
+      15,
+      "The Clorox Co.",
+      "Dilutable",
+      "Porous (P) (laundry)",
+      "Residential",
+      "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+      "December, 05 2023 00:00:00",
       null
     ],
     [
@@ -4171,6 +4321,36 @@
       null
     ],
     [
+      2683,
+      "58300-27",
+      "Hydrogen Peroxide; Ethaneperoxoic acid",
+      "HyCide",
+      "SARS-CoV-2",
+      1,
+      "Conseal International, Inc",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "February, 06 2024 00:00:00",
+      null
+    ],
+    [
+      2682,
+      "58300-28",
+      "Quaternary ammonium",
+      "SaniKleen-512",
+      "SARS-CoV-2",
+      10,
+      "Conseal International, Inc",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "February, 06 2024 00:00:00",
+      null
+    ],
+    [
       1162,
       "58779-4",
       "Hydrogen peroxide",
@@ -4381,6 +4561,21 @@
       null
     ],
     [
+      2781,
+      "63838-1",
+      "Hydrogen Peroxide; Ethaneperoxoic acid",
+      "Persan A",
+      "Rhinovirus",
+      2,
+      "Enviro Tech Chemical Services, Inc. ",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "January, 27 2025 00:00:00",
+      null
+    ],
+    [
       1047,
       "63838-15",
       "Hydrogen peroxide; Peroxyacetic acid (Peracetic acid)",
@@ -4543,21 +4738,6 @@
       "Healthcare; Institutional",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "March, 26 2020 00:00:00",
-      null
-    ],
-    [
-      1241,
-      "65787-1",
-      "Sodium hypochlorite",
-      "Amuchina",
-      "Mycobacterium bovis",
-      25,
-      "Angelini Pharma Inc",
-      "Dilutable",
-      "Hard Nonporous (HN)",
-      "Healthcare; Institutional; Residential",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19)",
-      "July, 23 2020 00:00:00",
       null
     ],
     [
@@ -5236,6 +5416,36 @@
       null
     ],
     [
+      2744,
+      "67619-48",
+      "Citric Acid",
+      "Verde",
+      "SARS-CoV-2",
+      5,
+      "Clorox Professional Products Company",
+      "Wipe",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "September, 27 2024 00:00:00",
+      null
+    ],
+    [
+      2749,
+      "67619-48",
+      "Citric Acid",
+      "Verde",
+      "SARS-CoV-2",
+      5,
+      "Clorox Professional Products Company",
+      "Wipe",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "September, 27 2024 00:00:00",
+      null
+    ],
+    [
       1514,
       "67619-8",
       "Sodium hypochlorite",
@@ -5503,6 +5713,21 @@
       "Healthcare; Institutional; Residential",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19)",
       "March, 26 2020 00:00:00",
+      null
+    ],
+    [
+      2723,
+      "6836-335",
+      "Quaternary Ammonium ",
+      "CSP-47",
+      "Human coronavirus",
+      10,
+      "Arxada, LLC",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional; Residential",
+      "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+      "June, 27 2024 00:00:00",
       null
     ],
     [
@@ -5896,6 +6121,21 @@
       null
     ],
     [
+      2720,
+      "6836-514",
+      "Citric acid",
+      "Nugen Citric-Guard Plus 6",
+      "Feline calicivirus (Norovirus)",
+      1,
+      "Arxada, LLC",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional; Residential",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "June, 27 2024 00:00:00",
+      null
+    ],
+    [
       1486,
       "6836-70",
       "Quaternary ammonium",
@@ -6013,21 +6253,6 @@
       "Hospital; Institutional",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "November, 28 2022 00:00:00",
-      null
-    ],
-    [
-      1244,
-      "69151-1",
-      "Sodium chlorite",
-      "Parox Hospital Disinfectant",
-      "Mycobacterium tuberculosis",
-      5,
-      "Paroxmed LLC",
-      "Dilutable",
-      "Hard Nonporous (HN)",
-      "Healthcare",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19)",
-      "July, 23 2020 00:00:00",
       null
     ],
     [
@@ -6316,6 +6541,21 @@
       null
     ],
     [
+      2760,
+      "70271-39",
+      "Sodium hypochlorite",
+      "Pyke",
+      "SARS-CoV-2",
+      10,
+      "Kik International, LLC",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19)",
+      "November, 27 2024 00:00:00",
+      null
+    ],
+    [
       1251,
       "70299-19",
       "Hydrogen peroxide; Peroxyacetic acid (Peracetic acid)",
@@ -6358,21 +6598,6 @@
       "Healthcare; Institutional; Residential",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "April, 02 2020 00:00:00",
-      null
-    ],
-    [
-      1084,
-      "70385-8",
-      "Quaternary ammonium",
-      "Professional Strength Multi-Purpose Antibacterial Cleaner",
-      "Feline calicivirus; Norovirus",
-      10,
-      "Prorestore Products",
-      "Ready-to-use",
-      "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
-      "Healthcare; Institutional; Residential",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "August, 13 2020 00:00:00",
       null
     ],
     [
@@ -6796,6 +7021,21 @@
       null
     ],
     [
+      2680,
+      "71654-31",
+      "Glycolic Acid",
+      "Glyclean Broad Spectrum Disinfectant & Cleaner",
+      "SARS-CoV-2",
+      1,
+      "Puretech Scientific, LLC",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Hospital; Residential",
+      "Tested against SARS-CoV-2 (COVID-19)",
+      "February, 06 2024 00:00:00",
+      null
+    ],
+    [
       1291,
       "71654-5",
       "Glycolic acid",
@@ -7006,36 +7246,6 @@
       null
     ],
     [
-      2464,
-      "74559-11",
-      "Hydrogen peroxide",
-      "Oxy-5 (Concentrate) Disinfectant Cleaner",
-      "Canine parvovirus; Poliovirus",
-      5,
-      "Virox Technolgies, Inc.",
-      "Dilutable",
-      "Hard Nonporous (HN)",
-      "Hospital; Institutional; Residential",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "November, 28 2022 00:00:00",
-      null
-    ],
-    [
-      2240,
-      "74559-12",
-      "Hydrogen peroxide",
-      "OXY 5 Concentrate Disinfectant Cleaner",
-      "Canine parvovirus",
-      5,
-      "Virox Technologies, Inc",
-      "Dilutable",
-      "Hard Nonporous (HN)",
-      "Institutional",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "December, 21 2021 00:00:00",
-      null
-    ],
-    [
       2424,
       "74559-13",
       "Citric acid",
@@ -7048,6 +7258,21 @@
       "Healthcare; Institutional; Residential",
       "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "September, 27 2022 00:00:00",
+      null
+    ],
+    [
+      2700,
+      "74559-14",
+      "Citric Acid",
+      "Citri-1 RTU",
+      "SARS-CoV-2",
+      1,
+      "Virox Technologies, Inc. ",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Hospital, Institutional, Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "March, 21 2024 00:00:00",
       null
     ],
     [
@@ -7077,36 +7302,6 @@
       "Hard Nonporous (HN)",
       "Healthcare; Institutional; Residential",
       "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "March, 13 2020 00:00:00",
-      null
-    ],
-    [
-      1522,
-      "74559-6",
-      "Hydrogen peroxide",
-      "Oxy-res (Concentrate)",
-      "Human coronavirus",
-      5,
-      "Virox Technologies Inc",
-      "Dilutable",
-      "Hard Nonporous (HN)",
-      "Healthcare; Institutional; Residential",
-      "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
-      "March, 13 2020 00:00:00",
-      null
-    ],
-    [
-      1523,
-      "74559-8",
-      "Hydrogen peroxide",
-      "Accel 5 RTU",
-      "Human coronavirus",
-      5,
-      "Virox Technologies Inc",
-      "Ready-to-use",
-      "Hard Nonporous (HN)",
-      "Healthcare; Institutional; Residential",
-      "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
       "March, 13 2020 00:00:00",
       null
     ],
@@ -7385,13 +7580,13 @@
       "777-139",
       "Citric acid",
       "T-bone",
-      "Feline calicivirus",
-      4,
+      "SARS-CoV-2",
+      0.25,
       "Reckitt Benckiser LLC",
       "Wipe",
       "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
       "Healthcare; Institutional; Residential",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "April, 30 2020 00:00:00",
       null
     ],
@@ -7611,7 +7806,7 @@
       "Quaternary ammonium; Ethanol (Ethyl alcohol)",
       "Lysol® Disinfectant Spray",
       "SARS-CoV-2; SARS-CoV-2 variant(s)",
-      0.25,
+      2,
       "Reckitt Benckiser LLC",
       "Ready-to-use",
       "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
@@ -7696,6 +7891,21 @@
       null
     ],
     [
+      1319,
+      "82859-2",
+      "1,2-Hexanediol",
+      "Purgo N",
+      "Human coronavirus",
+      10,
+      "Environmental Manufacturing Solutions, LLC",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional",
+      "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+      "April, 23 2020 00:00:00",
+      null
+    ],
+    [
       1194,
       "82972-1",
       "Chlorine dioxide; Quaternary ammonium",
@@ -7723,6 +7933,36 @@
       "Healthcare; Institutional",
       "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
       "October, 26 2021 00:00:00",
+      null
+    ],
+    [
+      2745,
+      "833-3 ",
+      "Quaternary Ammonia; Isopropyl Alcohol",
+      "Wyandotte Sanifect D2",
+      "Adenovirus",
+      5,
+      "Acuity Specilty Products",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "September, 27 2024 00:00:00",
+      null
+    ],
+    [
+      2750,
+      "833-3 ",
+      "Quaternary Ammonia; Isopropyl Alcohol",
+      "Wyandotte Sanifect D2",
+      "Adenovirus",
+      5,
+      "Acuity Specilty Products",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "September, 27 2024 00:00:00",
       null
     ],
     [
@@ -7783,6 +8023,21 @@
       "Healthcare; Institutional",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "March, 13 2020 00:00:00",
+      null
+    ],
+    [
+      2702,
+      "8383-16",
+      "Hydrogen Peroxide; Ethaneperoxoic acid",
+      "PeridoxRTU Burst Pouch Disinfectant Wipes",
+      "Norovirus",
+      2,
+      "Contec, Inc.",
+      "Wipe",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "March, 21 2024 00:00:00",
       null
     ],
     [
@@ -8136,7 +8391,7 @@
       "Chlorine dioxide",
       "Electro-Biocide",
       "Rhinovirus",
-      10,
+      1,
       "Strategic Resource Optimization Inc",
       "Ready-to-use",
       "Hard Nonporous (HN)",
@@ -8203,21 +8458,6 @@
       "Healthcare; Institutional; Residential",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "November, 10 2020 00:00:00",
-      null
-    ],
-    [
-      2262,
-      "87656-3",
-      "Quaternary ammonium",
-      "Bio-Spear Sanitizing Wipes",
-      "Human coronavirus",
-      10,
-      "Contego America",
-      "Wipe",
-      "Hard Nonporous (HN)",
-      "Healthcare; Institutional; Residential",
-      "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
-      "January, 31 2022 00:00:00",
       null
     ],
     [
@@ -8323,6 +8563,36 @@
       "Healthcare; Institutional; Residential",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "November, 25 2020 00:00:00",
+      null
+    ],
+    [
+      2743,
+      "88161-2",
+      "Hypochlorous Acid",
+      "Pathonex 600",
+      "SARS-CoV-2",
+      10,
+      "Spraying Systems Co. ",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "September, 27 2024 00:00:00",
+      null
+    ],
+    [
+      2748,
+      "88161-2",
+      "Hypochlorous Acid",
+      "Pathonex 600",
+      "SARS-CoV-2",
+      10,
+      "Spraying Systems Co. ",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "September, 27 2024 00:00:00",
       null
     ],
     [
@@ -8458,6 +8728,21 @@
       "Healthcare; Institutional",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "January, 28 2021 00:00:00",
+      null
+    ],
+    [
+      2664,
+      "89832-1",
+      "Quaternary ammonium",
+      "Yangzhou Perfect Disinfecting Wipes",
+      "SARS-CoV-2",
+      2,
+      "Yangzhou Perfect Daily Chemical Co. LTD",
+      "Wipe",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "December, 05 2023 00:00:00",
       null
     ],
     [
@@ -8626,21 +8911,6 @@
       null
     ],
     [
-      1533,
-      "90287-1",
-      "Quaternary ammonium",
-      "Maquat 25.6-PDX",
-      "Human coronavirus",
-      10,
-      "VI-JON Inc",
-      "Dilutable",
-      "Hard Nonporous (HN)",
-      "Healthcare; Institutional; Residential",
-      "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
-      "March, 13 2020 00:00:00",
-      null
-    ],
-    [
       2320,
       "90606-1",
       "Quaternary ammonium",
@@ -8758,21 +9028,6 @@
       "Healthcare; Institutional; Residential",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "November, 25 2020 00:00:00",
-      null
-    ],
-    [
-      1319,
-      "91176-2",
-      "1,2-Hexanediol",
-      "PELS 422",
-      "Human coronavirus",
-      10,
-      "The Gilla Company LLC",
-      "Ready-to-use",
-      "Hard Nonporous (HN)",
-      "Healthcare; Institutional",
-      "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
-      "April, 23 2020 00:00:00",
       null
     ],
     [
@@ -8956,36 +9211,6 @@
       null
     ],
     [
-      1159,
-      "91899-1",
-      "Quaternary ammonium",
-      "MDF-200 Part A",
-      "Feline calicivirus",
-      10,
-      "Span-World LLC",
-      "Dilutable",
-      "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
-      "Healthcare; Institutional",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "April, 09 2020 00:00:00",
-      null
-    ],
-    [
-      1158,
-      "91899-2",
-      "Hydrogen peroxide",
-      "MDF-200 Part B",
-      "Feline calicivirus",
-      10,
-      "Span-World LLC",
-      "Dilutable",
-      "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
-      "Healthcare; Institutional",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "April, 09 2020 00:00:00",
-      null
-    ],
-    [
       2342,
       "92031-1",
       "Quaternary ammonium",
@@ -9013,6 +9238,21 @@
       "Healthcare; Institutional; Residential",
       "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
       "September, 27 2022 00:00:00",
+      null
+    ],
+    [
+      2780,
+      "92089-2",
+      "Citric Acid",
+      "Prevasive Botanical Disinfecant",
+      "SARS-CoV-2",
+      1.5,
+      "Pervasive USA, LLC",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional; Residential",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "January, 27 2025 00:00:00",
       null
     ],
     [
@@ -9058,21 +9298,6 @@
       "Healthcare; Institutional; Residential",
       "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "April, 06 2021 00:00:00",
-      null
-    ],
-    [
-      2478,
-      "92388-2",
-      "Citric acid; Hydrogen Peroxide; L-Lactic Acid",
-      "Lemi Shine Disinfectant Spray",
-      "Canine Parvovirus",
-      5,
-      "Lemi Shine",
-      "Ready-to-use",
-      "Hard Nonporous (HN)",
-      "Hospital; Institutional; Residential",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "November, 28 2022 00:00:00",
       null
     ],
     [
@@ -9208,36 +9433,6 @@
       "Healthcare; Institutional",
       "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "May, 25 2021 00:00:00",
-      null
-    ],
-    [
-      1316,
-      "93672-1",
-      "Quaternary ammonium",
-      "NeoSan Labs Part A",
-      "Norovirus",
-      10,
-      "Neosan Labs Inc",
-      "Dilutable",
-      "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
-      "Healthcare; Institutional; Residential",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "April, 30 2020 00:00:00",
-      null
-    ],
-    [
-      1315,
-      "93672-2",
-      "Hydrogen peroxide",
-      "NeoSan Labs Part B",
-      "Norovirus",
-      10,
-      "Neosan Labs Inc",
-      "Dilutable",
-      "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
-      "Healthcare; Institutional; Residential",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "April, 30 2020 00:00:00",
       null
     ],
     [
@@ -9391,6 +9586,21 @@
       null
     ],
     [
+      2681,
+      "94602-29",
+      "Quaternary ammonium",
+      "GBS 10% Acid Sanitizer",
+      "Avian reovirus",
+      10,
+      "Gray Beard, LLC. ",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional; Residential",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "February, 06 2024 00:00:00",
+      null
+    ],
+    [
       2477,
       "94602-31",
       "Quaternary Ammonium",
@@ -9448,6 +9658,36 @@
       "Hospital; Institutional; Residential",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "November, 28 2022 00:00:00",
+      null
+    ],
+    [
+      2661,
+      "94602-40",
+      "Quaternary ammonium",
+      "GBS 10% Foaming Sanitizer",
+      "Human coronavirus",
+      10,
+      "Gray Beard LLC",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional; Residential",
+      "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+      "December, 05 2023 00:00:00",
+      null
+    ],
+    [
+      2662,
+      "94602-41",
+      "Quaternary ammonium",
+      "GBS FCS Foaming Sanitizer",
+      "Human coronavirus",
+      10,
+      "Gray Beard LLC",
+      "Dilutable",
+      "Hard Nonporous (HN)",
+      "Healthcare; Institutional; Residential",
+      "Kills a human coronavirus similar SARS-CoV-2 (COVID-19)",
+      "December, 05 2023 00:00:00",
       null
     ],
     [
@@ -9721,21 +9961,6 @@
       null
     ],
     [
-      1127,
-      "95921-2",
-      "Hypochlorous acid",
-      "Active Response",
-      "Norovirus",
-      10,
-      "ElectroCharged Aqua Solutions Inc",
-      "Ready-to-use",
-      "Hard Nonporous (HN); Food Contact Post-Rinse Required (FCR)",
-      "Healthcare; Institutional; Residential",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "October, 01 2020 00:00:00",
-      null
-    ],
-    [
       1760,
       "96041-3",
       "Quaternary ammonium; Isopropanol (Isopropyl alcohol)",
@@ -9793,6 +10018,21 @@
       "Hospital; Institutional",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "November, 28 2022 00:00:00",
+      null
+    ],
+    [
+      2722,
+      "96292-3",
+      "Sodium hypochlorite",
+      "Juniper Clean Surface Disinfectant Spray with Bleach",
+      "Rhinovirus",
+      2,
+      "Kync Design LLC",
+      "Ready-to-use",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional; Residential",
+      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "June, 27 2024 00:00:00",
       null
     ],
     [
@@ -9883,6 +10123,21 @@
       "Healthcare; Institutional; Residential",
       "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
       "September, 03 2020 00:00:00",
+      null
+    ],
+    [
+      2724,
+      "97033-2",
+      "Paracetic acid",
+      "Dahlgren Decon",
+      "SARS-CoV-2",
+      5,
+      "First Line Technology, LLC",
+      "Use with Dahlgen Decon Part B1 and B2",
+      "Hard Nonporous (HN)",
+      "Hospital; Institutional",
+      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+      "June, 27 2024 00:00:00",
       null
     ],
     [
@@ -10033,36 +10288,6 @@
       "Healthcare; Institutional",
       "Tested against SARS-CoV-2 (COVID-19)",
       "October, 25 2022 00:00:00",
-      null
-    ],
-    [
-      2141,
-      "98919-1",
-      "Hypochlorous acid",
-      "Caspian Disinfectant",
-      "SARS-CoV-2",
-      1,
-      "Wistwell",
-      "Ready-to-use",
-      "Hard Nonporous (HN)",
-      "Healthcare; Institutional",
-      "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "July, 27 2021 00:00:00",
-      null
-    ],
-    [
-      2302,
-      "99349-1",
-      "Hypochlorous acid",
-      "Hy-Gen",
-      "Rhinovirus",
-      5,
-      "Saltwater Biocides",
-      "Ready-to-use",
-      "Hard Nonporous (HN)",
-      "Healthcare; Institutional; Residential",
-      "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
-      "March, 28 2022 00:00:00",
       null
     ],
     [
