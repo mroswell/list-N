@@ -4451,7 +4451,7 @@
     ],
     "Product_name": "HP2O2",
     "Follow_directions_for_this_virus": "SARS-CoV-2",
-    "Contact_time": 1,
+    "Contact_time": 0.5,
     "Company": "Midlab",
     "Formulation_type": [
       "Dilutable",
@@ -11940,13 +11940,14 @@
     ],
     "Product_name": "Alpet D2",
     "Follow_directions_for_this_virus": "Norovirus",
-    "Contact_time": 5,
+    "Contact_time": 6,
     "Company": "Best Sanitizers Inc",
     "Formulation_type": [
       "Ready-to-use"
     ],
     "Surface_type": [
-      "Hard Nonporous (HN)"
+      "Hard Nonporous (HN)",
+      "Laundry Presoak"
     ],
     "Use_site": [
       "Healthcare",
@@ -11981,6 +11982,31 @@
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
     "Date_on_List_N": "2021-08-24",
     "Risk_level": "Safer"
+  },
+  {
+    "ID": 2802,
+    "EPA_reg_num": "73232-5",
+    "Active_ingredient": [
+      "Isopropyl alcohol",
+      "Quaternary ammonium"
+    ],
+    "Product_name": "Alpet LV",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 0.5,
+    "Company": "Best Sanitizers, Inc.",
+    "Formulation_type": [
+      "Ready-to-use"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Hospital",
+      "Institutional"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19)",
+    "Date_on_List_N": "2025-03-31",
+    "Risk_level": "Increased Risk"
   },
   {
     "ID": 1322,
@@ -14969,6 +14995,30 @@
     "Risk_level": "Increased Risk"
   },
   {
+    "ID": 2801,
+    "EPA_reg_num": "90880-2",
+    "Active_ingredient": [
+      "Sodium dichloro-s-triazinetrione"
+    ],
+    "Product_name": "Nevoa Microburst Solution",
+    "Follow_directions_for_this_virus": "Feline calicivirus (Norovirus)",
+    "Contact_time": 5,
+    "Company": "Nevoa Life Sciences LLC. ",
+    "Formulation_type": [
+      "Dilutable"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Hospital",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Kills a harder-to-kill pathogen than SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2025-03-31"
+  },
+  {
     "ID": 2443,
     "EPA_reg_num": "90920-1",
     "Active_ingredient": [
@@ -16004,8 +16054,8 @@
       "Quaternary ammonium"
     ],
     "Product_name": "GBS 10% Acid Sanitizer",
-    "Follow_directions_for_this_virus": "Avian reovirus",
-    "Contact_time": 10,
+    "Follow_directions_for_this_virus": "Feline Calicivirus (Norovirus)",
+    "Contact_time": 1,
     "Company": "Gray Beard, LLC. ",
     "Formulation_type": [
       "Dilutable"
@@ -16324,6 +16374,31 @@
     ],
     "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
     "Date_on_List_N": "2021-04-27",
+    "Risk_level": "Safer"
+  },
+  {
+    "ID": 2800,
+    "EPA_reg_num": "9480-17",
+    "Active_ingredient": [
+      "Hydrogen peroxide"
+    ],
+    "Product_name": "Project Namor",
+    "Follow_directions_for_this_virus": "SARS-CoV-2",
+    "Contact_time": 5,
+    "Company": "Professional Disposables International, Inc. ",
+    "Formulation_type": [
+      "Wipes"
+    ],
+    "Surface_type": [
+      "Hard Nonporous (HN)"
+    ],
+    "Use_site": [
+      "Hospital",
+      "Institutional",
+      "Residential"
+    ],
+    "Why_on_List_N": "Tested against SARS-CoV-2 (COVID-19); Emerging viral pathogen claim",
+    "Date_on_List_N": "2025-03-31",
     "Risk_level": "Safer"
   },
   {
